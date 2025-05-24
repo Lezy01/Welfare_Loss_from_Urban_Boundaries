@@ -1,1 +1,5 @@
 Data/Raw/community_loc_hp.csv
+Data/Cleaned/house_price.csv
+Data/Cleaned/builtup_hp.csv
+Data/Cleaned/builtup_hp_unmatched.csv
+Data/Cleaned/China_BuiltUp_300kCities_2020/China_BuiltUp_300kCities_2020.shp
