@@ -20,7 +20,7 @@ def extract_prefix_city(filename):
     match = re.match(r"([a-z]+)", base)
     return match.group(1) if match else base
 
-def find_shp_file(prov, city, root_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
+def find_shp_file(prov, city, root_path="/home/xinyu01/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
     prov_folder = os.path.join(root_path, prov)
     if not os.path.isdir(prov_folder):
         print(f"Warning: Province folder does not exist: {prov_folder}")

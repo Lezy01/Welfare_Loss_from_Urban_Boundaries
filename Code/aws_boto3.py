@@ -1,21 +1,45 @@
 import boto3
+import argparse
 
-ec2 = boto3.resource('ec2')
+def launch_ec2_instances(num_instances):
+    ec2 = boto3.client('ec2',region_name='us-east-1')  
 
-user_data_script = '''#!/bin/bash
-sudo apt update
-sudo apt install -y python3-pip git parallel
-pip3 install pandas geopandas shapely matplotlib geopy statsmodels
-'''
+    AMI_ID = 'ami-0c101f26f147fa7fd' 
+    INSTANCE_TYPE = 't3.large'      
+    KEY_NAME = 'final_project'      
+    SECURITY_GROUP_IDS = ['sg-091cee62774be60fb'] 
 
-instances = ec2.create_instances(
-    ImageId='ami-0abcdef1234567890',  # 用你选的 AMI ID
-    MinCount=1,
-    MaxCount=1,
-    InstanceType='t3.medium',
-    KeyName='your-key-name',
-    SecurityGroupIds=['your-sg-id'],
-    UserData=user_data_script,
-)
+    print(f"Launching {num_instances} EC2 instances...")
 
-print("Instance created:", instances[0].id)
+    response = ec2.run_instances(
+        ImageId=AMI_ID,
+        InstanceType=INSTANCE_TYPE,
+        KeyName=KEY_NAME,
+        MinCount=num_instances,
+        MaxCount=num_instances,
+        SecurityGroupIds=SECURITY_GROUP_IDS,
+        TagSpecifications=[
+            {
+                'ResourceType': 'instance',
+                'Tags': [{'Key': 'Purpose', 'Value': 'WelfareBatchProcessing'}]
+            }
+        ],
+        UserData="""#!/bin/bash
+        sudo yum update -y
+        sudo yum install -y python3 git
+        pip3 install pandas geopandas numpy shapely matplotlib geopy statsmodels
+        """
+    )
+
+    instance_ids = [inst['InstanceId'] for inst in response['Instances']]
+    print("Launched instances:", instance_ids)
+
+    return instance_ids
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--num_ec2', type=int, default=8,
+                        help='Number of EC2 instances to launch for processing the same number of input batch files (default: 8).')
+    args = parser.parse_args()
+
+    launch_ec2_instances(args.num_ec2)
