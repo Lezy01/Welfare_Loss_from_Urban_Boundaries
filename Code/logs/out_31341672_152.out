@@ -1,0 +1,27 @@
+Fitted model for Guizhou-Qiandongnanmiaozudongzu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     9.348
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00245
+Time:                        13:56:19   Log-Likelihood:                -2051.3
+No. Observations:                 285   AIC:                             4107.
+Df Residuals:                     283   BIC:                             4114.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1541.2232     42.142     36.572      0.000    1458.271    1624.175
+dist          67.2944     22.009      3.058      0.002      23.971     110.617
+==============================================================================
+Omnibus:                       79.289   Durbin-Watson:                   1.624
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              283.834
+Skew:                           1.152   Prob(JB):                     2.32e-62
+Kurtosis:                       7.312   Cond. No.                         5.15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

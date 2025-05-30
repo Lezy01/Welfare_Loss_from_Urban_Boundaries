@@ -1,0 +1,27 @@
+Fitted model for Liaoning-Yingkou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     3.833
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0506
+Time:                        13:56:37   Log-Likelihood:                -6262.9
+No. Observations:                 846   AIC:                         1.253e+04
+Df Residuals:                     844   BIC:                         1.254e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1240.3203     25.175     49.268      0.000    1190.908    1289.733
+dist           3.6835      1.881      1.958      0.051      -0.009       7.376
+==============================================================================
+Omnibus:                      264.805   Durbin-Watson:                   1.735
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1246.707
+Skew:                           1.367   Prob(JB):                    1.91e-271
+Kurtosis:                       8.282   Cond. No.                         24.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,31 @@
+Fitted model for Tianjin-Hedong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.141
+Model:                            OLS   Adj. R-squared:                  0.140
+Method:                 Least Squares   F-statistic:                     102.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.01e-22
+Time:                        13:56:04   Log-Likelihood:                -5534.6
+No. Observations:                 627   AIC:                         1.107e+04
+Df Residuals:                     625   BIC:                         1.108e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       8240.7581    140.604     58.610      0.000    7964.645    8516.872
+dist        -420.8927     41.560    -10.127      0.000    -502.508    -339.278
+==============================================================================
+Omnibus:                      234.656   Durbin-Watson:                   1.797
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1409.127
+Skew:                           1.544   Prob(JB):                    1.03e-306
+Kurtosis:                       9.664   Cond. No.                         7.71
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Tianjin-Hedong: 19.58 km
+hedong tianjin
+Fallback: matched by province name: tianjin2020_new_Urb.shp
+Average internal radius gap: 3.13 km
+Welfare loss: 2059.14, Loss ratio: 2.55%

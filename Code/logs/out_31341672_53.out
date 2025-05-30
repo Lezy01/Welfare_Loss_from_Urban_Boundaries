@@ -1,0 +1,30 @@
+Fitted model for Guizhou-Liupanshui:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     6.483
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0113
+Time:                        13:55:46   Log-Likelihood:                -3118.5
+No. Observations:                 404   AIC:                             6241.
+Df Residuals:                     402   BIC:                             6249.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1522.1795     47.322     32.167      0.000    1429.151    1615.208
+dist         -16.5675      6.507     -2.546      0.011     -29.359      -3.776
+==============================================================================
+Omnibus:                      543.638   Durbin-Watson:                   2.010
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            61660.782
+Skew:                           6.690   Prob(JB):                         0.00
+Kurtosis:                      62.025   Cond. No.                         12.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guizhou-Liupanshui: 91.37 km
+liupanshui guizhou
+Average internal radius gap: 80.58 km
+Welfare loss: 53791.42, Loss ratio: 77.78%

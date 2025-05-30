@@ -1,0 +1,27 @@
+Fitted model for Liaoning-Tieling:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.8250
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.364
+Time:                        13:56:38   Log-Likelihood:                -2173.5
+No. Observations:                 317   AIC:                             4351.
+Df Residuals:                     315   BIC:                             4359.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1075.7344     14.909     72.152      0.000    1046.400    1105.069
+dist           1.8852      2.076      0.908      0.364      -2.199       5.969
+==============================================================================
+Omnibus:                       52.113   Durbin-Watson:                   1.586
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              154.339
+Skew:                           0.725   Prob(JB):                     3.06e-34
+Kurtosis:                       6.096   Cond. No.                         8.31
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

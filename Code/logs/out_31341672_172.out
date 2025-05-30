@@ -1,0 +1,30 @@
+Fitted model for Henan-Jiaozuo:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.264
+Model:                            OLS   Adj. R-squared:                  0.264
+Method:                 Least Squares   F-statistic:                     291.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.39e-56
+Time:                        13:56:22   Log-Likelihood:                -5962.4
+No. Observations:                 813   AIC:                         1.193e+04
+Df Residuals:                     811   BIC:                         1.194e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2061.5170     39.250     52.523      0.000    1984.474    2138.560
+dist        -102.2002      5.985    -17.076      0.000    -113.948     -90.452
+==============================================================================
+Omnibus:                      169.161   Durbin-Watson:                   1.622
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              411.283
+Skew:                           1.094   Prob(JB):                     4.91e-90
+Kurtosis:                       5.713   Cond. No.                         20.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Jiaozuo: 19.81 km
+jiaozuo henan
+Average internal radius gap: 7.57 km
+Welfare loss: 2924.72, Loss ratio: 14.59%

@@ -1,0 +1,30 @@
+Fitted model for Fujian-Longyan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.040
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                     29.62
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.23e-08
+Time:                        13:56:18   Log-Likelihood:                -6077.4
+No. Observations:                 718   AIC:                         1.216e+04
+Df Residuals:                     716   BIC:                         1.217e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3989.7942    127.052     31.403      0.000    3740.356    4239.232
+dist        -128.4533     23.603     -5.442      0.000    -174.792     -82.114
+==============================================================================
+Omnibus:                      204.029   Durbin-Watson:                   1.769
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              537.413
+Skew:                           1.442   Prob(JB):                    2.01e-117
+Kurtosis:                       6.105   Cond. No.                         16.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Longyan: 30.99 km
+longyan fujian
+Average internal radius gap: 20.54 km
+Welfare loss: 27102.59, Loss ratio: 43.93%

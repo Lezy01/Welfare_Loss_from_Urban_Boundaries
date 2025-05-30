@@ -1,0 +1,30 @@
+Fitted model for Ningxia-Yinchuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.144
+Model:                            OLS   Adj. R-squared:                  0.144
+Method:                 Least Squares   F-statistic:                     341.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.16e-70
+Time:                        13:56:19   Log-Likelihood:                -16125.
+No. Observations:                2029   AIC:                         3.225e+04
+Df Residuals:                    2027   BIC:                         3.227e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2387.8937     27.708     86.180      0.000    2333.554    2442.233
+dist         -66.8141      3.613    -18.490      0.000     -73.901     -59.728
+==============================================================================
+Omnibus:                      816.489   Durbin-Watson:                   1.511
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5491.288
+Skew:                           1.747   Prob(JB):                         0.00
+Kurtosis:                      10.262   Cond. No.                         14.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Ningxia-Yinchuan: 35.43 km
+yinchuan ningxia
+Average internal radius gap: 17.86 km
+Welfare loss: 10653.14, Loss ratio: 25.41%

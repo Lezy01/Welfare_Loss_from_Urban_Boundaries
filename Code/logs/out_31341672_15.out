@@ -1,0 +1,27 @@
+Fitted model for Jiangxi-Pingxiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     5.505
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0196
+Time:                        13:55:57   Log-Likelihood:                -2395.1
+No. Observations:                 331   AIC:                             4794.
+Df Residuals:                     329   BIC:                             4802.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1301.9314     40.017     32.534      0.000    1223.210    1380.653
+dist          43.9060     18.714      2.346      0.020       7.092      80.720
+==============================================================================
+Omnibus:                       23.524   Durbin-Watson:                   1.668
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.020
+Skew:                           0.530   Prob(JB):                     1.11e-07
+Kurtosis:                       4.094   Cond. No.                         5.45
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

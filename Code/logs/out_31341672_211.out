@@ -1,0 +1,30 @@
+Fitted model for Anhui-Chizhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.099
+Model:                            OLS   Adj. R-squared:                  0.096
+Method:                 Least Squares   F-statistic:                     38.25
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.74e-09
+Time:                        13:56:36   Log-Likelihood:                -2784.9
+No. Observations:                 352   AIC:                             5574.
+Df Residuals:                     350   BIC:                             5581.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3008.2241     82.929     36.275      0.000    2845.122    3171.326
+dist        -114.8810     18.576     -6.184      0.000    -151.416     -78.346
+==============================================================================
+Omnibus:                        4.001   Durbin-Watson:                   1.482
+Prob(Omnibus):                  0.135   Jarque-Bera (JB):                4.195
+Skew:                           0.144   Prob(JB):                        0.123
+Kurtosis:                       3.451   Cond. No.                         10.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Chizhou: 26.04 km
+chizhou anhui
+Average internal radius gap: 15.65 km
+Welfare loss: 14072.85, Loss ratio: 36.14%

@@ -1,0 +1,30 @@
+Fitted model for Shandong-Weihai:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.330
+Model:                            OLS   Adj. R-squared:                  0.330
+Method:                 Least Squares   F-statistic:                     2950.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:56:04   Log-Likelihood:                -49320.
+No. Observations:                5978   AIC:                         9.864e+04
+Df Residuals:                    5976   BIC:                         9.866e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3308.3218     15.479    213.727      0.000    3277.977    3338.667
+dist         -23.0078      0.424    -54.310      0.000     -23.838     -22.177
+==============================================================================
+Omnibus:                     4351.448   Durbin-Watson:                   1.816
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           127712.142
+Skew:                           3.153   Prob(JB):                         0.00
+Kurtosis:                      24.748   Cond. No.                         47.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Weihai: 142.68 km
+weihai shandong
+Average internal radius gap: 128.48 km
+Welfare loss: 189904.65, Loss ratio: 81.09%

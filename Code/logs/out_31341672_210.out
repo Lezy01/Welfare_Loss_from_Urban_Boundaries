@@ -1,0 +1,30 @@
+Fitted model for Henan-Zhoukou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.126
+Model:                            OLS   Adj. R-squared:                  0.125
+Method:                 Least Squares   F-statistic:                     95.97
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.98e-21
+Time:                        13:56:36   Log-Likelihood:                -4870.9
+No. Observations:                 665   AIC:                             9746.
+Df Residuals:                     663   BIC:                             9755.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1718.1883     39.158     43.879      0.000    1641.300    1795.076
+dist         -47.7680      4.876     -9.796      0.000     -57.343     -38.193
+==============================================================================
+Omnibus:                      326.902   Durbin-Watson:                   1.626
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5399.554
+Skew:                           1.776   Prob(JB):                         0.00
+Kurtosis:                      16.500   Cond. No.                         22.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Zhoukou: 35.13 km
+zhoukou henan
+Average internal radius gap: 23.85 km
+Welfare loss: 13581.74, Loss ratio: 46.07%

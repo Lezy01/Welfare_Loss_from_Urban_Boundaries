@@ -1,0 +1,30 @@
+Fitted model for Anhui-Hefei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.153
+Model:                            OLS   Adj. R-squared:                  0.152
+Method:                 Least Squares   F-statistic:                     1733.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:56:56   Log-Likelihood:                -89771.
+No. Observations:                9632   AIC:                         1.795e+05
+Df Residuals:                    9630   BIC:                         1.796e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       6188.1762     33.387    185.349      0.000    6122.731    6253.621
+dist         -65.8849      1.582    -41.634      0.000     -68.987     -62.783
+==============================================================================
+Omnibus:                     1707.456   Durbin-Watson:                   0.910
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2794.226
+Skew:                           1.211   Prob(JB):                         0.00
+Kurtosis:                       4.045   Cond. No.                         25.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Hefei: 92.96 km
+hefei anhui
+Average internal radius gap: 75.14 km
+Welfare loss: 185995.42, Loss ratio: 65.33%

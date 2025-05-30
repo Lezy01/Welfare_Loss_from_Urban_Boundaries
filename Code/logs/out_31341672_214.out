@@ -1,0 +1,28 @@
+Fitted model for Shaanxi-Hanzhong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.040
+Method:                 Least Squares   F-statistic:                     27.96
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.69e-07
+Time:                        13:56:36   Log-Likelihood:                -4922.7
+No. Observations:                 653   AIC:                             9849.
+Df Residuals:                     651   BIC:                             9858.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1665.7347     40.132     41.506      0.000    1586.931    1744.539
+dist         -53.8635     10.186     -5.288      0.000     -73.865     -33.862
+==============================================================================
+Omnibus:                      558.988   Durbin-Watson:                   1.719
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            31456.025
+Skew:                           3.418   Prob(JB):                         0.00
+Kurtosis:                      36.308   Cond. No.                         9.34
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+No land price data available for Shaanxi-Hanzhong or Shaanxi
+Could not determine urban-rural boundary edge.

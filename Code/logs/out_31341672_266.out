@@ -1,0 +1,30 @@
+Fitted model for Jiangsu-Xuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.233
+Model:                            OLS   Adj. R-squared:                  0.232
+Method:                 Least Squares   F-statistic:                     1118.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.99e-214
+Time:                        13:56:39   Log-Likelihood:                -31448.
+No. Observations:                3693   AIC:                         6.290e+04
+Df Residuals:                    3691   BIC:                         6.291e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3720.9026     26.916    138.243      0.000    3668.132    3773.674
+dist         -16.0951      0.481    -33.443      0.000     -17.039     -15.151
+==============================================================================
+Omnibus:                     1304.068   Durbin-Watson:                   1.448
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6737.124
+Skew:                           1.608   Prob(JB):                         0.00
+Kurtosis:                       8.782   Cond. No.                         75.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Xuzhou: 228.58 km
+xuzhou jiangsu
+Average internal radius gap: 211.21 km
+Welfare loss: 359012.45, Loss ratio: 85.38%

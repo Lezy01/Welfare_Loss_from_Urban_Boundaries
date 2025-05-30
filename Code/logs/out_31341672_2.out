@@ -1,0 +1,33 @@
+Fitted model for Sichuan-Meishan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.201
+Model:                            OLS   Adj. R-squared:                  0.200
+Method:                 Least Squares   F-statistic:                     219.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.62e-44
+Time:                        13:56:03   Log-Likelihood:                -6593.7
+No. Observations:                 877   AIC:                         1.319e+04
+Df Residuals:                     875   BIC:                         1.320e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2006.1229     46.643     43.010      0.000    1914.578    2097.668
+dist        -202.1905     13.640    -14.823      0.000    -228.961    -175.420
+==============================================================================
+Omnibus:                      336.126   Durbin-Watson:                   1.399
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1526.589
+Skew:                           1.738   Prob(JB):                         0.00
+Kurtosis:                       8.449   Cond. No.                         11.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Meishan: 9.74 km
+meishan sichuan
+Checking file: emeishan2020_new_Urb.shp, extracted prefix: emeishan
+Checking file: meishan2020_new_Urb.shp, extracted prefix: meishan
+Prefix match among candidates: meishan2020_new_Urb.shp
+Average internal radius gap: 3.02 km
+Welfare loss: 923.27, Loss ratio: 9.63%

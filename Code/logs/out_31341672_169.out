@@ -1,0 +1,30 @@
+Fitted model for Gansu-Jiuquan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.074
+Model:                            OLS   Adj. R-squared:                  0.071
+Method:                 Least Squares   F-statistic:                     23.93
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.63e-06
+Time:                        13:56:20   Log-Likelihood:                -2128.9
+No. Observations:                 302   AIC:                             4262.
+Df Residuals:                     300   BIC:                             4269.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1929.8232     37.961     50.838      0.000    1855.120    2004.526
+dist         -67.2215     13.742     -4.892      0.000     -94.265     -40.178
+==============================================================================
+Omnibus:                       25.844   Durbin-Watson:                   1.233
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.227
+Skew:                          -0.494   Prob(JB):                     5.56e-11
+Kurtosis:                       4.666   Cond. No.                         7.23
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Jiuquan: 28.53 km
+jiuquan gansu
+Average internal radius gap: 24.18 km
+Welfare loss: 19645.15, Loss ratio: 71.80%

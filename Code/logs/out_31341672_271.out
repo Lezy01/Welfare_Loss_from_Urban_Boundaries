@@ -1,0 +1,28 @@
+Fitted model for Shaanxi-Weinan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.162
+Model:                            OLS   Adj. R-squared:                  0.160
+Method:                 Least Squares   F-statistic:                     92.90
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.23e-20
+Time:                        13:56:54   Log-Likelihood:                -3443.9
+No. Observations:                 482   AIC:                             6892.
+Df Residuals:                     480   BIC:                             6900.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1915.1306     41.907     45.699      0.000    1832.786    1997.475
+dist        -118.2950     12.273     -9.639      0.000    -142.410     -94.180
+==============================================================================
+Omnibus:                       59.120   Durbin-Watson:                   1.329
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               84.195
+Skew:                           0.847   Prob(JB):                     5.22e-19
+Kurtosis:                       4.150   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+No land price data available for Shaanxi-Weinan or Shaanxi
+Could not determine urban-rural boundary edge.

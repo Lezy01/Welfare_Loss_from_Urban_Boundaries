@@ -1,0 +1,30 @@
+Fitted model for Xinjiang-Kelamayi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     4.807
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0302
+Time:                        13:56:37   Log-Likelihood:                -948.16
+No. Observations:                 130   AIC:                             1900.
+Df Residuals:                     128   BIC:                             1906.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1748.6159     82.863     21.102      0.000    1584.657    1912.575
+dist         -52.7154     24.044     -2.192      0.030    -100.290      -5.141
+==============================================================================
+Omnibus:                        7.932   Durbin-Watson:                   1.577
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                8.210
+Skew:                           0.615   Prob(JB):                       0.0165
+Kurtosis:                       2.963   Cond. No.                         9.74
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Kelamayi: 33.12 km
+kelamayi xinjiang
+Average internal radius gap: 26.54 km
+Welfare loss: 18571.06, Loss ratio: 64.25%

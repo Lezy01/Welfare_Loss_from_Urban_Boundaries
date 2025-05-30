@@ -1,0 +1,29 @@
+Fitted model for Shanxi-Lüliang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.320
+Model:                            OLS   Adj. R-squared:                  0.318
+Method:                 Least Squares   F-statistic:                     171.5
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.27e-32
+Time:                        13:56:37   Log-Likelihood:                -2717.5
+No. Observations:                 366   AIC:                             5439.
+Df Residuals:                     364   BIC:                             5447.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1664.7439     26.916     61.850      0.000    1611.814    1717.674
+dist         -44.9655      3.434    -13.095      0.000     -51.718     -38.213
+==============================================================================
+Omnibus:                        1.780   Durbin-Watson:                   1.620
+Prob(Omnibus):                  0.411   Jarque-Bera (JB):                1.638
+Skew:                           0.162   Prob(JB):                        0.441
+Kurtosis:                       3.045   Cond. No.                         9.98
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanxi-Lüliang: 36.81 km
+lüliang shanxi
+No matching file found for Shanxi-Lüliang.

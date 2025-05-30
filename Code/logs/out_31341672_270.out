@@ -1,0 +1,27 @@
+Fitted model for Henan-Pingdingshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.022
+Model:                            OLS   Adj. R-squared:                  0.021
+Method:                 Least Squares   F-statistic:                     18.57
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.84e-05
+Time:                        13:56:54   Log-Likelihood:                -6120.2
+No. Observations:                 815   AIC:                         1.224e+04
+Df Residuals:                     813   BIC:                         1.225e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1550.7980     23.601     65.708      0.000    1504.471    1597.125
+dist          19.6001      4.548      4.309      0.000      10.672      28.528
+==============================================================================
+Omnibus:                      199.951   Durbin-Watson:                   1.636
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              885.205
+Skew:                           1.063   Prob(JB):                    6.03e-193
+Kurtosis:                       7.642   Cond. No.                         8.08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,31 @@
+Fitted model for Beijing-Daxing:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.260
+Model:                            OLS   Adj. R-squared:                  0.259
+Method:                 Least Squares   F-statistic:                     245.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.04e-47
+Time:                        13:56:54   Log-Likelihood:                -6947.4
+No. Observations:                 702   AIC:                         1.390e+04
+Df Residuals:                     700   BIC:                         1.391e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.659e+04    364.094     45.560      0.000    1.59e+04    1.73e+04
+dist        -443.0505     28.256    -15.680      0.000    -498.528    -387.573
+==============================================================================
+Omnibus:                       82.609   Durbin-Watson:                   1.147
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              221.647
+Skew:                           0.604   Prob(JB):                     7.41e-49
+Kurtosis:                       5.474   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Daxing: 37.34 km
+daxing beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 12.13 km
+Welfare loss: 32599.18, Loss ratio: 10.55%

@@ -1,0 +1,30 @@
+Fitted model for Guizhou-Guiyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.065
+Model:                            OLS   Adj. R-squared:                  0.065
+Method:                 Least Squares   F-statistic:                     331.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           9.65e-72
+Time:                        13:56:21   Log-Likelihood:                -39314.
+No. Observations:                4780   AIC:                         7.863e+04
+Df Residuals:                    4778   BIC:                         7.865e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3257.4844     40.055     81.326      0.000    3178.959    3336.010
+dist         -63.8708      3.506    -18.217      0.000     -70.744     -56.997
+==============================================================================
+Omnibus:                     6586.006   Durbin-Watson:                   1.393
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          5851717.314
+Skew:                           7.416   Prob(JB):                         0.00
+Kurtosis:                     173.766   Cond. No.                         35.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guizhou-Guiyang: 50.80 km
+guiyang guizhou
+Average internal radius gap: 34.46 km
+Welfare loss: 37933.29, Loss ratio: 46.02%

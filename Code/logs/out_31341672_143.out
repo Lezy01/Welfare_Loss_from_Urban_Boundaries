@@ -1,0 +1,27 @@
+Fitted model for Jiangxi-Fuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.2361
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.627
+Time:                        13:56:18   Log-Likelihood:                -3839.3
+No. Observations:                 499   AIC:                             7683.
+Df Residuals:                     497   BIC:                             7691.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2000.4578     49.221     40.643      0.000    1903.751    2097.164
+dist           5.4968     11.313      0.486      0.627     -16.731      27.725
+==============================================================================
+Omnibus:                      132.028   Durbin-Watson:                   1.448
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              414.327
+Skew:                           1.228   Prob(JB):                     1.07e-90
+Kurtosis:                       6.728   Cond. No.                         9.36
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

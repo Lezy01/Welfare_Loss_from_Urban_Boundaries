@@ -1,0 +1,30 @@
+Fitted model for Liaoning-Dalian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.279
+Model:                            OLS   Adj. R-squared:                  0.279
+Method:                 Least Squares   F-statistic:                     1893.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:56:39   Log-Likelihood:                -44483.
+No. Observations:                4897   AIC:                         8.897e+04
+Df Residuals:                    4895   BIC:                         8.898e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5660.4109     36.881    153.477      0.000    5588.107    5732.714
+dist         -32.1238      0.738    -43.512      0.000     -33.571     -30.676
+==============================================================================
+Omnibus:                     2392.348   Durbin-Watson:                   1.497
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            22117.124
+Skew:                           2.129   Prob(JB):                         0.00
+Kurtosis:                      12.501   Cond. No.                         60.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Dalian: 175.64 km
+dalian liaoning
+Average internal radius gap: 153.43 km
+Welfare loss: 378116.06, Loss ratio: 76.31%

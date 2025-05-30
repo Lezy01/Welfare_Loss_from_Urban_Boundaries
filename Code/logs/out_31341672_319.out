@@ -1,0 +1,27 @@
+Fitted model for Guangdong-Shaoguan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.011
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     7.208
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00745
+Time:                        13:56:57   Log-Likelihood:                -4641.0
+No. Observations:                 623   AIC:                             9286.
+Df Residuals:                     621   BIC:                             9295.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1299.4847     55.756     23.307      0.000    1189.991    1408.978
+dist          28.1545     10.487      2.685      0.007       7.560      48.749
+==============================================================================
+Omnibus:                      185.194   Durbin-Watson:                   1.557
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              543.119
+Skew:                           1.445   Prob(JB):                    1.16e-118
+Kurtosis:                       6.546   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

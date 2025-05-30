@@ -1,0 +1,30 @@
+Fitted model for Liaoning-Chaoyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.906
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.168
+Time:                        13:56:38   Log-Likelihood:                -3061.0
+No. Observations:                 408   AIC:                             6126.
+Df Residuals:                     406   BIC:                             6134.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1601.3249     47.395     33.787      0.000    1508.155    1694.495
+dist         -17.8064     12.899     -1.380      0.168     -43.163       7.550
+==============================================================================
+Omnibus:                      136.126   Durbin-Watson:                   1.639
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              466.497
+Skew:                           1.499   Prob(JB):                    5.03e-102
+Kurtosis:                       7.296   Cond. No.                         8.48
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Chaoyang: 89.25 km
+chaoyang liaoning
+Average internal radius gap: 79.83 km
+Welfare loss: 56745.43, Loss ratio: 80.02%

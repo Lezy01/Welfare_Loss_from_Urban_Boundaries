@@ -1,0 +1,30 @@
+Fitted model for Hubei-Wuhan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.318
+Model:                            OLS   Adj. R-squared:                  0.318
+Method:                 Least Squares   F-statistic:                     4590.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:56:02   Log-Likelihood:                -87795.
+No. Observations:                9838   AIC:                         1.756e+05
+Df Residuals:                    9836   BIC:                         1.756e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       6577.1520     30.141    218.214      0.000    6518.070    6636.234
+dist        -160.8886      2.375    -67.752      0.000    -165.543    -156.234
+==============================================================================
+Omnibus:                     6462.329   Durbin-Watson:                   1.406
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           100057.841
+Skew:                           2.958   Prob(JB):                         0.00
+Kurtosis:                      17.460   Cond. No.                         21.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hubei-Wuhan: 40.61 km
+wuhan hubei
+Average internal radius gap: 17.40 km
+Welfare loss: 24365.93, Loss ratio: 18.36%

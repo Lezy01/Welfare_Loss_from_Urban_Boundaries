@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Shanwei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.147
+Model:                            OLS   Adj. R-squared:                  0.144
+Method:                 Least Squares   F-statistic:                     59.10
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.60e-13
+Time:                        13:55:46   Log-Likelihood:                -2620.0
+No. Observations:                 345   AIC:                             5244.
+Df Residuals:                     343   BIC:                             5252.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2408.1786     62.725     38.393      0.000    2284.804    2531.553
+dist        -319.2376     41.527     -7.687      0.000    -400.918    -237.557
+==============================================================================
+Omnibus:                       74.772   Durbin-Watson:                   1.426
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              157.929
+Skew:                           1.112   Prob(JB):                     5.08e-35
+Kurtosis:                       5.458   Cond. No.                         5.05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Shanwei: 7.49 km
+shanwei guangdong
+Average internal radius gap: 0.00 km
+Welfare loss: 0.00, Loss ratio: 0.00%

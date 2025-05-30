@@ -1,0 +1,30 @@
+Fitted model for Hebei-Tangshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.419
+Model:                            OLS   Adj. R-squared:                  0.418
+Method:                 Least Squares   F-statistic:                     2950.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:56:54   Log-Likelihood:                -34343.
+No. Observations:                4099   AIC:                         6.869e+04
+Df Residuals:                    4097   BIC:                         6.870e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4089.3439     25.225    162.117      0.000    4039.890    4138.798
+dist        -105.8413      1.949    -54.316      0.000    -109.662    -102.021
+==============================================================================
+Omnibus:                     1637.845   Durbin-Watson:                   1.710
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13097.816
+Skew:                           1.697   Prob(JB):                         0.00
+Kurtosis:                      11.073   Cond. No.                         19.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Tangshan: 38.30 km
+tangshan hebei
+Average internal radius gap: 14.07 km
+Welfare loss: 10482.15, Loss ratio: 13.50%

@@ -1,0 +1,30 @@
+Fitted model for Henan-Luohe:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.050
+Model:                            OLS   Adj. R-squared:                  0.049
+Method:                 Least Squares   F-statistic:                     47.78
+Date:                Fri, 30 May 2025   Prob (F-statistic):           8.97e-12
+Time:                        13:55:45   Log-Likelihood:                -6959.7
+No. Observations:                 909   AIC:                         1.392e+04
+Df Residuals:                     907   BIC:                         1.393e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1885.3657     33.985     55.476      0.000    1818.667    1952.065
+dist         -58.2761      8.430     -6.913      0.000     -74.822     -41.731
+==============================================================================
+Omnibus:                      438.595   Durbin-Watson:                   1.756
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5005.444
+Skew:                           1.906   Prob(JB):                         0.00
+Kurtosis:                      13.845   Cond. No.                         8.44
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Luohe: 31.48 km
+luohe henan
+Average internal radius gap: 22.77 km
+Welfare loss: 15111.88, Loss ratio: 52.34%

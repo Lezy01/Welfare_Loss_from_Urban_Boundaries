@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Bazhong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.019
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     9.558
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00210
+Time:                        13:56:57   Log-Likelihood:                -3618.5
+No. Observations:                 503   AIC:                             7241.
+Df Residuals:                     501   BIC:                             7249.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1511.3987     35.669     42.373      0.000    1441.320    1581.477
+dist         -37.5843     12.157     -3.092      0.002     -61.469     -13.700
+==============================================================================
+Omnibus:                       23.822   Durbin-Watson:                   1.591
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.290
+Skew:                           0.560   Prob(JB):                     1.96e-06
+Kurtosis:                       3.028   Cond. No.                         7.99
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Bazhong: 39.82 km
+bazhong sichuan
+Average internal radius gap: 35.66 km
+Welfare loss: 23898.13, Loss ratio: 80.19%

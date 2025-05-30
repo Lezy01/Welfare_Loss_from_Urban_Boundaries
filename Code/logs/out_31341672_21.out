@@ -1,0 +1,30 @@
+Fitted model for Heilongjiang-Daqing:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.139
+Model:                            OLS   Adj. R-squared:                  0.137
+Method:                 Least Squares   F-statistic:                     88.15
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.63e-19
+Time:                        13:56:04   Log-Likelihood:                -4222.8
+No. Observations:                 548   AIC:                             8450.
+Df Residuals:                     546   BIC:                             8458.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1742.3734     43.740     39.835      0.000    1656.454    1828.293
+dist         -25.8902      2.758     -9.389      0.000     -31.307     -20.473
+==============================================================================
+Omnibus:                       63.456   Durbin-Watson:                   1.145
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               85.831
+Skew:                           0.852   Prob(JB):                     2.30e-19
+Kurtosis:                       3.925   Cond. No.                         30.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Heilongjiang-Daqing: 67.04 km
+daqing heilongjiang
+Average internal radius gap: 40.51 km
+Welfare loss: 21243.58, Loss ratio: 36.51%

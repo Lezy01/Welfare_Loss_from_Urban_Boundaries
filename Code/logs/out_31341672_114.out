@@ -1,0 +1,30 @@
+Fitted model for Gansu-Jiayuguan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.013
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.679
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.197
+Time:                        13:56:03   Log-Likelihood:                -907.74
+No. Observations:                 127   AIC:                             1819.
+Df Residuals:                     125   BIC:                             1825.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1443.3093     62.636     23.043      0.000    1319.345    1567.274
+dist         -31.4490     24.267     -1.296      0.197     -79.477      16.579
+==============================================================================
+Omnibus:                        4.051   Durbin-Watson:                   1.811
+Prob(Omnibus):                  0.132   Jarque-Bera (JB):                4.817
+Skew:                           0.101   Prob(JB):                       0.0900
+Kurtosis:                       3.932   Cond. No.                         6.61
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Jiayuguan: 45.74 km
+jiayuguan gansu
+Average internal radius gap: 35.48 km
+Welfare loss: 19789.00, Loss ratio: 60.16%

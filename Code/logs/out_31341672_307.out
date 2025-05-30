@@ -1,0 +1,30 @@
+Fitted model for Anhui-Suzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.176
+Model:                            OLS   Adj. R-squared:                  0.175
+Method:                 Least Squares   F-statistic:                     136.3
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.14e-28
+Time:                        13:56:54   Log-Likelihood:                -4843.5
+No. Observations:                 640   AIC:                             9691.
+Df Residuals:                     638   BIC:                             9700.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2510.7122     43.701     57.451      0.000    2424.896    2596.528
+dist        -121.7452     10.430    -11.673      0.000    -142.226    -101.264
+==============================================================================
+Omnibus:                      437.530   Durbin-Watson:                   1.593
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8422.494
+Skew:                           2.758   Prob(JB):                         0.00
+Kurtosis:                      19.894   Cond. No.                         10.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Suzhou: 20.41 km
+suzhou anhui
+Average internal radius gap: 10.40 km
+Welfare loss: 6582.59, Loss ratio: 25.96%

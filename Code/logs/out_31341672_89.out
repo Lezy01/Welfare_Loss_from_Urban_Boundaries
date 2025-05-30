@@ -1,0 +1,27 @@
+Fitted model for Guangdong-Yunfu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.2549
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.614
+Time:                        13:56:03   Log-Likelihood:                -1994.6
+No. Observations:                 271   AIC:                             3993.
+Df Residuals:                     269   BIC:                             4000.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1610.2633     31.041     51.875      0.000    1549.149    1671.378
+dist           0.4819      0.954      0.505      0.614      -1.397       2.361
+==============================================================================
+Omnibus:                        3.197   Durbin-Watson:                   1.727
+Prob(Omnibus):                  0.202   Jarque-Bera (JB):                2.467
+Skew:                          -0.091   Prob(JB):                        0.291
+Kurtosis:                       2.569   Cond. No.                         43.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

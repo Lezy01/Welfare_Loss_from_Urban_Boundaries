@@ -1,0 +1,30 @@
+Fitted model for Anhui-Huainan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.301
+Model:                            OLS   Adj. R-squared:                  0.300
+Method:                 Least Squares   F-statistic:                     286.8
+Date:                Fri, 30 May 2025   Prob (F-statistic):           9.19e-54
+Time:                        13:56:18   Log-Likelihood:                -5096.5
+No. Observations:                 668   AIC:                         1.020e+04
+Df Residuals:                     666   BIC:                         1.021e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2096.6227     43.766     47.906      0.000    2010.687    2182.558
+dist         -92.5530      5.465    -16.934      0.000    -103.285     -81.821
+==============================================================================
+Omnibus:                      146.353   Durbin-Watson:                   1.443
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              495.231
+Skew:                           1.014   Prob(JB):                    2.90e-108
+Kurtosis:                       6.699   Cond. No.                         18.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Huainan: 22.06 km
+huainan anhui
+Average internal radius gap: 12.15 km
+Welfare loss: 6829.46, Loss ratio: 30.33%

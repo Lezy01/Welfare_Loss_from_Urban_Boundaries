@@ -1,0 +1,30 @@
+Fitted model for Liaoning-Dandong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.087
+Model:                            OLS   Adj. R-squared:                  0.086
+Method:                 Least Squares   F-statistic:                     80.82
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.60e-18
+Time:                        13:56:36   Log-Likelihood:                -6697.9
+No. Observations:                 845   AIC:                         1.340e+04
+Df Residuals:                     843   BIC:                         1.341e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2170.6176     29.907     72.580      0.000    2111.918    2229.318
+dist         -17.5558      1.953     -8.990      0.000     -21.389     -13.723
+==============================================================================
+Omnibus:                      384.969   Durbin-Watson:                   1.693
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3087.108
+Skew:                           1.886   Prob(JB):                         0.00
+Kurtosis:                      11.570   Cond. No.                         19.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Dandong: 123.16 km
+dandong liaoning
+Average internal radius gap: 113.23 km
+Welfare loss: 112545.85, Loss ratio: 84.53%

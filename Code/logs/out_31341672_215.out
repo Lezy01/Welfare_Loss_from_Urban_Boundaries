@@ -1,0 +1,31 @@
+Fitted model for Beijing-Huairou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.529
+Model:                            OLS   Adj. R-squared:                  0.527
+Method:                 Least Squares   F-statistic:                     257.2
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.64e-39
+Time:                        13:56:36   Log-Likelihood:                -2064.8
+No. Observations:                 231   AIC:                             4134.
+Df Residuals:                     229   BIC:                             4140.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.037e+04    190.164     54.535      0.000    9995.920    1.07e+04
+dist        -706.6008     44.062    -16.037      0.000    -793.419    -619.783
+==============================================================================
+Omnibus:                       10.302   Durbin-Watson:                   1.702
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               20.818
+Skew:                          -0.105   Prob(JB):                     3.02e-05
+Kurtosis:                       4.456   Cond. No.                         6.95
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Huairou: 14.67 km
+huairou beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 4.20 km
+Welfare loss: 6226.30, Loss ratio: 8.19%

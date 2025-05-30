@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Mianyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     9.017
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00270
+Time:                        13:56:57   Log-Likelihood:                -18366.
+No. Observations:                2322   AIC:                         3.674e+04
+Df Residuals:                    2320   BIC:                         3.675e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2291.3877     35.730     64.131      0.000    2221.322    2361.454
+dist         -14.6437      4.877     -3.003      0.003     -24.207      -5.081
+==============================================================================
+Omnibus:                      488.332   Durbin-Watson:                   1.378
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1213.480
+Skew:                           1.139   Prob(JB):                    3.13e-264
+Kurtosis:                       5.711   Cond. No.                         19.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Mianyang: 155.27 km
+mianyang sichuan
+Average internal radius gap: 142.69 km
+Welfare loss: 149083.03, Loss ratio: 84.46%

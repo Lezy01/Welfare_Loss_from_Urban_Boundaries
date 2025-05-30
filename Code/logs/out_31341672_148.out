@@ -1,0 +1,29 @@
+Fitted model for Xinjiang-Changjihuizu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     18.38
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.27e-05
+Time:                        13:56:18   Log-Likelihood:                -3007.3
+No. Observations:                 402   AIC:                             6019.
+Df Residuals:                     400   BIC:                             6027.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1959.5725     40.302     48.623      0.000    1880.343    2038.802
+dist         -73.8635     17.228     -4.288      0.000    -107.732     -39.995
+==============================================================================
+Omnibus:                       30.156   Durbin-Watson:                   1.641
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.779
+Skew:                           0.701   Prob(JB):                     2.80e-08
+Kurtosis:                       3.333   Cond. No.                         5.00
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Changjihuizu: 26.19 km
+changjihuizu xinjiang
+No matching file found for Xinjiang-Changjihuizu.

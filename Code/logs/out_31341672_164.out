@@ -1,0 +1,30 @@
+Fitted model for Anhui-Bozhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.125
+Model:                            OLS   Adj. R-squared:                  0.123
+Method:                 Least Squares   F-statistic:                     58.54
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.44e-13
+Time:                        13:56:21   Log-Likelihood:                -3090.4
+No. Observations:                 412   AIC:                             6185.
+Df Residuals:                     410   BIC:                             6193.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2094.7302     50.117     41.797      0.000    1996.211    2193.249
+dist         -62.0606      8.111     -7.651      0.000     -78.005     -46.116
+==============================================================================
+Omnibus:                       85.936   Durbin-Watson:                   1.690
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              231.333
+Skew:                           0.997   Prob(JB):                     5.84e-51
+Kurtosis:                       6.082   Cond. No.                         14.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Bozhou: 33.26 km
+bozhou anhui
+Average internal radius gap: 24.03 km
+Welfare loss: 17911.66, Loss ratio: 52.17%

@@ -1,0 +1,30 @@
+Fitted model for Guangxi-Hezhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.091
+Method:                 Least Squares   F-statistic:                     19.89
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.41e-05
+Time:                        13:56:18   Log-Likelihood:                -1381.1
+No. Observations:                 189   AIC:                             2766.
+Df Residuals:                     187   BIC:                             2773.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1681.7964     62.364     26.967      0.000    1558.768    1804.824
+dist         -68.8914     15.447     -4.460      0.000     -99.365     -38.418
+==============================================================================
+Omnibus:                        1.114   Durbin-Watson:                   1.504
+Prob(Omnibus):                  0.573   Jarque-Bera (JB):                1.126
+Skew:                          -0.081   Prob(JB):                        0.569
+Kurtosis:                       2.658   Cond. No.                         10.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangxi-Hezhou: 24.26 km
+hezhou guangxi
+Average internal radius gap: 19.32 km
+Welfare loss: 12863.69, Loss ratio: 63.45%

@@ -1,0 +1,30 @@
+Fitted model for Hunan-Zhuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.076
+Model:                            OLS   Adj. R-squared:                  0.076
+Method:                 Least Squares   F-statistic:                     155.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.98e-34
+Time:                        13:56:36   Log-Likelihood:                -14258.
+No. Observations:                1892   AIC:                         2.852e+04
+Df Residuals:                    1890   BIC:                         2.853e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1675.5290     14.543    115.216      0.000    1647.008    1704.050
+dist          -8.4314      0.675    -12.485      0.000      -9.756      -7.107
+==============================================================================
+Omnibus:                     1130.558   Durbin-Watson:                   1.548
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            18974.601
+Skew:                           2.481   Prob(JB):                         0.00
+Kurtosis:                      17.699   Cond. No.                         30.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hunan-Zhuzhou: 196.62 km
+zhuzhou hunan
+Average internal radius gap: 186.90 km
+Welfare loss: 147260.85, Loss ratio: 90.36%
