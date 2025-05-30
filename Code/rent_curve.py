@@ -1,128 +1,246 @@
-#!/usr/bin/env python3
-"""
-city_parallel_pipeline.py
-
-并行处理每个城市的数据：
-1. 农村土地产值转化为租金，并计算农村区域平均地租
-2. 拟合地租曲线（Rent curve）
-3. 计算三角形福利损失（TODO）
-
-使用 joblib 在本地多核并行执行。
-
-依赖:
-    geopandas, pandas, numpy, statsmodels, joblib
-"""
 import os
-import glob
 import pandas as pd
 import geopandas as gpd
-import numpy as np
+import matplotlib.pyplot as plt
+from shapely.geometry import Point
+from geopy.distance import geodesic
 import statsmodels.api as sm
-from joblib import Parallel, delayed
+import re
+import numpy as np
+import argparse
+import math
+import csv
 
-# === 配置路径 ===
-HOUSE_PRICE_DIR = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Cleaned/City_hp"
-ADMIN_SHP = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_Adm_2020/China2020County.shp"
-BUILTUP_SHP = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Cleaned/China_BuiltUp_300kCities_2020/China_BuiltUp_300kCities_2020.shp"
-RURAL_CSV = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/Gaze_v4_agvalue_2022.csv"  # 假设转化后的农业产值CSV
-OUTPUT_FILE = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Results/city_results.csv"
+def find_shp_file(prov, city, root_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
 
-# === 功能函数 ===
+    prov_folder = os.path.join(root_path, prov)
+    if not os.path.isdir(prov_folder):
+        print(f"Warning: Province folder does not exist: {prov_folder}")
+        return None
 
-def convert_ag_value_to_rent(df):
+    shp_files = [f for f in os.listdir(prov_folder) if f.endswith(".shp")]
+    city_lower = city.lower()
+    prov_lower = prov.lower()
+
+    matched_file = None
+
+    for f in shp_files:
+        if city_lower in f.lower():
+            matched_file = os.path.join(prov_folder, f)
+            break
+    if not matched_file:
+        for f in shp_files:
+            if prov_lower in f.lower():
+                matched_file = os.path.join(prov_folder, f)
+                break
+
+    return matched_file
+
+def fit_urban_land_rent_curve(prov, city, alpha=0.3,
+                               base_dir="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Cleaned/City_hp"):
     """
-    将农业产值转换为农地租金。示例中直接使用产值作为租金，可根据实际逻辑调整。
+    Given a city and alpha, estimate urban land rent curve:
+    1. Load city CSV
+    2. Compute land_price = alpha * house_price
+    3. Identify city center (highest land_price)
+    4. Compute distances from each point to center
+    5. Fit land_price ~ dist
+
+    Returns: (fitted OLS model, processed DataFrame)
     """
-    df['rent'] = df['value']  # TODO: 按 CPI 或农产品价格指数调整
-    return df
+
+    filename = f"{prov}-{city}_hp.csv"
+    file_path = os.path.join(base_dir, filename)
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
+        return None, None
 
 
-def compute_rural_rent_mean(city_name, admin_gdf, builtup_gdf, rural_csv):
+    df = pd.read_csv(file_path)
+    if "价格" not in df.columns or "lng84" not in df.columns or "lat84" not in df.columns:
+        print(f"Missing required columns in: {filename}")
+        return None, None
+
+ 
+    df = df.rename(columns={"价格": "house_price"})
+    df["land_price"] = df["house_price"] * alpha
+
+
+    max_idx = df["land_price"].idxmax()
+    center_coord = (df.loc[max_idx, "lat84"], df.loc[max_idx, "lng84"])
+
+    def calc_dist(row):
+        return geodesic((row["lat84"], row["lng84"]), center_coord).km
+
+    df["dist"] = df.apply(calc_dist, axis=1)
+    df = df.dropna(subset=["land_price", "dist"])
+
+
+    X = sm.add_constant(df["dist"])
+    y = df["land_price"]
+    model = sm.OLS(y, X).fit()
+
+    return center_coord,model, df
+
+
+def get_urban_rural_boundary_edge(prov, city, model,
+                                   avg_lp_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Cleaned/avg_lp.csv"):
     """
-    对指定城市，提取行政区-建成区差集（农村区域），
-    空间匹配农业产值点，计算平均地租。
+    Given province and city, and a land rent regression model (land_price ~ dist),
+    return the implied urban edge (distance where land_price equals rural land_price).
+
+    Returns:
+        float (edge in km) or None if not found
     """
-    # 1. 读取农业产值数据
-    df_rural = pd.read_csv(rural_csv)
-    gdf_rural = gpd.GeoDataFrame(df_rural,
-                                 geometry=gpd.points_from_xy(df_rural.lng, df_rural.lat),
-                                 crs="EPSG:4326")
-    # 2. 筛选行政区和建成区多边形
-    admin_city = admin_gdf[admin_gdf['NAME_2'].str.lower() == city_name.lower()]
-    builtup_city = builtup_gdf[builtup_gdf['city'].str.lower() == city_name.lower()]
-    # 3. 差集 -> 农村多边形
-    rural_area = gpd.overlay(admin_city, builtup_city, how='difference')
-    # 4. 空间匹配
-    gdf_rural_in = gpd.sjoin(gdf_rural, rural_area, how='inner', predicate='within')
-    # 5. 转换 rent & 计算均值
-    gdf_rural_in = convert_ag_value_to_rent(gdf_rural_in)
-    return gdf_rural_in['rent'].mean()
+
+    key = f"{prov}-{city}"
+    df_lp = pd.read_csv(avg_lp_path)
+    df_lp = df_lp.dropna(subset=["prov_city", "land_price"])
+
+    match = df_lp[df_lp["prov_city"] == key]
+    if not match.empty:
+        rural_lp = match["land_price"].values[0]
+    else:
+        prov_matches = df_lp[df_lp["prov"] == prov]
+        if not prov_matches.empty:
+            rural_lp = prov_matches["land_price"].mean()
+            print(f"Using provincial average land price for {prov}: {rural_lp:.4f}")
+        else:
+            print(f"No land price data available for {key} or {prov}")
+            return None
+
+    beta0 = model.params["const"]
+    beta1 = model.params["dist"]
+
+    if beta1 == 0:
+        print("Warning: distance coefficient is zero.")
+        return None
+
+    edge = (rural_lp - beta0) / beta1
+    return edge if edge > 0 else None
 
 
-def fit_rent_curve(city_name, hp_csv, admin_gdf, builtup_gdf):
+def mean_internal_radius_gap_op(prov, city, center, R,
+    root_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_BuiltUp_300kCities_2020",
+    crs_metric="EPSG:3857", sample_count=300, simplify_tolerance=5.0):
     """
-    对指定城市，读取房价数据，估算 alpha，计算地租并拟合 rent curve。
-    返回 alpha, (intercept, slope)
+    Compute the average internal radius gap: the average of (R - d),
+    where d is the distance from each sampled built-up area boundary point
+    (within radius R) to the city center.
+
+    Args:
+        prov, city         : Province and city name, used to locate the shapefile.
+        center             : City center coordinates (lon, lat).
+        R                  : Theoretical urban-rural boundary radius (in meters).
+        root_path          : Root directory containing provincial shapefiles.
+        crs_metric         : Projected CRS for distance calculations (default: EPSG:3857).
+        sample_count       : Total number of points to sample along all outer boundaries.
+        simplify_tolerance : Tolerance for simplifying the polygon boundaries (in meters) to speed up sampling.
+
+    Returns:
+        Mean internal gap (in kilometers); returns 0.0 if no valid points found.
     """
-    # 1. 读取房价文件
-    df_hp = pd.read_csv(hp_csv)
-    gdf_hp = gpd.GeoDataFrame(df_hp,
-                              geometry=gpd.points_from_xy(df_hp.lng84, df_hp.lat84),
-                              crs="EPSG:4326")
-    # 2. OLS 回归 ln(price) ~ ln(FAR) + 区县固定效应
-    df_hp = df_hp.dropna(subset=['容积率', '价格', '区县'])
-    df_hp['ln_price'] = np.log(df_hp['价格'])
-    df_hp['ln_far'] = np.log(df_hp['容积率'])
-    # 构建哑变量
-    dummies = pd.get_dummies(df_hp['区县'], prefix='county', drop_first=True)
-    X = pd.concat([df_hp['ln_far'], dummies], axis=1)
-    X = sm.add_constant(X)
-    model = sm.OLS(df_hp['ln_price'], X).fit()
-    beta_far = model.params['ln_far']
-    alpha = max(-beta_far, 0.3)
-    # 3. 计算地租
-    gdf_hp['rent'] = gdf_hp['价格'] * alpha
-    # 4. 城市中心 & 距离
-    center_pt = gdf_hp.loc[gdf_hp['价格'].idxmax()].geometry
-    gdf_hp['distance'] = gdf_hp.geometry.distance(center_pt)
-    # 5. 拟合 rent curve: ln(rent) ~ distance
-    df2 = gdf_hp.dropna(subset=['rent', 'distance'])
-    df2['ln_rent'] = np.log(df2['rent'])
-    X2 = sm.add_constant(df2['distance'])
-    res2 = sm.OLS(df2['ln_rent'], X2).fit()
-    return alpha, res2.params['const'], res2.params['distance']
 
+    shp_path = find_shp_file(prov, city, root_path)
+    if shp_path is None:
+        raise FileNotFoundError(f"Shapefile not found: prov={prov}, city={city}")
 
-def process_city(hp_csv):
+    gdf = gpd.read_file(shp_path).to_crs(crs_metric)
+    builtup_union = gdf.geometry.union_all()
+    
+    Origin = gpd.GeoSeries([Point(center)], crs="EPSG:4326").to_crs(crs_metric).iloc[0]
+
+    if builtup_union.geom_type == "Polygon":
+        exteriors = [builtup_union.exterior.simplify(simplify_tolerance)]
+    else:
+        exteriors = [poly.exterior.simplify(simplify_tolerance) for poly in builtup_union.geoms]
+
+    lengths = [ext.length for ext in exteriors]
+    total_length = sum(lengths)
+    if total_length == 0:
+        return 0.0
+
+    all_pts = []
+    for ext, L in zip(exteriors, lengths):
+        n = max(int(sample_count * (L / total_length)), 1)
+        dists = np.linspace(0, L, n, endpoint=False)
+        all_pts.extend([ext.interpolate(d) for d in dists])
+
+    gaps = []
+    for pt in all_pts:
+        d = pt.distance(Origin)
+        if d <= R:
+            gaps.append(R - d)
+
+    return float(np.mean(gaps)) / 1000 if gaps else 0.0
+
+def compute_welfare_loss_triangle_linear(model, edge_km, gap_km):
     """
-    单城市完整处理流程，返回结果字典。
+    Compute the welfare loss as the area of a triangle under a linear rent curve:
+      r(d) = beta_0 + beta_1 * d
+
+    Args:
+      model    : Fitted statsmodels OLS result (regression of price on distance)
+      edge_km  : Theoretical urban boundary radius (in kilometers)
+      gap_km   : Average distance between theoretical and actual urban boundary (in kilometers)
+
+    Returns:
+      loss     : Welfare loss triangle area (in price * km units)
     """
-    city_name = os.path.basename(hp_csv).replace('_hp.csv', '')
-    # 读取共享的数据
-    admin_gdf = gpd.read_file(ADMIN_SHP).to_crs("EPSG:4326")
-    builtup_gdf = gpd.read_file(BUILTUP_SHP).to_crs("EPSG:4326")
-    # 1. 农村平均租金
-    rural_mean = compute_rural_rent_mean(city_name, admin_gdf, builtup_gdf, RURAL_CSV)
-    # 2. 地租曲线拟合
-    alpha, intercept, slope = fit_rent_curve(city_name, hp_csv, admin_gdf, builtup_gdf)
-    return {
-        'city': city_name,
-        'alpha': alpha,
-        'rent_curve_intercept': intercept,
-        'rent_curve_slope': slope,
-        'rural_rent_mean': rural_mean
-    }
+    dist_a = edge_km - gap_km
+    if dist_a <= 0:
+        return 0.0
+
+    slope_name = [n for n in model.params.index if n != "const"][0]
+    beta1 = model.params[slope_name]
+
+    loss = -0.5 * beta1 * gap_km**2
+
+    S = 0.5 * edge_km * (- beta1 * edge_km)
+
+    loss_ratio = loss / S if S != 0 else 0.0
+
+    return loss,loss_ratio
 
 
-def main():
-    # 所有城市房价文件
-    hp_files = glob.glob(os.path.join(HOUSE_PRICE_DIR, '*_hp.csv'))
-    # 并行处理（根据实际核数调整 n_jobs）
-    results = Parallel(n_jobs=8)(delayed(process_city)(f) for f in hp_files)
-    df_res = pd.DataFrame(results)
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    df_res.to_csv(OUTPUT_FILE, index=False)
-    print("All cities processed. Results saved to:", OUTPUT_FILE)
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prov", type=str, required=True)
+    parser.add_argument("--city", type=str, required=True)
+    args = parser.parse_args()
+
+    prov = args.prov
+    city = args.city
+    alpha = 0.3
+
+
+    (center_lat, center_lon), model, df = fit_urban_land_rent_curve(prov, city, alpha)
+    if model is not None:
+        print(f"Fitted model for {prov}-{city}:")
+        print(model.summary())
+
+        edge_km = get_urban_rural_boundary_edge(prov, city, model)
+        if edge_km is not None:
+            print(f"Urban-rural boundary edge for {prov}-{city}: {edge_km:.2f} km")
+
+            gap_km = mean_internal_radius_gap_op(prov, city, (center_lon,center_lat), edge_km * 1000)
+            print(f"Average internal radius gap: {gap_km:.2f} km")
+
+            loss, loss_ratio = compute_welfare_loss_triangle_linear(model, edge_km, gap_km)
+            print(f"Welfare loss: {loss:.2f}, Loss ratio: {loss_ratio*100:.2f}%")
+        else:
+            print("Could not determine urban-rural boundary edge.")
+    else:
+        print("Model fitting failed.")
+        
+
+    output_file = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/welfare_results.csv"
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    loss_val = loss if 'loss' in locals() else float("nan")
+    loss_ratio_val = loss_ratio if 'loss_ratio' in locals() else float("nan")
+
+    with open(output_file, "a", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([prov, city,loss_val, loss_ratio_val])
