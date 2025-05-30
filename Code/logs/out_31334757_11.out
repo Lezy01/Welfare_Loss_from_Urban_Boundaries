@@ -1,0 +1,29 @@
+Fitted model for Guangdong-Zhongshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                     143.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.40e-32
+Time:                        11:01:11   Log-Likelihood:                -38188.
+No. Observations:                4312   AIC:                         7.638e+04
+Df Residuals:                    4310   BIC:                         7.639e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3911.1285     57.250     68.316      0.000    3798.889    4023.368
+dist         -49.5555      4.135    -11.985      0.000     -57.662     -41.449
+==============================================================================
+Omnibus:                     2777.606   Durbin-Watson:                   1.488
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            46358.331
+Skew:                           2.820   Prob(JB):                         0.00
+Kurtosis:                      18.040   Cond. No.                         30.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Zhongshan: 78.39 km
+Average internal radius gap: 65.88 km
+Welfare loss: 107543.39, Loss ratio: 70.64%

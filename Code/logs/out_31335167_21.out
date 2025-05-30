@@ -1,0 +1,29 @@
+Fitted model for Xinjiang-Wulumuqi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.124
+Model:                            OLS   Adj. R-squared:                  0.124
+Method:                 Least Squares   F-statistic:                     629.1
+Date:                Fri, 30 May 2025   Prob (F-statistic):          5.70e-130
+Time:                        11:07:08   Log-Likelihood:                -37992.
+No. Observations:                4450   AIC:                         7.599e+04
+Df Residuals:                    4448   BIC:                         7.600e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3350.8650     29.102    115.141      0.000    3293.810    3407.920
+dist         -96.6716      3.854    -25.082      0.000    -104.228     -89.116
+==============================================================================
+Omnibus:                     2760.754   Durbin-Watson:                   1.246
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            29639.058
+Skew:                           2.859   Prob(JB):                         0.00
+Kurtosis:                      14.277   Cond. No.                         12.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Wulumuqi: 34.43 km
+Average internal radius gap: 11.54 km
+Welfare loss: 6437.23, Loss ratio: 11.23%

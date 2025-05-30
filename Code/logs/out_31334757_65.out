@@ -1,0 +1,29 @@
+Fitted model for Henan-Kaifeng:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                  0.067
+Method:                 Least Squares   F-statistic:                     9.522
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00253
+Time:                        11:01:10   Log-Likelihood:                -1025.7
+No. Observations:                 119   AIC:                             2055.
+Df Residuals:                     117   BIC:                             2061.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3203.2166    361.648      8.857      0.000    2486.992    3919.441
+dist        -285.1671     92.413     -3.086      0.003    -468.186    -102.148
+==============================================================================
+Omnibus:                      212.774   Durbin-Watson:                   1.124
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            26445.920
+Skew:                           7.595   Prob(JB):                         0.00
+Kurtosis:                      74.435   Cond. No.                         12.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Kaifeng: 11.07 km
+Average internal radius gap: 3.69 km
+Welfare loss: 1940.17, Loss ratio: 11.10%

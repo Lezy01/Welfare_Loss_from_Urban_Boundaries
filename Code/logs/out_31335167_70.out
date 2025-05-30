@@ -1,0 +1,29 @@
+Fitted model for Sichuan-Leshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     4.922
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0278
+Time:                        11:07:08   Log-Likelihood:                -1327.1
+No. Observations:                 174   AIC:                             2658.
+Df Residuals:                     172   BIC:                             2665.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1906.8214     57.079     33.407      0.000    1794.156    2019.487
+dist         -12.1715      5.486     -2.219      0.028     -23.000      -1.343
+==============================================================================
+Omnibus:                      103.770   Durbin-Watson:                   1.729
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              967.383
+Skew:                           2.017   Prob(JB):                    8.62e-211
+Kurtosis:                      13.824   Cond. No.                         15.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Leshan: 155.33 km
+Average internal radius gap: 148.19 km
+Welfare loss: 133647.17, Loss ratio: 91.02%

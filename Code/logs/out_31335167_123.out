@@ -1,0 +1,30 @@
+Fitted model for Shanghai-Jingan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.287
+Model:                            OLS   Adj. R-squared:                  0.287
+Method:                 Least Squares   F-statistic:                     722.1
+Date:                Fri, 30 May 2025   Prob (F-statistic):          6.29e-134
+Time:                        11:07:23   Log-Likelihood:                -18770.
+No. Observations:                1794   AIC:                         3.754e+04
+Df Residuals:                    1792   BIC:                         3.756e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.328e+04    318.956    104.341      0.000    3.27e+04    3.39e+04
+dist       -1970.5031     73.331    -26.871      0.000   -2114.327   -1826.679
+==============================================================================
+Omnibus:                     1059.421   Durbin-Watson:                   1.617
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            39153.862
+Skew:                           2.161   Prob(JB):                         0.00
+Kurtosis:                      25.475   Cond. No.                         7.16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Shanghai: 52.4727
+Urban-rural boundary edge for Shanghai-Jingan: 16.86 km
+Average internal radius gap: 0.82 km
+Welfare loss: 670.39, Loss ratio: 0.24%

@@ -1,0 +1,30 @@
+Fitted model for Tianjin-Heping:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.122
+Model:                            OLS   Adj. R-squared:                  0.121
+Method:                 Least Squares   F-statistic:                     94.32
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.72e-21
+Time:                        11:01:25   Log-Likelihood:                -6927.1
+No. Observations:                 682   AIC:                         1.386e+04
+Df Residuals:                     680   BIC:                         1.387e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.551e+04    647.502     39.392      0.000    2.42e+04    2.68e+04
+dist       -5424.0622    558.491     -9.712      0.000   -6520.636   -4327.488
+==============================================================================
+Omnibus:                      324.045   Durbin-Watson:                   1.808
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3861.956
+Skew:                           1.810   Prob(JB):                         0.00
+Kurtosis:                      14.081   Cond. No.                         5.29
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Tianjin: 31.3392
+Urban-rural boundary edge for Tianjin-Heping: 4.70 km
+Average internal radius gap: 1.61 km
+Welfare loss: 7066.17, Loss ratio: 11.81%

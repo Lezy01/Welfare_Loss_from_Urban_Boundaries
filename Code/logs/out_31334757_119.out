@@ -1,0 +1,29 @@
+Fitted model for Guizhou-Zunyi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.336
+Model:                            OLS   Adj. R-squared:                  0.324
+Method:                 Least Squares   F-statistic:                     27.38
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.80e-06
+Time:                        11:01:22   Log-Likelihood:                -404.18
+No. Observations:                  56   AIC:                             812.4
+Df Residuals:                      54   BIC:                             816.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2040.7004     76.083     26.822      0.000    1888.164    2193.237
+dist         -47.2417      9.029     -5.232      0.000     -65.344     -29.140
+==============================================================================
+Omnibus:                        5.520   Durbin-Watson:                   1.508
+Prob(Omnibus):                  0.063   Jarque-Bera (JB):                4.563
+Skew:                           0.663   Prob(JB):                        0.102
+Kurtosis:                       3.445   Cond. No.                         14.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guizhou-Zunyi: 42.82 km
+Average internal radius gap: 35.08 km
+Welfare loss: 29061.00, Loss ratio: 67.10%

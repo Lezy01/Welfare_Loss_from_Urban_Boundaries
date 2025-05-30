@@ -1,0 +1,29 @@
+Fitted model for Sichuan-Suining:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.114
+Model:                            OLS   Adj. R-squared:                  0.100
+Method:                 Least Squares   F-statistic:                     8.083
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00602
+Time:                        11:07:23   Log-Likelihood:                -507.65
+No. Observations:                  65   AIC:                             1019.
+Df Residuals:                      63   BIC:                             1024.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2705.8377    159.165     17.000      0.000    2387.771    3023.904
+dist        -100.5584     35.369     -2.843      0.006    -171.238     -29.878
+==============================================================================
+Omnibus:                       10.294   Durbin-Watson:                   1.494
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                3.104
+Skew:                           0.018   Prob(JB):                        0.212
+Kurtosis:                       1.930   Cond. No.                         9.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Suining: 26.60 km
+Average internal radius gap: 20.06 km
+Welfare loss: 20225.55, Loss ratio: 56.86%

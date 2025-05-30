@@ -1,0 +1,29 @@
+Fitted model for Chongqing-Banan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.060
+Model:                            OLS   Adj. R-squared:                  0.058
+Method:                 Least Squares   F-statistic:                     34.78
+Date:                Fri, 30 May 2025   Prob (F-statistic):           6.45e-09
+Time:                        11:07:08   Log-Likelihood:                -4597.9
+No. Observations:                 551   AIC:                             9200.
+Df Residuals:                     549   BIC:                             9208.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3392.6436     94.514     35.896      0.000    3206.991    3578.297
+dist         -64.5283     10.941     -5.898      0.000     -86.020     -43.036
+==============================================================================
+Omnibus:                      222.340   Durbin-Watson:                   1.432
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1191.263
+Skew:                           1.713   Prob(JB):                    2.09e-259
+Kurtosis:                       9.337   Cond. No.                         19.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Chongqing-Banan: 52.13 km
+Average internal radius gap: 29.29 km
+Welfare loss: 27688.00, Loss ratio: 31.58%

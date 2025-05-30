@@ -1,0 +1,30 @@
+Fitted model for Tianjin-Hebei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.244
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     154.0
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.66e-31
+Time:                        11:07:23   Log-Likelihood:                -4168.1
+No. Observations:                 480   AIC:                             8340.
+Df Residuals:                     478   BIC:                             8349.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       8479.1751    147.427     57.514      0.000    8189.490    8768.860
+dist        -547.2871     44.107    -12.408      0.000    -633.955    -460.619
+==============================================================================
+Omnibus:                       37.963   Durbin-Watson:                   1.529
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               49.195
+Skew:                           0.631   Prob(JB):                     2.08e-11
+Kurtosis:                       3.930   Cond. No.                         8.09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Tianjin: 31.3392
+Urban-rural boundary edge for Tianjin-Hebei: 15.44 km
+Average internal radius gap: 3.57 km
+Welfare loss: 3491.88, Loss ratio: 5.36%

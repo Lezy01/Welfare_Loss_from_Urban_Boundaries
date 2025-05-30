@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/xinyu01/Final_project/Code/rent_curve_mw.py", line 219, in <module>
+    (center_lat, center_lon), model, df = fit_urban_land_rent_curve(prov, city, alpha)
+ValueError: not enough values to unpack (expected 3, got 2)

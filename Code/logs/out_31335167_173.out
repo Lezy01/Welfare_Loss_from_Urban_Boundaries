@@ -1,0 +1,29 @@
+Fitted model for Jiangsu-Xuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.230
+Model:                            OLS   Adj. R-squared:                  0.230
+Method:                 Least Squares   F-statistic:                     1043.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.98e-200
+Time:                        11:07:24   Log-Likelihood:                -29808.
+No. Observations:                3496   AIC:                         5.962e+04
+Df Residuals:                    3494   BIC:                         5.963e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3743.8553     27.897    134.202      0.000    3689.159    3798.552
+dist         -16.2358      0.503    -32.292      0.000     -17.222     -15.250
+==============================================================================
+Omnibus:                     1229.464   Durbin-Watson:                   1.443
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6258.569
+Skew:                           1.605   Prob(JB):                         0.00
+Kurtosis:                       8.715   Cond. No.                         74.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Xuzhou: 228.01 km
+Average internal radius gap: 210.65 km
+Welfare loss: 360207.88, Loss ratio: 85.35%

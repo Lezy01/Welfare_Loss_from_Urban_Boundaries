@@ -1,0 +1,29 @@
+Fitted model for Henan-Zhumadian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.214
+Model:                            OLS   Adj. R-squared:                  0.206
+Method:                 Least Squares   F-statistic:                     29.09
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.17e-07
+Time:                        11:01:25   Log-Likelihood:                -790.06
+No. Observations:                 109   AIC:                             1584.
+Df Residuals:                     107   BIC:                             1590.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2295.6853     74.004     31.021      0.000    2148.981    2442.390
+dist         -91.1941     16.908     -5.393      0.000    -124.713     -57.676
+==============================================================================
+Omnibus:                        4.243   Durbin-Watson:                   1.616
+Prob(Omnibus):                  0.120   Jarque-Bera (JB):                3.834
+Skew:                           0.455   Prob(JB):                        0.147
+Kurtosis:                       3.122   Cond. No.                         10.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Zhumadian: 24.75 km
+Average internal radius gap: 18.93 km
+Welfare loss: 16347.40, Loss ratio: 58.51%

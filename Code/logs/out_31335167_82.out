@@ -1,0 +1,29 @@
+Fitted model for Qinghai-Xining:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.209
+Model:                            OLS   Adj. R-squared:                  0.208
+Method:                 Least Squares   F-statistic:                     685.8
+Date:                Fri, 30 May 2025   Prob (F-statistic):          2.30e-134
+Time:                        11:07:24   Log-Likelihood:                -20791.
+No. Observations:                2604   AIC:                         4.159e+04
+Df Residuals:                    2602   BIC:                         4.160e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3490.6173     22.788    153.177      0.000    3445.933    3535.302
+dist        -126.1820      4.819    -26.187      0.000    -135.631    -116.734
+==============================================================================
+Omnibus:                      756.622   Durbin-Watson:                   1.277
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2326.082
+Skew:                           1.476   Prob(JB):                         0.00
+Kurtosis:                       6.566   Cond. No.                         7.96
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Qinghai-Xining: 27.60 km
+Average internal radius gap: 12.48 km
+Welfare loss: 9822.42, Loss ratio: 20.44%

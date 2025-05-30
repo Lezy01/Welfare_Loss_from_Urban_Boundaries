@@ -1,0 +1,29 @@
+Fitted model for Fujian-Zhangzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     14.05
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000188
+Time:                        11:01:37   Log-Likelihood:                -8966.0
+No. Observations:                1023   AIC:                         1.794e+04
+Df Residuals:                    1021   BIC:                         1.795e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3621.1991     70.894     51.079      0.000    3482.084    3760.314
+dist         -21.4339      5.718     -3.749      0.000     -32.654     -10.214
+==============================================================================
+Omnibus:                      797.371   Durbin-Watson:                   1.484
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            20736.997
+Skew:                           3.360   Prob(JB):                         0.00
+Kurtosis:                      24.008   Cond. No.                         18.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Zhangzhou: 168.22 km
+Average internal radius gap: 160.30 km
+Welfare loss: 275392.74, Loss ratio: 90.81%

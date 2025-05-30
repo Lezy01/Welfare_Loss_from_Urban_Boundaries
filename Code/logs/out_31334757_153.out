@@ -1,0 +1,29 @@
+Fitted model for Hunan-Zhuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     159.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.39e-35
+Time:                        11:01:37   Log-Likelihood:                -13198.
+No. Observations:                1757   AIC:                         2.640e+04
+Df Residuals:                    1755   BIC:                         2.641e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1695.0244     14.739    115.000      0.000    1666.116    1723.933
+dist          -8.6354      0.683    -12.634      0.000      -9.976      -7.295
+==============================================================================
+Omnibus:                     1094.328   Durbin-Watson:                   1.562
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            20726.185
+Skew:                           2.578   Prob(JB):                         0.00
+Kurtosis:                      19.016   Cond. No.                         30.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hunan-Zhuzhou: 194.23 km
+Average internal radius gap: 184.51 km
+Welfare loss: 146995.69, Loss ratio: 90.24%

@@ -1,0 +1,27 @@
+Fitted model for Shanghai-Changning:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.040
+Model:                            OLS   Adj. R-squared:                  0.039
+Method:                 Least Squares   F-statistic:                     48.55
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.35e-12
+Time:                        11:01:22   Log-Likelihood:                -12450.
+No. Observations:                1180   AIC:                         2.490e+04
+Df Residuals:                    1178   BIC:                         2.491e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.154e+04    664.384     32.415      0.000    2.02e+04    2.28e+04
+dist        1094.6043    157.095      6.968      0.000     786.386    1402.822
+==============================================================================
+Omnibus:                     1001.485   Durbin-Watson:                   1.799
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            65683.742
+Skew:                           3.488   Prob(JB):                         0.00
+Kurtosis:                      38.879   Cond. No.                         10.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

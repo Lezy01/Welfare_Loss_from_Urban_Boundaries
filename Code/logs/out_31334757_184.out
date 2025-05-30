@@ -1,0 +1,29 @@
+Fitted model for Anhui-Chuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     45.85
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.65e-11
+Time:                        11:01:37   Log-Likelihood:                -3893.6
+No. Observations:                 494   AIC:                             7791.
+Df Residuals:                     492   BIC:                             7800.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2571.6240     47.884     53.706      0.000    2477.543    2665.706
+dist         -68.4606     10.111     -6.771      0.000     -88.326     -48.595
+==============================================================================
+Omnibus:                      199.329   Durbin-Watson:                   1.587
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              984.298
+Skew:                           1.727   Prob(JB):                    1.83e-214
+Kurtosis:                       8.991   Cond. No.                         8.07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Chuzhou: 36.85 km
+Average internal radius gap: 27.73 km
+Welfare loss: 26320.05, Loss ratio: 56.63%

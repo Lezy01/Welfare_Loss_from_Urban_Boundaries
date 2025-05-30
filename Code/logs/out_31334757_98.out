@@ -1,0 +1,29 @@
+Fitted model for Henan-Nanyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.328
+Model:                            OLS   Adj. R-squared:                  0.327
+Method:                 Least Squares   F-statistic:                     771.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.13e-138
+Time:                        11:01:22   Log-Likelihood:                -12299.
+No. Observations:                1586   AIC:                         2.460e+04
+Df Residuals:                    1584   BIC:                         2.461e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2531.6709     18.766    134.909      0.000    2494.862    2568.479
+dist         -19.4627      0.701    -27.777      0.000     -20.837     -18.088
+==============================================================================
+Omnibus:                      301.742   Durbin-Watson:                   1.754
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              966.826
+Skew:                           0.940   Prob(JB):                    1.14e-210
+Kurtosis:                       6.331   Cond. No.                         35.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Nanyang: 128.36 km
+Average internal radius gap: 117.97 km
+Welfare loss: 135441.09, Loss ratio: 84.48%

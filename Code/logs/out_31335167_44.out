@@ -1,0 +1,29 @@
+Fitted model for Anhui-Maanshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.098
+Model:                            OLS   Adj. R-squared:                  0.097
+Method:                 Least Squares   F-statistic:                     70.43
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.99e-16
+Time:                        11:07:07   Log-Likelihood:                -5514.1
+No. Observations:                 650   AIC:                         1.103e+04
+Df Residuals:                     648   BIC:                         1.104e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3009.0630     61.448     48.969      0.000    2888.401    3129.725
+dist         -60.4755      7.206     -8.392      0.000     -74.625     -46.326
+==============================================================================
+Omnibus:                      325.661   Durbin-Watson:                   1.738
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2776.031
+Skew:                           2.061   Prob(JB):                         0.00
+Kurtosis:                      12.247   Cond. No.                         11.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Maanshan: 48.90 km
+Average internal radius gap: 42.07 km
+Welfare loss: 53519.65, Loss ratio: 74.02%

@@ -1,0 +1,29 @@
+Fitted model for Beijing-Fengtai:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.187
+Model:                            OLS   Adj. R-squared:                  0.187
+Method:                 Least Squares   F-statistic:                     273.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.76e-55
+Time:                        11:01:11   Log-Likelihood:                -11740.
+No. Observations:                1189   AIC:                         2.348e+04
+Df Residuals:                    1187   BIC:                         2.350e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.085e+04    261.912     79.595      0.000    2.03e+04    2.14e+04
+dist        -599.9833     36.266    -16.544      0.000    -671.135    -528.832
+==============================================================================
+Omnibus:                      257.502   Durbin-Watson:                   1.551
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              947.631
+Skew:                           1.010   Prob(JB):                    1.68e-206
+Kurtosis:                       6.879   Cond. No.                         14.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Fengtai: 34.71 km
+Average internal radius gap: 6.77 km
+Welfare loss: 13745.51, Loss ratio: 3.80%

@@ -1,0 +1,27 @@
+Fitted model for Anhui-Fuyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     13.97
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000197
+Time:                        11:01:22   Log-Likelihood:                -7702.4
+No. Observations:                 993   AIC:                         1.541e+04
+Df Residuals:                     991   BIC:                         1.542e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1908.2999     79.587     23.978      0.000    1752.122    2064.478
+dist          24.4384      6.539      3.737      0.000      11.606      37.271
+==============================================================================
+Omnibus:                      280.481   Durbin-Watson:                   1.602
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1308.657
+Skew:                           1.235   Prob(JB):                    6.74e-285
+Kurtosis:                       8.052   Cond. No.                         54.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,29 @@
+Fitted model for Zhejiang-Hangzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.087
+Model:                            OLS   Adj. R-squared:                  0.087
+Method:                 Least Squares   F-statistic:                     463.8
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.51e-98
+Time:                        11:01:38   Log-Likelihood:                -49109.
+No. Observations:                4846   AIC:                         9.822e+04
+Df Residuals:                    4844   BIC:                         9.823e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.586e+04    192.447     82.407      0.000    1.55e+04    1.62e+04
+dist        -329.4120     15.295    -21.537      0.000    -359.397    -299.427
+==============================================================================
+Omnibus:                     1620.127   Durbin-Watson:                   1.271
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6306.891
+Skew:                           1.625   Prob(JB):                         0.00
+Kurtosis:                       7.547   Cond. No.                         27.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Zhejiang-Hangzhou: 48.11 km
+Average internal radius gap: 25.53 km
+Welfare loss: 107343.41, Loss ratio: 28.16%

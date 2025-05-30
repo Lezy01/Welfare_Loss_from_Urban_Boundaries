@@ -1,0 +1,27 @@
+Fitted model for Tianjin-Dongli:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.022
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     11.70
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000674
+Time:                        11:07:23   Log-Likelihood:                -4566.3
+No. Observations:                 524   AIC:                             9137.
+Df Residuals:                     522   BIC:                             9145.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3650.3813    160.603     22.729      0.000    3334.874    3965.889
+dist          36.6245     10.707      3.421      0.001      15.590      57.659
+==============================================================================
+Omnibus:                       90.471   Durbin-Watson:                   1.304
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              157.904
+Skew:                           1.024   Prob(JB):                     5.15e-35
+Kurtosis:                       4.742   Cond. No.                         37.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

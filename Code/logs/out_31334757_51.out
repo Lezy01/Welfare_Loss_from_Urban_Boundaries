@@ -1,0 +1,29 @@
+Fitted model for Hebei-Chengde:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.227
+Model:                            OLS   Adj. R-squared:                  0.219
+Method:                 Least Squares   F-statistic:                     29.28
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.29e-07
+Time:                        11:01:11   Log-Likelihood:                -845.77
+No. Observations:                 102   AIC:                             1696.
+Df Residuals:                     100   BIC:                             1701.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3682.3348    165.231     22.286      0.000    3354.521    4010.148
+dist        -127.3414     23.532     -5.411      0.000    -174.028     -80.655
+==============================================================================
+Omnibus:                       89.745   Durbin-Watson:                   1.787
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              921.347
+Skew:                           2.806   Prob(JB):                    8.55e-201
+Kurtosis:                      16.612   Cond. No.                         12.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Chengde: 28.85 km
+Average internal radius gap: 17.05 km
+Welfare loss: 18513.07, Loss ratio: 34.94%

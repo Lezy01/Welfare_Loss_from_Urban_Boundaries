@@ -1,0 +1,30 @@
+Fitted model for Beijing-Xicheng:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.210
+Model:                            OLS   Adj. R-squared:                  0.209
+Method:                 Least Squares   F-statistic:                     384.2
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.70e-76
+Time:                        11:07:23   Log-Likelihood:                -15307.
+No. Observations:                1448   AIC:                         3.062e+04
+Df Residuals:                    1446   BIC:                         3.063e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4.939e+04    539.134     91.603      0.000    4.83e+04    5.04e+04
+dist       -2292.8506    116.974    -19.601      0.000   -2522.307   -2063.394
+==============================================================================
+Omnibus:                       75.720   Durbin-Watson:                   1.731
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              145.173
+Skew:                          -0.368   Prob(JB):                     2.99e-32
+Kurtosis:                       4.366   Cond. No.                         10.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Beijing: 21.9939
+Urban-rural boundary edge for Beijing-Xicheng: 21.53 km
+Average internal radius gap: 4.79 km
+Welfare loss: 26292.13, Loss ratio: 4.95%

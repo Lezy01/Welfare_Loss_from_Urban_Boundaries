@@ -1,0 +1,29 @@
+Fitted model for Shanghai-Pudongxin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.430
+Model:                            OLS   Adj. R-squared:                  0.429
+Method:                 Least Squares   F-statistic:                     2312.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        11:07:24   Log-Likelihood:                -31445.
+No. Observations:                3073   AIC:                         6.289e+04
+Df Residuals:                    3071   BIC:                         6.291e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.649e+04    212.812    124.494      0.000    2.61e+04    2.69e+04
+dist        -711.7787     14.803    -48.085      0.000    -740.803    -682.755
+==============================================================================
+Omnibus:                     1331.944   Durbin-Watson:                   1.296
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9463.520
+Skew:                           1.910   Prob(JB):                         0.00
+Kurtosis:                      10.702   Cond. No.                         25.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Pudongxin: 37.12 km
+Average internal radius gap: 8.88 km
+Welfare loss: 28074.12, Loss ratio: 5.72%

@@ -1,0 +1,29 @@
+Fitted model for Liaoning-Anshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.027
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     1.398
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.243
+Time:                        11:01:37   Log-Likelihood:                -439.68
+No. Observations:                  53   AIC:                             883.4
+Df Residuals:                      51   BIC:                             887.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2001.4508    187.693     10.663      0.000    1624.641    2378.261
+dist         -15.0806     12.757     -1.182      0.243     -40.690      10.529
+==============================================================================
+Omnibus:                       24.421   Durbin-Watson:                   1.825
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.473
+Skew:                           1.562   Prob(JB):                     4.42e-09
+Kurtosis:                       5.769   Cond. No.                         20.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Anshan: 131.29 km
+Average internal radius gap: 121.06 km
+Welfare loss: 110512.25, Loss ratio: 85.02%

@@ -1,0 +1,29 @@
+Fitted model for Shandong-Weihai:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.337
+Model:                            OLS   Adj. R-squared:                  0.337
+Method:                 Least Squares   F-statistic:                     2695.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        11:07:08   Log-Likelihood:                -43854.
+No. Observations:                5304   AIC:                         8.771e+04
+Df Residuals:                    5302   BIC:                         8.773e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3373.9852     16.772    201.165      0.000    3341.105    3406.866
+dist         -23.6186      0.455    -51.909      0.000     -24.511     -22.727
+==============================================================================
+Omnibus:                     3939.623   Durbin-Watson:                   1.861
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           114692.955
+Skew:                           3.251   Prob(JB):                         0.00
+Kurtosis:                      24.833   Cond. No.                         47.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Weihai: 141.77 km
+Average internal radius gap: 127.57 km
+Welfare loss: 192195.29, Loss ratio: 80.98%

@@ -1,0 +1,29 @@
+Fitted model for Guangxi-Liuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.151
+Model:                            OLS   Adj. R-squared:                  0.151
+Method:                 Least Squares   F-statistic:                     567.1
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.69e-115
+Time:                        11:07:07   Log-Likelihood:                -25018.
+No. Observations:                3187   AIC:                         5.004e+04
+Df Residuals:                    3185   BIC:                         5.005e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3102.5045     28.242    109.854      0.000    3047.130    3157.879
+dist         -81.7127      3.431    -23.814      0.000     -88.440     -74.985
+==============================================================================
+Omnibus:                     2089.193   Durbin-Watson:                   1.575
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            37901.387
+Skew:                           2.843   Prob(JB):                         0.00
+Kurtosis:                      18.909   Cond. No.                         21.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangxi-Liuzhou: 37.85 km
+Average internal radius gap: 28.04 km
+Welfare loss: 32130.21, Loss ratio: 54.88%

@@ -1,0 +1,29 @@
+Fitted model for Hubei-Jingmen:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.157
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     10.27
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00225
+Time:                        11:07:07   Log-Likelihood:                -409.62
+No. Observations:                  57   AIC:                             823.2
+Df Residuals:                      55   BIC:                             827.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1695.7856     56.729     29.893      0.000    1582.099    1809.473
+dist          -7.9155      2.470     -3.205      0.002     -12.865      -2.966
+==============================================================================
+Omnibus:                       15.299   Durbin-Watson:                   1.982
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.789
+Skew:                           0.841   Prob(JB):                     2.51e-06
+Kurtosis:                       5.833   Cond. No.                         30.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hubei-Jingmen: 209.35 km
+Average internal radius gap: 200.44 km
+Welfare loss: 159010.05, Loss ratio: 91.67%

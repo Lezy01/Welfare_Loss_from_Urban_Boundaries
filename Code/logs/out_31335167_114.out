@@ -1,0 +1,29 @@
+Fitted model for Guangdong-Heyuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.207
+Model:                            OLS   Adj. R-squared:                  0.201
+Method:                 Least Squares   F-statistic:                     37.02
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.03e-08
+Time:                        11:07:23   Log-Likelihood:                -1118.8
+No. Observations:                 144   AIC:                             2242.
+Df Residuals:                     142   BIC:                             2248.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2432.2278     78.596     30.946      0.000    2276.858    2587.598
+dist         -87.5074     14.383     -6.084      0.000    -115.940     -59.075
+==============================================================================
+Omnibus:                      109.404   Durbin-Watson:                   1.459
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              967.285
+Skew:                           2.693   Prob(JB):                    9.05e-211
+Kurtosis:                      14.498   Cond. No.                         9.12
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Heyuan: 27.70 km
+Average internal radius gap: 15.43 km
+Welfare loss: 10415.25, Loss ratio: 31.03%

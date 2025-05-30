@@ -1,0 +1,29 @@
+Fitted model for Jiangsu-Yancheng:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.069
+Model:                            OLS   Adj. R-squared:                  0.068
+Method:                 Least Squares   F-statistic:                     100.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):           6.44e-23
+Time:                        11:01:38   Log-Likelihood:                -11678.
+No. Observations:                1367   AIC:                         2.336e+04
+Df Residuals:                    1365   BIC:                         2.337e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4135.7624     42.254     97.879      0.000    4052.873    4218.652
+dist         -14.7323      1.468    -10.036      0.000     -17.612     -11.853
+==============================================================================
+Omnibus:                      306.256   Durbin-Watson:                   1.529
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              679.133
+Skew:                           1.245   Prob(JB):                    3.37e-148
+Kurtosis:                       5.392   Cond. No.                         36.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Yancheng: 276.48 km
+Average internal radius gap: 267.66 km
+Welfare loss: 527733.32, Loss ratio: 93.72%

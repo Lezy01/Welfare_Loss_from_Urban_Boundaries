@@ -1,0 +1,29 @@
+Fitted model for Ningxia-Yinchuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.150
+Model:                            OLS   Adj. R-squared:                  0.150
+Method:                 Least Squares   F-statistic:                     341.1
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.90e-70
+Time:                        11:07:23   Log-Likelihood:                -15365.
+No. Observations:                1935   AIC:                         3.073e+04
+Df Residuals:                    1933   BIC:                         3.075e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2400.5975     28.028     85.650      0.000    2345.629    2455.566
+dist         -67.0364      3.630    -18.468      0.000     -74.155     -59.918
+==============================================================================
+Omnibus:                      816.580   Durbin-Watson:                   1.517
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5899.315
+Skew:                           1.822   Prob(JB):                         0.00
+Kurtosis:                      10.739   Cond. No.                         14.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Ningxia-Yinchuan: 35.50 km
+Average internal radius gap: 17.93 km
+Welfare loss: 10774.98, Loss ratio: 25.51%

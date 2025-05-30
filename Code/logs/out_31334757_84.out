@@ -1,0 +1,29 @@
+Fitted model for Fujian-Fuzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.227
+Model:                            OLS   Adj. R-squared:                  0.227
+Method:                 Least Squares   F-statistic:                     1670.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.86e-320
+Time:                        11:00:35   Log-Likelihood:                -54156.
+No. Observations:                5697   AIC:                         1.083e+05
+Df Residuals:                    5695   BIC:                         1.083e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       9324.6221     53.199    175.279      0.000    9220.332    9428.912
+dist        -170.3457      4.168    -40.871      0.000    -178.516    -162.175
+==============================================================================
+Omnibus:                     3085.941   Durbin-Watson:                   1.241
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            36305.785
+Skew:                           2.345   Prob(JB):                         0.00
+Kurtosis:                      14.443   Cond. No.                         15.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Fuzhou: 54.65 km
+Average internal radius gap: 44.43 km
+Welfare loss: 168135.13, Loss ratio: 66.10%

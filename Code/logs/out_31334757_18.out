@@ -1,0 +1,29 @@
+Fitted model for Shandong-Taian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.309
+Model:                            OLS   Adj. R-squared:                  0.309
+Method:                 Least Squares   F-statistic:                     1279.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          8.03e-232
+Time:                        11:01:11   Log-Likelihood:                -24715.
+No. Observations:                2862   AIC:                         4.943e+04
+Df Residuals:                    2860   BIC:                         4.945e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3671.1315     37.381     98.208      0.000    3597.835    3744.428
+dist         -35.0147      0.979    -35.760      0.000     -36.935     -33.095
+==============================================================================
+Omnibus:                     1259.831   Durbin-Watson:                   1.355
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10503.483
+Skew:                           1.884   Prob(JB):                         0.00
+Kurtosis:                      11.595   Cond. No.                         56.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Taian: 103.58 km
+Average internal radius gap: 91.54 km
+Welfare loss: 146708.15, Loss ratio: 78.11%

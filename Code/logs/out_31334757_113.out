@@ -1,0 +1,29 @@
+Fitted model for Fujian-Putian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     2.235
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.138
+Time:                        11:01:22   Log-Likelihood:                -979.07
+No. Observations:                 110   AIC:                             1962.
+Df Residuals:                     108   BIC:                             1968.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5964.0890    387.076     15.408      0.000    5196.838    6731.340
+dist        -165.8973    110.979     -1.495      0.138    -385.877      54.083
+==============================================================================
+Omnibus:                       49.199   Durbin-Watson:                   1.569
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              127.445
+Skew:                           1.712   Prob(JB):                     2.12e-28
+Kurtosis:                       7.010   Cond. No.                         8.43
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Putian: 35.84 km
+Average internal radius gap: 30.04 km
+Welfare loss: 74869.53, Loss ratio: 70.29%

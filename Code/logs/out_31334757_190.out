@@ -1,0 +1,29 @@
+Fitted model for Hainan-Danzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.057
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     5.552
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0206
+Time:                        11:01:38   Log-Likelihood:                -754.30
+No. Observations:                  94   AIC:                             1513.
+Df Residuals:                      92   BIC:                             1518.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2913.8840    164.777     17.684      0.000    2586.623    3241.145
+dist        -119.4513     50.695     -2.356      0.021    -220.135     -18.767
+==============================================================================
+Omnibus:                       32.106   Durbin-Watson:                   1.559
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.215
+Skew:                           1.468   Prob(JB):                     2.78e-12
+Kurtosis:                       5.228   Cond. No.                         7.47
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hainan-Danzhou: 24.25 km
+Average internal radius gap: 19.59 km
+Welfare loss: 22921.37, Loss ratio: 65.29%

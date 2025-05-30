@@ -1,0 +1,29 @@
+Fitted model for Hubei-Yichang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.177
+Model:                            OLS   Adj. R-squared:                  0.176
+Method:                 Least Squares   F-statistic:                     446.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.06e-90
+Time:                        11:01:08   Log-Likelihood:                -16222.
+No. Observations:                2084   AIC:                         3.245e+04
+Df Residuals:                    2082   BIC:                         3.246e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2868.1527     30.018     95.549      0.000    2809.285    2927.020
+dist         -77.7583      3.678    -21.140      0.000     -84.972     -70.545
+==============================================================================
+Omnibus:                      623.519   Durbin-Watson:                   1.568
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2163.243
+Skew:                           1.464   Prob(JB):                         0.00
+Kurtosis:                       7.042   Cond. No.                         19.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hubei-Yichang: 36.74 km
+Average internal radius gap: 27.41 km
+Welfare loss: 29202.87, Loss ratio: 55.65%

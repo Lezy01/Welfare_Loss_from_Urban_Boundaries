@@ -1,0 +1,29 @@
+Fitted model for Sichuan-Deyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.103
+Model:                            OLS   Adj. R-squared:                  0.103
+Method:                 Least Squares   F-statistic:                     228.1
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.22e-49
+Time:                        11:07:24   Log-Likelihood:                -14914.
+No. Observations:                1985   AIC:                         2.983e+04
+Df Residuals:                    1983   BIC:                         2.984e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1819.5675     22.803     79.794      0.000    1774.847    1864.288
+dist         -27.3649      1.812    -15.103      0.000     -30.918     -23.812
+==============================================================================
+Omnibus:                      810.400   Durbin-Watson:                   1.348
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5711.544
+Skew:                           1.760   Prob(JB):                         0.00
+Kurtosis:                      10.528   Cond. No.                         29.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Deyang: 64.74 km
+Average internal radius gap: 53.93 km
+Welfare loss: 39796.21, Loss ratio: 69.40%

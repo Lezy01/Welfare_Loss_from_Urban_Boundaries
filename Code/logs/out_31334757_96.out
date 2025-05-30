@@ -1,0 +1,29 @@
+Fitted model for Chongqing-Beibei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.125
+Model:                            OLS   Adj. R-squared:                  0.117
+Method:                 Least Squares   F-statistic:                     16.11
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000108
+Time:                        11:01:22   Log-Likelihood:                -938.92
+No. Observations:                 115   AIC:                             1882.
+Df Residuals:                     113   BIC:                             1887.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3863.9164    120.178     32.152      0.000    3625.823    4102.010
+dist         -68.3757     17.036     -4.014      0.000    -102.128     -34.624
+==============================================================================
+Omnibus:                        3.394   Durbin-Watson:                   2.352
+Prob(Omnibus):                  0.183   Jarque-Bera (JB):                2.919
+Skew:                           0.261   Prob(JB):                        0.232
+Kurtosis:                       3.581   Cond. No.                         10.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Chongqing-Beibei: 56.04 km
+Average internal radius gap: 34.49 km
+Welfare loss: 40667.82, Loss ratio: 37.88%

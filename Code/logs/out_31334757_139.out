@@ -1,0 +1,29 @@
+Fitted model for Gansu-Lanzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.174
+Model:                            OLS   Adj. R-squared:                  0.174
+Method:                 Least Squares   F-statistic:                     1348.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          5.60e-268
+Time:                        11:01:38   Log-Likelihood:                -53057.
+No. Observations:                6415   AIC:                         1.061e+05
+Df Residuals:                    6413   BIC:                         1.061e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4359.9914     20.282    214.966      0.000    4320.231    4399.751
+dist         -71.0546      1.935    -36.711      0.000     -74.849     -67.260
+==============================================================================
+Omnibus:                     2200.396   Durbin-Watson:                   1.382
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13539.551
+Skew:                           1.505   Prob(JB):                         0.00
+Kurtosis:                       9.449   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Lanzhou: 61.22 km
+Average internal radius gap: 42.60 km
+Welfare loss: 64480.31, Loss ratio: 48.42%

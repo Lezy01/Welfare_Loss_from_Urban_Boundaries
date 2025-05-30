@@ -1,0 +1,29 @@
+Fitted model for Neimenggu-Bayannaoer:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.120
+Model:                            OLS   Adj. R-squared:                  0.107
+Method:                 Least Squares   F-statistic:                     9.381
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00312
+Time:                        11:01:37   Log-Likelihood:                -496.74
+No. Observations:                  71   AIC:                             997.5
+Df Residuals:                      69   BIC:                             1002.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1980.5363     85.746     23.098      0.000    1809.478    2151.595
+dist         -65.4067     21.355     -3.063      0.003    -108.008     -22.805
+==============================================================================
+Omnibus:                       12.410   Durbin-Watson:                   2.024
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.944
+Skew:                           0.957   Prob(JB):                      0.00155
+Kurtosis:                       3.842   Cond. No.                         11.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Neimenggu-Bayannaoer: 30.00 km
+Average internal radius gap: 23.09 km
+Welfare loss: 17433.47, Loss ratio: 59.22%

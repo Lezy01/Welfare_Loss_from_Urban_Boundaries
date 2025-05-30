@@ -1,0 +1,29 @@
+Fitted model for Fujian-Xiamen:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.178
+Model:                            OLS   Adj. R-squared:                  0.178
+Method:                 Least Squares   F-statistic:                     798.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):          3.40e-159
+Time:                        11:07:24   Log-Likelihood:                -38010.
+No. Observations:                3684   AIC:                         7.602e+04
+Df Residuals:                    3682   BIC:                         7.604e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        2.33e+04    303.429     76.780      0.000    2.27e+04    2.39e+04
+dist        -677.1897     23.962    -28.261      0.000    -724.170    -630.209
+==============================================================================
+Omnibus:                     1462.846   Durbin-Watson:                   0.996
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10547.008
+Skew:                           1.717   Prob(JB):                         0.00
+Kurtosis:                      10.544   Cond. No.                         32.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Xiamen: 34.37 km
+Average internal radius gap: 11.40 km
+Welfare loss: 44006.12, Loss ratio: 11.00%

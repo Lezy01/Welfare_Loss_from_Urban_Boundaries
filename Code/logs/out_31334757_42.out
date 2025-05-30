@@ -1,0 +1,29 @@
+Fitted model for Shanghai-Hongkou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.021
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     26.55
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.98e-07
+Time:                        11:01:07   Log-Likelihood:                -12494.
+No. Observations:                1253   AIC:                         2.499e+04
+Df Residuals:                    1251   BIC:                         2.500e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.071e+04    321.018     64.502      0.000    2.01e+04    2.13e+04
+dist        -658.4024    127.771     -5.153      0.000    -909.071    -407.734
+==============================================================================
+Omnibus:                      301.814   Durbin-Watson:                   1.671
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              764.366
+Skew:                           1.270   Prob(JB):                    1.05e-166
+Kurtosis:                       5.862   Cond. No.                         6.22
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Hongkou: 31.45 km
+Average internal radius gap: 7.02 km
+Welfare loss: 16230.55, Loss ratio: 4.99%

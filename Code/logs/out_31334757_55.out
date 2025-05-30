@@ -1,0 +1,29 @@
+Fitted model for Zhejiang-Taizhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.027
+Model:                            OLS   Adj. R-squared:                  0.026
+Method:                 Least Squares   F-statistic:                     38.96
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.73e-10
+Time:                        11:01:08   Log-Likelihood:                -12666.
+No. Observations:                1400   AIC:                         2.534e+04
+Df Residuals:                    1398   BIC:                         2.535e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4911.1420     82.263     59.701      0.000    4749.770    5072.514
+dist         -18.6376      2.986     -6.242      0.000     -24.495     -12.780
+==============================================================================
+Omnibus:                      774.221   Durbin-Watson:                   1.360
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8163.378
+Skew:                           2.374   Prob(JB):                         0.00
+Kurtosis:                      13.835   Cond. No.                         41.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Zhejiang-Taizhou: 262.74 km
+Average internal radius gap: 251.93 km
+Welfare loss: 591470.03, Loss ratio: 91.95%

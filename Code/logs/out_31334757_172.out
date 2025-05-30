@@ -1,0 +1,29 @@
+Fitted model for Anhui-Tongling:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.314
+Model:                            OLS   Adj. R-squared:                  0.305
+Method:                 Least Squares   F-statistic:                     37.50
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.01e-08
+Time:                        11:01:37   Log-Likelihood:                -660.76
+No. Observations:                  84   AIC:                             1326.
+Df Residuals:                      82   BIC:                             1330.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2943.2018    113.813     25.860      0.000    2716.792    3169.612
+dist        -144.3526     23.573     -6.124      0.000    -191.247     -97.458
+==============================================================================
+Omnibus:                        6.058   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.048   Jarque-Bera (JB):                5.393
+Skew:                           0.590   Prob(JB):                       0.0674
+Kurtosis:                       3.388   Cond. No.                         8.10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Tongling: 20.12 km
+Average internal radius gap: 12.17 km
+Welfare loss: 10691.85, Loss ratio: 36.61%

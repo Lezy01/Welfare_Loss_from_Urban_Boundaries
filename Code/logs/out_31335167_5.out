@@ -1,0 +1,29 @@
+Fitted model for Jiangsu-Yangzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.245
+Model:                            OLS   Adj. R-squared:                  0.245
+Method:                 Least Squares   F-statistic:                     566.0
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.42e-108
+Time:                        11:07:07   Log-Likelihood:                -15550.
+No. Observations:                1746   AIC:                         3.110e+04
+Df Residuals:                    1744   BIC:                         3.112e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5279.6361     57.806     91.334      0.000    5166.260    5393.012
+dist         -85.0346      3.574    -23.790      0.000     -92.045     -78.024
+==============================================================================
+Omnibus:                      555.521   Durbin-Watson:                   1.423
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1863.944
+Skew:                           1.572   Prob(JB):                         0.00
+Kurtosis:                       6.968   Cond. No.                         21.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Yangzhou: 61.45 km
+Average internal radius gap: 47.79 km
+Welfare loss: 97107.45, Loss ratio: 60.49%

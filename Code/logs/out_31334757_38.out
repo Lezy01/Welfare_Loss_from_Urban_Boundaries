@@ -1,0 +1,29 @@
+Fitted model for Henan-Anyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.255
+Model:                            OLS   Adj. R-squared:                  0.249
+Method:                 Least Squares   F-statistic:                     43.42
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.06e-09
+Time:                        11:01:07   Log-Likelihood:                -954.30
+No. Observations:                 129   AIC:                             1913.
+Df Residuals:                     127   BIC:                             1918.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2080.2912     42.523     48.921      0.000    1996.145    2164.437
+dist         -13.1529      1.996     -6.589      0.000     -17.103      -9.203
+==============================================================================
+Omnibus:                       13.492   Durbin-Watson:                   1.726
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.500
+Skew:                           0.628   Prob(JB):                     0.000261
+Kurtosis:                       4.222   Cond. No.                         25.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Anyang: 154.40 km
+Average internal radius gap: 0.00 km
+Welfare loss: 0.00, Loss ratio: 0.00%

@@ -1,0 +1,29 @@
+Fitted model for Henan-Xuchang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.397
+Model:                            OLS   Adj. R-squared:                  0.390
+Method:                 Least Squares   F-statistic:                     57.90
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.89e-11
+Time:                        11:01:37   Log-Likelihood:                -663.86
+No. Observations:                  90   AIC:                             1332.
+Df Residuals:                      88   BIC:                             1337.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2397.5897     88.475     27.099      0.000    2221.764    2573.415
+dist         -47.4760      6.239     -7.609      0.000     -59.875     -35.077
+==============================================================================
+Omnibus:                       29.953   Durbin-Watson:                   2.314
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               88.483
+Skew:                           1.059   Prob(JB):                     6.11e-20
+Kurtosis:                       7.371   Cond. No.                         30.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Xuchang: 49.43 km
+Average internal radius gap: 40.88 km
+Welfare loss: 39674.72, Loss ratio: 68.39%

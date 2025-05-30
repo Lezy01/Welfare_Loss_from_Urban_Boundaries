@@ -1,0 +1,29 @@
+Fitted model for Henan-Luoyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.231
+Model:                            OLS   Adj. R-squared:                  0.231
+Method:                 Least Squares   F-statistic:                     751.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):          6.27e-145
+Time:                        11:07:24   Log-Likelihood:                -19844.
+No. Observations:                2504   AIC:                         3.969e+04
+Df Residuals:                    2502   BIC:                         3.970e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2930.0365     25.076    116.844      0.000    2880.864    2979.209
+dist         -45.4289      1.657    -27.417      0.000     -48.678     -42.180
+==============================================================================
+Omnibus:                     1411.292   Durbin-Watson:                   1.443
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            27990.746
+Skew:                           2.246   Prob(JB):                         0.00
+Kurtosis:                      18.751   Cond. No.                         28.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Luoyang: 64.00 km
+Average internal radius gap: 52.37 km
+Welfare loss: 62295.38, Loss ratio: 66.95%

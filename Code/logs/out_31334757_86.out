@@ -1,0 +1,27 @@
+Fitted model for Guangdong-Jieyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.090
+Model:                            OLS   Adj. R-squared:                  0.078
+Method:                 Least Squares   F-statistic:                     7.585
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00734
+Time:                        11:01:22   Log-Likelihood:                -620.45
+No. Observations:                  79   AIC:                             1245.
+Df Residuals:                      77   BIC:                             1250.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2114.7410     91.435     23.128      0.000    1932.671    2296.811
+dist          13.2091      4.796      2.754      0.007       3.659      22.760
+==============================================================================
+Omnibus:                       42.515   Durbin-Watson:                   1.968
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              194.275
+Skew:                           1.524   Prob(JB):                     6.51e-43
+Kurtosis:                      10.052   Cond. No.                         24.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

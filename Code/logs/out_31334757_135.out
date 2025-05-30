@@ -1,0 +1,30 @@
+Fitted model for Chongqing-Yuzhong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.4323
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.511
+Time:                        11:01:22   Log-Likelihood:                -8602.7
+No. Observations:                1001   AIC:                         1.721e+04
+Df Residuals:                     999   BIC:                         1.722e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3585.8003     78.121     45.901      0.000    3432.500    3739.101
+dist         -11.2150     17.058     -0.657      0.511     -44.688      22.258
+==============================================================================
+Omnibus:                      448.952   Durbin-Watson:                   1.578
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1930.897
+Skew:                           2.141   Prob(JB):                         0.00
+Kurtosis:                       8.287   Cond. No.                         8.96
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Chongqing: 22.5457
+Urban-rural boundary edge for Chongqing-Yuzhong: 317.72 km
+Average internal radius gap: 299.17 km
+Welfare loss: 501873.76, Loss ratio: 88.66%

@@ -1,0 +1,27 @@
+Fitted model for Jiangxi-Shangrao:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                  0.001789
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.966
+Time:                        11:01:38   Log-Likelihood:                -5706.1
+No. Observations:                 683   AIC:                         1.142e+04
+Df Residuals:                     681   BIC:                         1.143e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2263.5653    118.755     19.061      0.000    2030.395    2496.736
+dist           0.6391     15.110      0.042      0.966     -29.028      30.306
+==============================================================================
+Omnibus:                     1305.043   Durbin-Watson:                   1.940
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1870904.477
+Skew:                          13.172   Prob(JB):                         0.00
+Kurtosis:                     258.045   Cond. No.                         24.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

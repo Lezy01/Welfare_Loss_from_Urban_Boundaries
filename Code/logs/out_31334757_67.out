@@ -1,0 +1,27 @@
+Fitted model for Hainan-Sanya:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.130
+Model:                            OLS   Adj. R-squared:                  0.129
+Method:                 Least Squares   F-statistic:                     104.0
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.66e-23
+Time:                        11:01:11   Log-Likelihood:                -6622.7
+No. Observations:                 695   AIC:                         1.325e+04
+Df Residuals:                     693   BIC:                         1.326e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       6016.4520    194.823     30.882      0.000    5633.939    6398.965
+dist         413.9211     40.594     10.197      0.000     334.219     493.623
+==============================================================================
+Omnibus:                      386.754   Durbin-Watson:                   1.723
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4484.608
+Skew:                           2.253   Prob(JB):                         0.00
+Kurtosis:                      14.600   Cond. No.                         7.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,29 @@
+Fitted model for Jiangsu-Wuxi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     83.08
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.21e-19
+Time:                        11:07:24   Log-Likelihood:                -37303.
+No. Observations:                4095   AIC:                         7.461e+04
+Df Residuals:                    4093   BIC:                         7.462e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5194.0700     58.277     89.127      0.000    5079.815    5308.325
+dist         -17.9710      1.972     -9.115      0.000     -21.836     -14.106
+==============================================================================
+Omnibus:                     1411.336   Durbin-Watson:                   1.419
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4672.160
+Skew:                           1.753   Prob(JB):                         0.00
+Kurtosis:                       6.884   Cond. No.                         50.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Wuxi: 286.35 km
+Average internal radius gap: 269.83 km
+Welfare loss: 654198.69, Loss ratio: 88.79%
