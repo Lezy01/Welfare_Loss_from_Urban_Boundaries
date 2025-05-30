@@ -11,8 +11,16 @@ import argparse
 import math
 import csv
 
-def find_shp_file(prov, city, root_path="/home/xinyu01/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
+def extract_prefix_city(filename):
+    """
+    extract the prefix city from a filename.
+    For example, "Anyang2020_new_Urb.shp" -> "henan"
+    """
+    base = filename.lower().replace(".shp", "")
+    match = re.match(r"([a-z]+)", base)
+    return match.group(1) if match else base
 
+def find_shp_file(prov, city, root_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
     prov_folder = os.path.join(root_path, prov)
     if not os.path.isdir(prov_folder):
         print(f"Warning: Province folder does not exist: {prov_folder}")
@@ -21,20 +29,30 @@ def find_shp_file(prov, city, root_path="/home/xinyu01/Final_project/Data/Raw/Ch
     shp_files = [f for f in os.listdir(prov_folder) if f.endswith(".shp")]
     city_lower = city.lower()
     prov_lower = prov.lower()
+    print(city_lower, prov_lower)
 
-    matched_file = None
+    candidate_list = [f for f in shp_files if city_lower in f.lower()]
+    
+    if len(candidate_list) == 1:
+        matched_file = os.path.join(prov_folder, candidate_list[0])
+        return matched_file
 
-    for f in shp_files:
-        if city_lower in f.lower():
+    for f in candidate_list:
+        city_prefix = extract_prefix_city(f)
+        print(f"Checking file: {f}, extracted prefix: {city_prefix}")
+        if city_prefix == city_lower:
+            print(f"Prefix match among candidates: {f}")
             matched_file = os.path.join(prov_folder, f)
-            break
-    if not matched_file:
-        for f in shp_files:
-            if prov_lower in f.lower():
-                matched_file = os.path.join(prov_folder, f)
-                break
+            return matched_file
+    
+    for f in shp_files:
+        if prov_lower in f.lower():
+            print(f"Fallback: matched by province name: {f}")
+            return os.path.join(prov_folder, f)
 
-    return matched_file
+
+    print(f"No matching file found for {prov}-{city}.")
+    return None
 
 def fit_urban_land_rent_curve(prov, city, alpha=0.3,
                                base_dir="/home/xinyu01/Final_project/Data/Cleaned/City_hp"):
