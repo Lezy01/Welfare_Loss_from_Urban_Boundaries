@@ -1,0 +1,30 @@
+Fitted model for Anhui-Wuhu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.052
+Model:                            OLS   Adj. R-squared:                  0.051
+Method:                 Least Squares   F-statistic:                     52.77
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.75e-13
+Time:                        13:25:36   Log-Likelihood:                -8261.9
+No. Observations:                 964   AIC:                         1.653e+04
+Df Residuals:                     962   BIC:                         1.654e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4555.2950    138.050     32.997      0.000    4284.380    4826.210
+dist        -125.6063     17.291     -7.264      0.000    -159.539     -91.673
+==============================================================================
+Omnibus:                      216.445   Durbin-Watson:                   1.616
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              595.653
+Skew:                           1.138   Prob(JB):                    4.52e-130
+Kurtosis:                       6.106   Cond. No.                         27.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Wuhu: 35.87 km
+wuhu anhui
+Average internal radius gap: 25.25 km
+Welfare loss: 40041.51, Loss ratio: 49.56%

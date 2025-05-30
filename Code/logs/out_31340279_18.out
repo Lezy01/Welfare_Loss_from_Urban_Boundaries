@@ -1,0 +1,32 @@
+Fitted model for Tianjin-Hongqiao:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.262
+Model:                            OLS   Adj. R-squared:                  0.259
+Method:                 Least Squares   F-statistic:                     96.42
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.12e-19
+Time:                        13:25:28   Log-Likelihood:                -2387.7
+No. Observations:                 274   AIC:                             4779.
+Df Residuals:                     272   BIC:                             4787.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       9612.1560    273.876     35.097      0.000    9072.969    1.02e+04
+dist        -671.6547     68.401     -9.819      0.000    -806.317    -536.993
+==============================================================================
+Omnibus:                       29.340   Durbin-Watson:                   2.085
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               63.767
+Skew:                           0.535   Prob(JB):                     1.42e-14
+Kurtosis:                       5.107   Cond. No.                         13.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Tianjin: 31.3392
+Urban-rural boundary edge for Tianjin-Hongqiao: 14.26 km
+hongqiao tianjin
+Fallback: matched by province name: tianjin2020_new_Urb.shp
+Average internal radius gap: 4.46 km
+Welfare loss: 6666.97, Loss ratio: 9.76%

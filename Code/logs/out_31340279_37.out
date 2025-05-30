@@ -1,0 +1,30 @@
+Fitted model for Fujian-Ningde:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.188
+Model:                            OLS   Adj. R-squared:                  0.187
+Method:                 Least Squares   F-statistic:                     137.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.01e-28
+Time:                        13:25:30   Log-Likelihood:                -5094.9
+No. Observations:                 596   AIC:                         1.019e+04
+Df Residuals:                     594   BIC:                         1.020e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3506.7138     64.622     54.265      0.000    3379.799    3633.628
+dist         -27.3371      2.331    -11.729      0.000     -31.915     -22.759
+==============================================================================
+Omnibus:                      190.433   Durbin-Watson:                   1.222
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              826.476
+Skew:                           1.391   Prob(JB):                    3.41e-180
+Kurtosis:                       8.054   Cond. No.                         35.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Ningde: 127.90 km
+ningde fujian
+Average internal radius gap: 124.12 km
+Welfare loss: 210569.55, Loss ratio: 94.18%

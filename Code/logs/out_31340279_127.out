@@ -1,0 +1,27 @@
+Fitted model for Sichuan-Ziyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.1082
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.742
+Time:                        13:25:27   Log-Likelihood:                -2934.8
+No. Observations:                 401   AIC:                             5874.
+Df Residuals:                     399   BIC:                             5882.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1604.0531     42.001     38.191      0.000    1521.483    1686.623
+dist           3.8504     11.708      0.329      0.742     -19.166      26.867
+==============================================================================
+Omnibus:                        5.502   Durbin-Watson:                   1.576
+Prob(Omnibus):                  0.064   Jarque-Bera (JB):                5.265
+Skew:                           0.263   Prob(JB):                       0.0719
+Kurtosis:                       3.198   Cond. No.                         8.77
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

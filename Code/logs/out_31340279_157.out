@@ -1,0 +1,30 @@
+Fitted model for Guangxi-Guigang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.049
+Method:                 Least Squares   F-statistic:                     31.25
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.50e-08
+Time:                        13:25:26   Log-Likelihood:                -4369.2
+No. Observations:                 582   AIC:                             8742.
+Df Residuals:                     580   BIC:                             8751.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1587.1569     31.215     50.845      0.000    1525.848    1648.466
+dist          -3.8466      0.688     -5.590      0.000      -5.198      -2.495
+==============================================================================
+Omnibus:                      468.914   Durbin-Watson:                   1.871
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            12863.320
+Skew:                           3.339   Prob(JB):                         0.00
+Kurtosis:                      25.042   Cond. No.                         77.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangxi-Guigang: 407.62 km
+guigang guangxi
+Average internal radius gap: 348.23 km
+Welfare loss: 233229.45, Loss ratio: 72.99%

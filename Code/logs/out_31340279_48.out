@@ -1,0 +1,29 @@
+Fitted model for Guizhou-Qianxinanbuyizumiaozu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.263
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.262
+Time:                        13:25:29   Log-Likelihood:                -2670.0
+No. Observations:                 370   AIC:                             5344.
+Df Residuals:                     368   BIC:                             5352.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1281.7101     51.416     24.928      0.000    1180.603    1382.817
+dist         -13.3144     11.848     -1.124      0.262     -36.614       9.985
+==============================================================================
+Omnibus:                       92.260   Durbin-Watson:                   1.840
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              183.385
+Skew:                           1.327   Prob(JB):                     1.51e-40
+Kurtosis:                       5.202   Cond. No.                         13.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guizhou-Qianxinanbuyizumiaozu: 95.75 km
+qianxinanbuyizumiaozu guizhou
+No matching file found for Guizhou-Qianxinanbuyizumiaozu.

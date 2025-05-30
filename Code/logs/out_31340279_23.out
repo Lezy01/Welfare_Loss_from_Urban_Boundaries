@@ -1,0 +1,30 @@
+Fitted model for Anhui-Huaibei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.448
+Model:                            OLS   Adj. R-squared:                  0.447
+Method:                 Least Squares   F-statistic:                     708.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):          7.62e-115
+Time:                        13:25:09   Log-Likelihood:                -6881.8
+No. Observations:                 876   AIC:                         1.377e+04
+Df Residuals:                     874   BIC:                         1.378e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2975.3176     35.155     84.635      0.000    2906.320    3044.315
+dist        -181.8523      6.830    -26.626      0.000    -195.257    -168.447
+==============================================================================
+Omnibus:                       79.147   Durbin-Watson:                   1.615
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              117.833
+Skew:                           0.667   Prob(JB):                     2.59e-26
+Kurtosis:                       4.203   Cond. No.                         8.78
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Huaibei: 16.22 km
+huaibei anhui
+Average internal radius gap: 6.20 km
+Welfare loss: 3497.54, Loss ratio: 14.62%

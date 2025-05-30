@@ -1,0 +1,30 @@
+Fitted model for Xinjiang-Shihezi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.005
+Method:                 Least Squares   F-statistic:                    0.2071
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.650
+Time:                        13:25:27   Log-Likelihood:                -1166.0
+No. Observations:                 152   AIC:                             2336.
+Df Residuals:                     150   BIC:                             2342.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1943.6438    107.360     18.104      0.000    1731.510    2155.777
+dist         -16.3925     36.024     -0.455      0.650     -87.573      54.788
+==============================================================================
+Omnibus:                        0.686   Durbin-Watson:                   1.427
+Prob(Omnibus):                  0.710   Jarque-Bera (JB):                0.795
+Skew:                           0.072   Prob(JB):                        0.672
+Kurtosis:                       2.676   Cond. No.                         8.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Shihezi: 115.56 km
+shihezi xinjiang
+Average internal radius gap: 106.89 km
+Welfare loss: 93644.38, Loss ratio: 85.56%

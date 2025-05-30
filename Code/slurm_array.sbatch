@@ -5,7 +5,7 @@
 #SBATCH --error=logs/err_%A_%a.err
 #SBATCH --account=macs30123
 #SBATCH --partition=caslake
-#SBATCH --array=0-214
+#SBATCH --array=0-328
 #SBATCH --time=01:00:00
 #SBATCH --mem=4G
 

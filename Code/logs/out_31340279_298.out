@@ -1,0 +1,28 @@
+Fitted model for Shaanxi-Xian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.009
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     79.15
+Date:                Fri, 30 May 2025   Prob (F-statistic):           6.91e-19
+Time:                        13:25:37   Log-Likelihood:                -76752.
+No. Observations:                8615   AIC:                         1.535e+05
+Df Residuals:                    8613   BIC:                         1.535e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4032.7216     43.554     92.590      0.000    3947.345    4118.099
+dist         -44.1895      4.967     -8.897      0.000     -53.926     -34.453
+==============================================================================
+Omnibus:                     7054.824   Durbin-Watson:                   1.188
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           226247.883
+Skew:                           3.767   Prob(JB):                         0.00
+Kurtosis:                      26.948   Cond. No.                         20.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+No land price data available for Shaanxi-Xian or Shaanxi
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,27 @@
+Fitted model for Jiangsu-Zhenjiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     46.67
+Date:                Fri, 30 May 2025   Prob (F-statistic):           9.56e-12
+Time:                        13:25:30   Log-Likelihood:                -37559.
+No. Observations:                4411   AIC:                         7.512e+04
+Df Residuals:                    4409   BIC:                         7.513e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2650.0268     35.238     75.203      0.000    2580.942    2719.112
+dist           8.7140      1.276      6.831      0.000       6.213      11.215
+==============================================================================
+Omnibus:                     3263.776   Durbin-Watson:                   1.692
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           126333.243
+Skew:                           3.112   Prob(JB):                         0.00
+Kurtosis:                      28.468   Cond. No.                         53.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

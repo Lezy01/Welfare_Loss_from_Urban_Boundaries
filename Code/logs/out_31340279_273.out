@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Zhanjiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     49.92
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.65e-12
+Time:                        13:25:39   Log-Likelihood:                -10257.
+No. Observations:                1263   AIC:                         2.052e+04
+Df Residuals:                    1261   BIC:                         2.053e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2264.8842     29.567     76.603      0.000    2206.879    2322.889
+dist         -16.5368      2.341     -7.065      0.000     -21.129     -11.945
+==============================================================================
+Omnibus:                      348.236   Durbin-Watson:                   1.282
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              920.055
+Skew:                           1.437   Prob(JB):                    1.63e-200
+Kurtosis:                       6.037   Cond. No.                         16.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Zhanjiang: 135.78 km
+zhanjiang guangdong
+Average internal radius gap: 127.82 km
+Welfare loss: 135084.61, Loss ratio: 88.61%

@@ -1,0 +1,30 @@
+Fitted model for Hainan-Wenchang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.004
+Method:                 Least Squares   F-statistic:                    0.5792
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.448
+Time:                        13:25:04   Log-Likelihood:                -946.72
+No. Observations:                 117   AIC:                             1897.
+Df Residuals:                     115   BIC:                             1903.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2726.8968    142.337     19.158      0.000    2444.955    3008.839
+dist         -54.4639     71.565     -0.761      0.448    -196.220      87.292
+==============================================================================
+Omnibus:                       14.524   Durbin-Watson:                   1.500
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.857
+Skew:                           0.855   Prob(JB):                     0.000360
+Kurtosis:                       3.573   Cond. No.                         4.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hainan-Wenchang: 49.76 km
+wenchang hainan
+Average internal radius gap: 46.89 km
+Welfare loss: 59876.51, Loss ratio: 88.80%

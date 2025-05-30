@@ -1,0 +1,30 @@
+Fitted model for Hebei-Shijiazhuang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.115
+Model:                            OLS   Adj. R-squared:                  0.115
+Method:                 Least Squares   F-statistic:                     575.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):          9.01e-120
+Time:                        13:25:30   Log-Likelihood:                -37690.
+No. Observations:                4442   AIC:                         7.538e+04
+Df Residuals:                    4440   BIC:                         7.540e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4948.3324     41.750    118.523      0.000    4866.482    5030.183
+dist        -108.7031      4.530    -23.999      0.000    -117.583     -99.823
+==============================================================================
+Omnibus:                      432.992   Durbin-Watson:                   1.336
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1841.327
+Skew:                           0.399   Prob(JB):                         0.00
+Kurtosis:                       6.052   Cond. No.                         22.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Shijiazhuang: 45.10 km
+shijiazhuang hebei
+Average internal radius gap: 23.68 km
+Welfare loss: 30478.78, Loss ratio: 27.57%

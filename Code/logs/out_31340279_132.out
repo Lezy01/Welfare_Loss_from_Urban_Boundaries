@@ -1,0 +1,31 @@
+Fitted model for Shanghai-Minhang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.259
+Model:                            OLS   Adj. R-squared:                  0.259
+Method:                 Least Squares   F-statistic:                     667.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.97e-126
+Time:                        13:25:31   Log-Likelihood:                -19311.
+No. Observations:                1908   AIC:                         3.863e+04
+Df Residuals:                    1906   BIC:                         3.864e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.274e+04    278.830     81.545      0.000    2.22e+04    2.33e+04
+dist        -580.8567     22.484    -25.834      0.000    -624.952    -536.761
+==============================================================================
+Omnibus:                      966.223   Durbin-Watson:                   1.563
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            12347.145
+Skew:                           2.066   Prob(JB):                         0.00
+Kurtosis:                      14.757   Cond. No.                         25.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Minhang: 39.00 km
+minhang shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 9.15 km
+Welfare loss: 24323.70, Loss ratio: 5.51%

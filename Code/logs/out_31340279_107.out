@@ -1,0 +1,30 @@
+Fitted model for Henan-Zhumadian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.084
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     87.17
+Date:                Fri, 30 May 2025   Prob (F-statistic):           6.79e-20
+Time:                        13:25:28   Log-Likelihood:                -7093.2
+No. Observations:                 958   AIC:                         1.419e+04
+Df Residuals:                     956   BIC:                         1.420e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1957.7008     31.217     62.713      0.000    1896.439    2018.963
+dist         -89.4402      9.580     -9.336      0.000    -108.240     -70.640
+==============================================================================
+Omnibus:                       91.204   Durbin-Watson:                   1.594
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              132.221
+Skew:                           0.711   Prob(JB):                     1.94e-29
+Kurtosis:                       4.136   Cond. No.                         8.54
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Zhumadian: 21.46 km
+zhumadian henan
+Average internal radius gap: 15.62 km
+Welfare loss: 10917.93, Loss ratio: 53.01%

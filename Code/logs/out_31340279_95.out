@@ -1,0 +1,30 @@
+Fitted model for Guangxi-Yulin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.081
+Model:                            OLS   Adj. R-squared:                  0.079
+Method:                 Least Squares   F-statistic:                     47.31
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.69e-11
+Time:                        13:25:35   Log-Likelihood:                -3962.0
+No. Observations:                 540   AIC:                             7928.
+Df Residuals:                     538   BIC:                             7937.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1578.7366     36.308     43.482      0.000    1507.414    1650.059
+dist         -65.9004      9.581     -6.878      0.000     -84.722     -47.079
+==============================================================================
+Omnibus:                      166.515   Durbin-Watson:                   1.639
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              702.016
+Skew:                           1.336   Prob(JB):                    3.62e-153
+Kurtosis:                       7.905   Cond. No.                         9.07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangxi-Yulin: 23.74 km
+yulin guangxi
+Average internal radius gap: 19.38 km
+Welfare loss: 12376.09, Loss ratio: 66.67%

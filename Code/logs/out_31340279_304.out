@@ -1,0 +1,30 @@
+Fitted model for Guangxi-Qinzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.1275
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.721
+Time:                        13:25:36   Log-Likelihood:                -2383.7
+No. Observations:                 312   AIC:                             4771.
+Df Residuals:                     310   BIC:                             4779.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1339.0033     65.655     20.395      0.000    1209.817    1468.189
+dist          -6.8008     19.047     -0.357      0.721     -44.279      30.677
+==============================================================================
+Omnibus:                      529.700   Durbin-Watson:                   1.955
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           202636.064
+Skew:                           9.280   Prob(JB):                         0.00
+Kurtosis:                     126.462   Cond. No.                         8.47
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangxi-Qinzhou: 195.04 km
+qinzhou guangxi
+Average internal radius gap: 189.77 km
+Welfare loss: 122460.60, Loss ratio: 94.67%

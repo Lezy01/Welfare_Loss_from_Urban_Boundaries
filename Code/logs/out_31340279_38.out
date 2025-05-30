@@ -1,0 +1,30 @@
+Fitted model for Hunan-Changsha:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                  0.075
+Method:                 Least Squares   F-statistic:                     569.2
+Date:                Fri, 30 May 2025   Prob (F-statistic):          5.12e-121
+Time:                        13:25:32   Log-Likelihood:                -59363.
+No. Observations:                6996   AIC:                         1.187e+05
+Df Residuals:                    6994   BIC:                         1.187e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3134.8110     19.605    159.902      0.000    3096.380    3173.242
+dist         -25.2534      1.058    -23.858      0.000     -27.328     -23.178
+==============================================================================
+Omnibus:                     5763.444   Durbin-Watson:                   1.390
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           204119.973
+Skew:                           3.754   Prob(JB):                         0.00
+Kurtosis:                      28.375   Cond. No.                         26.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hunan-Changsha: 123.14 km
+changsha hunan
+Average internal radius gap: 104.36 km
+Welfare loss: 137517.86, Loss ratio: 71.82%

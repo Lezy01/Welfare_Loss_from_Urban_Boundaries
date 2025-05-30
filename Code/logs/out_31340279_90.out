@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Maoming:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     53.14
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.30e-13
+Time:                        13:25:26   Log-Likelihood:                -10295.
+No. Observations:                1344   AIC:                         2.059e+04
+Df Residuals:                    1342   BIC:                         2.060e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1896.6681     16.937    111.985      0.000    1863.443    1929.894
+dist          -4.4645      0.612     -7.289      0.000      -5.666      -3.263
+==============================================================================
+Omnibus:                      195.753   Durbin-Watson:                   1.621
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              315.146
+Skew:                           0.970   Prob(JB):                     3.69e-69
+Kurtosis:                       4.366   Cond. No.                         33.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Maoming: 421.11 km
+maoming guangdong
+Average internal radius gap: 415.30 km
+Welfare loss: 385002.89, Loss ratio: 97.26%

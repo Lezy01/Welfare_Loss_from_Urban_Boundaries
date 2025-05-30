@@ -1,0 +1,30 @@
+Fitted model for Hunan-Shaoyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.071
+Model:                            OLS   Adj. R-squared:                  0.069
+Method:                 Least Squares   F-statistic:                     39.28
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.78e-10
+Time:                        13:25:36   Log-Likelihood:                -3711.5
+No. Observations:                 516   AIC:                             7427.
+Df Residuals:                     514   BIC:                             7435.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1540.2711     29.108     52.915      0.000    1483.086    1597.457
+dist         -50.8010      8.106     -6.267      0.000     -66.726     -34.876
+==============================================================================
+Omnibus:                       39.335   Durbin-Watson:                   1.596
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               46.206
+Skew:                           0.711   Prob(JB):                     9.26e-11
+Kurtosis:                       3.359   Cond. No.                         7.81
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hunan-Shaoyang: 29.90 km
+shaoyang hunan
+Average internal radius gap: 24.98 km
+Welfare loss: 15843.69, Loss ratio: 69.77%

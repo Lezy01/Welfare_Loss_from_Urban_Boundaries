@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Zigong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.130
+Model:                            OLS   Adj. R-squared:                  0.129
+Method:                 Least Squares   F-statistic:                     81.15
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.56e-18
+Time:                        13:25:06   Log-Likelihood:                -4035.0
+No. Observations:                 544   AIC:                             8074.
+Df Residuals:                     542   BIC:                             8083.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1750.1352     46.165     37.910      0.000    1659.450    1840.820
+dist        -102.2553     11.351     -9.008      0.000    -124.553     -79.957
+==============================================================================
+Omnibus:                       82.898   Durbin-Watson:                   1.402
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              131.771
+Skew:                           0.966   Prob(JB):                     2.43e-29
+Kurtosis:                       4.442   Cond. No.                         11.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Zigong: 16.78 km
+zigong sichuan
+Average internal radius gap: 10.20 km
+Welfare loss: 5315.86, Loss ratio: 36.91%

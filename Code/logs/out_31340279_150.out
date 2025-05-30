@@ -1,0 +1,30 @@
+Fitted model for Jiangxi-Jiujiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.090
+Model:                            OLS   Adj. R-squared:                  0.089
+Method:                 Least Squares   F-statistic:                     110.5
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.04e-24
+Time:                        13:25:30   Log-Likelihood:                -9355.0
+No. Observations:                1122   AIC:                         1.871e+04
+Df Residuals:                    1120   BIC:                         1.872e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2820.2845     48.373     58.303      0.000    2725.373    2915.196
+dist        -132.0222     12.561    -10.511      0.000    -156.668    -107.377
+==============================================================================
+Omnibus:                      346.153   Durbin-Watson:                   1.568
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              919.235
+Skew:                           1.611   Prob(JB):                    2.46e-200
+Kurtosis:                       6.048   Cond. No.                         6.43
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangxi-Jiujiang: 21.25 km
+jiujiang jiangxi
+Average internal radius gap: 12.50 km
+Welfare loss: 10321.72, Loss ratio: 34.62%

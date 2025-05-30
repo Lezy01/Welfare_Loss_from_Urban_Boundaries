@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Yibin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                   0.04604
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.830
+Time:                        13:25:36   Log-Likelihood:                -6675.2
+No. Observations:                 860   AIC:                         1.335e+04
+Df Residuals:                     858   BIC:                         1.336e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2007.9923     29.104     68.995      0.000    1950.870    2065.115
+dist          -1.1890      5.541     -0.215      0.830     -12.065       9.687
+==============================================================================
+Omnibus:                      441.907   Durbin-Watson:                   1.249
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4602.331
+Skew:                           2.099   Prob(JB):                         0.00
+Kurtosis:                      13.527   Cond. No.                         8.04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Yibin: 1668.92 km
+yibin sichuan
+Average internal radius gap: 1662.49 km
+Welfare loss: 1643115.76, Loss ratio: 99.23%

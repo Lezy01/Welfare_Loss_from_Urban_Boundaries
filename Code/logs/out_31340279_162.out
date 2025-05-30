@@ -1,0 +1,30 @@
+Fitted model for Shandong-Jining:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.132
+Model:                            OLS   Adj. R-squared:                  0.131
+Method:                 Least Squares   F-statistic:                     235.2
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.55e-49
+Time:                        13:25:26   Log-Likelihood:                -12677.
+No. Observations:                1553   AIC:                         2.536e+04
+Df Residuals:                    1551   BIC:                         2.537e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3042.1072     28.413    107.068      0.000    2986.376    3097.839
+dist         -31.5900      2.060    -15.337      0.000     -35.630     -27.550
+==============================================================================
+Omnibus:                      425.056   Durbin-Watson:                   1.630
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2388.908
+Skew:                           1.158   Prob(JB):                         0.00
+Kurtosis:                       8.617   Cond. No.                         18.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Jining: 94.78 km
+jining shandong
+Average internal radius gap: 82.76 km
+Welfare loss: 108185.36, Loss ratio: 76.25%

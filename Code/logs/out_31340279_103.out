@@ -1,0 +1,31 @@
+Fitted model for Beijing-Chaoyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.288
+Model:                            OLS   Adj. R-squared:                  0.288
+Method:                 Least Squares   F-statistic:                     890.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.35e-164
+Time:                        13:25:28   Log-Likelihood:                -22551.
+No. Observations:                2200   AIC:                         4.511e+04
+Df Residuals:                    2198   BIC:                         4.512e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.892e+04    321.623     89.934      0.000    2.83e+04    2.96e+04
+dist       -1095.8253     36.719    -29.844      0.000   -1167.832   -1023.819
+==============================================================================
+Omnibus:                      248.029   Durbin-Watson:                   1.400
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              545.802
+Skew:                           0.679   Prob(JB):                    3.02e-119
+Kurtosis:                       5.027   Cond. No.                         19.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Chaoyang: 26.38 km
+chaoyang beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 6.76 km
+Welfare loss: 25039.72, Loss ratio: 6.57%

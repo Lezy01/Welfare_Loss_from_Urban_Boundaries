@@ -1,0 +1,28 @@
+Fitted model for Chongqing-Yuzhong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.819
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.178
+Time:                        13:25:12   Log-Likelihood:                -11530.
+No. Observations:                1356   AIC:                         2.306e+04
+Df Residuals:                    1354   BIC:                         2.308e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3258.2073     61.299     53.153      0.000    3137.956    3378.459
+dist          19.5230     14.477      1.349      0.178      -8.877      47.923
+==============================================================================
+Omnibus:                      730.074   Durbin-Watson:                   1.465
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4695.738
+Skew:                           2.505   Prob(JB):                         0.00
+Kurtosis:                      10.617   Cond. No.                         8.33
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Chongqing: 22.5457
+Could not determine urban-rural boundary edge.

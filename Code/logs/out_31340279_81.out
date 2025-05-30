@@ -1,0 +1,27 @@
+Fitted model for Guizhou-Anshun:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.2271
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.634
+Time:                        13:25:28   Log-Likelihood:                -2976.2
+No. Observations:                 403   AIC:                             5956.
+Df Residuals:                     401   BIC:                             5964.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1391.6279     42.255     32.934      0.000    1308.560    1474.696
+dist           5.8397     12.253      0.477      0.634     -18.249      29.929
+==============================================================================
+Omnibus:                      261.244   Durbin-Watson:                   1.931
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4019.393
+Skew:                           2.492   Prob(JB):                         0.00
+Kurtosis:                      17.647   Cond. No.                         7.99
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

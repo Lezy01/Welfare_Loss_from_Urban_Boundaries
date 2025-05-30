@@ -1,0 +1,30 @@
+Fitted model for Fujian-Xiamen:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.180
+Model:                            OLS   Adj. R-squared:                  0.179
+Method:                 Least Squares   F-statistic:                     956.3
+Date:                Fri, 30 May 2025   Prob (F-statistic):          4.62e-190
+Time:                        13:25:28   Log-Likelihood:                -45061.
+No. Observations:                4371   AIC:                         9.013e+04
+Df Residuals:                    4369   BIC:                         9.014e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.216e+04    272.400     81.363      0.000    2.16e+04    2.27e+04
+dist        -653.8235     21.142    -30.925      0.000    -695.274    -612.374
+==============================================================================
+Omnibus:                     1678.712   Durbin-Watson:                   0.935
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11563.095
+Skew:                           1.670   Prob(JB):                         0.00
+Kurtosis:                      10.235   Cond. No.                         32.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Fujian-Xiamen: 33.87 km
+xiamen fujian
+Average internal radius gap: 10.93 km
+Welfare loss: 39046.30, Loss ratio: 10.41%

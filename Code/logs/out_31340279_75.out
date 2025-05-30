@@ -1,0 +1,30 @@
+Fitted model for Hebei-Chengde:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.213
+Model:                            OLS   Adj. R-squared:                  0.212
+Method:                 Least Squares   F-statistic:                     222.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.04e-44
+Time:                        13:25:24   Log-Likelihood:                -6748.6
+No. Observations:                 823   AIC:                         1.350e+04
+Df Residuals:                     821   BIC:                         1.351e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3450.9927     50.508     68.326      0.000    3351.854    3550.132
+dist         -94.9269      6.363    -14.918      0.000    -107.417     -82.437
+==============================================================================
+Omnibus:                      524.442   Durbin-Watson:                   1.780
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6559.858
+Skew:                           2.722   Prob(JB):                         0.00
+Kurtosis:                      15.715   Cond. No.                         13.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Chengde: 36.26 km
+chengde hebei
+Average internal radius gap: 23.30 km
+Welfare loss: 25762.04, Loss ratio: 41.28%

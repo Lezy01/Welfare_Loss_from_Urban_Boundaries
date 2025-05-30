@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Chengdu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.192
+Model:                            OLS   Adj. R-squared:                  0.192
+Method:                 Least Squares   F-statistic:                     4221.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        13:25:39   Log-Likelihood:            -1.6074e+05
+No. Observations:               17814   AIC:                         3.215e+05
+Df Residuals:                   17812   BIC:                         3.215e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5917.7145     33.162    178.450      0.000    5852.714    5982.715
+dist         -70.8831      1.091    -64.967      0.000     -73.022     -68.745
+==============================================================================
+Omnibus:                    10229.242   Durbin-Watson:                   1.163
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           145275.011
+Skew:                           2.484   Prob(JB):                         0.00
+Kurtosis:                      16.078   Cond. No.                         67.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Chengdu: 82.84 km
+chengdu sichuan
+Average internal radius gap: 45.45 km
+Welfare loss: 73213.81, Loss ratio: 30.10%

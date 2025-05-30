@@ -1,0 +1,30 @@
+Fitted model for Anhui-Maanshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.129
+Model:                            OLS   Adj. R-squared:                  0.127
+Method:                 Least Squares   F-statistic:                     102.9
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.18e-22
+Time:                        13:25:31   Log-Likelihood:                -5925.6
+No. Observations:                 700   AIC:                         1.186e+04
+Df Residuals:                     698   BIC:                         1.186e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2922.3973     53.416     54.710      0.000    2817.521    3027.273
+dist         -47.9014      4.721    -10.146      0.000     -57.171     -38.632
+==============================================================================
+Omnibus:                      353.352   Durbin-Watson:                   1.729
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3219.914
+Skew:                           2.068   Prob(JB):                         0.00
+Kurtosis:                      12.658   Cond. No.                         13.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Maanshan: 59.93 km
+maanshan anhui
+Average internal radius gap: 53.10 km
+Welfare loss: 67526.13, Loss ratio: 78.51%

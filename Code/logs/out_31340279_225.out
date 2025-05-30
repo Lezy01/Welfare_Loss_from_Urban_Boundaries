@@ -1,0 +1,30 @@
+Fitted model for Jiangsu-Wuxi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     76.49
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.09e-18
+Time:                        13:25:19   Log-Likelihood:                -40163.
+No. Observations:                4408   AIC:                         8.033e+04
+Df Residuals:                    4406   BIC:                         8.034e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5113.0077     56.456     90.567      0.000    5002.326    5223.689
+dist         -16.6866      1.908     -8.746      0.000     -20.427     -12.946
+==============================================================================
+Omnibus:                     1438.945   Durbin-Watson:                   1.405
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4548.320
+Skew:                           1.674   Prob(JB):                         0.00
+Kurtosis:                       6.681   Cond. No.                         50.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Wuxi: 303.53 km
+wuxi jiangsu
+Average internal radius gap: 287.01 km
+Welfare loss: 687269.90, Loss ratio: 89.41%

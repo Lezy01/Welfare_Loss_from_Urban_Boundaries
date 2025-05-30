@@ -1,0 +1,30 @@
+Fitted model for Shanxi-Xinzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.050
+Method:                 Least Squares   F-statistic:                     23.61
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.66e-06
+Time:                        13:25:09   Log-Likelihood:                -3107.5
+No. Observations:                 427   AIC:                             6219.
+Df Residuals:                     425   BIC:                             6227.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1966.4534     40.200     48.916      0.000    1887.437    2045.470
+dist         -60.2984     12.410     -4.859      0.000     -84.691     -35.906
+==============================================================================
+Omnibus:                       34.618   Durbin-Watson:                   1.566
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               61.477
+Skew:                          -0.511   Prob(JB):                     4.47e-14
+Kurtosis:                       4.552   Cond. No.                         8.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanxi-Xinzhou: 32.43 km
+xinzhou shanxi
+Average internal radius gap: 28.71 km
+Welfare loss: 24850.34, Loss ratio: 78.35%

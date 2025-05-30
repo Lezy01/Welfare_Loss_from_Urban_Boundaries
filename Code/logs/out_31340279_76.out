@@ -1,0 +1,30 @@
+Fitted model for Jiangsu-Nantong:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.013
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     56.80
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.82e-14
+Time:                        13:25:25   Log-Likelihood:                -41227.
+No. Observations:                4451   AIC:                         8.246e+04
+Df Residuals:                    4449   BIC:                         8.247e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5472.9423     77.618     70.511      0.000    5320.772    5625.113
+dist          -7.4574      0.990     -7.536      0.000      -9.397      -5.517
+==============================================================================
+Omnibus:                     3126.613   Durbin-Watson:                   1.701
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           133863.556
+Skew:                           2.834   Prob(JB):                         0.00
+Kurtosis:                      29.262   Cond. No.                         159.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Nantong: 725.23 km
+nantong jiangsu
+Average internal radius gap: 634.64 km
+Welfare loss: 1501786.40, Loss ratio: 76.58%

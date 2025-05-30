@@ -1,0 +1,30 @@
+Fitted model for Sichuan-Luzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.084
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     82.11
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.95e-19
+Time:                        13:25:27   Log-Likelihood:                -6762.8
+No. Observations:                 896   AIC:                         1.353e+04
+Df Residuals:                     894   BIC:                         1.354e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1885.0231     38.892     48.468      0.000    1808.693    1961.353
+dist         -72.2272      7.971     -9.062      0.000     -87.871     -56.584
+==============================================================================
+Omnibus:                      268.427   Durbin-Watson:                   1.223
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              843.059
+Skew:                           1.461   Prob(JB):                    8.55e-184
+Kurtosis:                       6.747   Cond. No.                         12.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Sichuan-Luzhou: 25.78 km
+luzhou sichuan
+Average internal radius gap: 16.63 km
+Welfare loss: 9982.64, Loss ratio: 41.60%

@@ -1,0 +1,30 @@
+Fitted model for Hubei-Qianjiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.090
+Method:                 Least Squares   F-statistic:                     18.06
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.51e-05
+Time:                        13:25:36   Log-Likelihood:                -1258.9
+No. Observations:                 173   AIC:                             2522.
+Df Residuals:                     171   BIC:                             2528.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1740.5304     47.182     36.889      0.000    1647.395    1833.665
+dist        -114.7920     27.013     -4.250      0.000    -168.113     -61.471
+==============================================================================
+Omnibus:                       26.576   Durbin-Watson:                   1.807
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.579
+Skew:                           0.989   Prob(JB):                     5.11e-08
+Kurtosis:                       3.863   Cond. No.                         3.83
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hubei-Qianjiang: 14.77 km
+qianjiang hubei
+Average internal radius gap: 8.50 km
+Welfare loss: 4146.27, Loss ratio: 33.12%

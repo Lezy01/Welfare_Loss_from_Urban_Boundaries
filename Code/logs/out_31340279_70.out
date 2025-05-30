@@ -1,0 +1,27 @@
+Fitted model for Hainan-Haikou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.011
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     36.50
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.70e-09
+Time:                        13:25:27   Log-Likelihood:                -28276.
+No. Observations:                3227   AIC:                         5.656e+04
+Df Residuals:                    3225   BIC:                         5.657e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4271.3225     63.708     67.045      0.000    4146.411    4396.234
+dist          66.8800     11.070      6.042      0.000      45.176      88.584
+==============================================================================
+Omnibus:                     1795.742   Durbin-Watson:                   1.525
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            18893.079
+Skew:                           2.456   Prob(JB):                         0.00
+Kurtosis:                      13.788   Cond. No.                         13.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

@@ -1,0 +1,27 @@
+Fitted model for Hebei-Zhangjiakou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     18.61
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.71e-05
+Time:                        13:25:24   Log-Likelihood:                -11486.
+No. Observations:                1496   AIC:                         2.298e+04
+Df Residuals:                    1494   BIC:                         2.299e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2208.2391     24.377     90.589      0.000    2160.423    2256.055
+dist          23.2582      5.391      4.314      0.000      12.684      33.833
+==============================================================================
+Omnibus:                     1050.993   Durbin-Watson:                   1.630
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            18678.719
+Skew:                           3.083   Prob(JB):                         0.00
+Kurtosis:                      19.175   Cond. No.                         8.43
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

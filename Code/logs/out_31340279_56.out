@@ -1,0 +1,27 @@
+Fitted model for Heilongjiang-Shuangyashan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.005
+Method:                 Least Squares   F-statistic:                    0.3290
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.567
+Time:                        13:25:30   Log-Likelihood:                -1067.8
+No. Observations:                 150   AIC:                             2140.
+Df Residuals:                     148   BIC:                             2146.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        750.2993     53.756     13.958      0.000     644.071     856.527
+dist          14.8497     25.887      0.574      0.567     -36.307      66.007
+==============================================================================
+Omnibus:                       25.205   Durbin-Watson:                   1.422
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.812
+Skew:                           1.057   Prob(JB):                     1.24e-07
+Kurtosis:                       3.788   Cond. No.                         5.41
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

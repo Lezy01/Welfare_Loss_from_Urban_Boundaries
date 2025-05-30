@@ -1,0 +1,31 @@
+Fitted model for Chongqing-Dadukou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.006
+Method:                 Least Squares   F-statistic:                     2.713
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.101
+Time:                        13:25:36   Log-Likelihood:                -2240.7
+No. Observations:                 279   AIC:                             4485.
+Df Residuals:                     277   BIC:                             4493.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3155.0224     75.514     41.780      0.000    3006.367    3303.677
+dist         -29.2632     17.765     -1.647      0.101     -64.235       5.708
+==============================================================================
+Omnibus:                        3.531   Durbin-Watson:                   1.741
+Prob(Omnibus):                  0.171   Jarque-Bera (JB):                3.391
+Skew:                           0.270   Prob(JB):                        0.183
+Kurtosis:                       3.026   Cond. No.                         7.44
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Chongqing-Dadukou: 106.63 km
+dadukou chongqing
+Fallback: matched by province name: chongqing2020_new_Urb.shp
+Average internal radius gap: 83.27 km
+Welfare loss: 101444.96, Loss ratio: 60.98%

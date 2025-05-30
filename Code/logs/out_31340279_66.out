@@ -1,0 +1,30 @@
+Fitted model for Neimenggu-Baotou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.400
+Model:                            OLS   Adj. R-squared:                  0.400
+Method:                 Least Squares   F-statistic:                     1100.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          2.92e-185
+Time:                        13:25:18   Log-Likelihood:                -12827.
+No. Observations:                1650   AIC:                         2.566e+04
+Df Residuals:                    1648   BIC:                         2.567e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2808.3842     24.554    114.378      0.000    2760.225    2856.544
+dist         -71.0372      2.141    -33.172      0.000     -75.238     -66.837
+==============================================================================
+Omnibus:                      590.091   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2868.257
+Skew:                           1.625   Prob(JB):                         0.00
+Kurtosis:                       8.582   Cond. No.                         20.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Neimenggu-Baotou: 39.37 km
+baotou neimenggu
+Average internal radius gap: 24.73 km
+Welfare loss: 21717.81, Loss ratio: 39.45%

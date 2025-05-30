@@ -1,0 +1,30 @@
+Fitted model for Jiangxi-Xinyu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.205
+Model:                            OLS   Adj. R-squared:                  0.204
+Method:                 Least Squares   F-statistic:                     128.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.11e-26
+Time:                        13:25:36   Log-Likelihood:                -3763.1
+No. Observations:                 500   AIC:                             7530.
+Df Residuals:                     498   BIC:                             7539.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2226.1301     48.500     45.900      0.000    2130.840    2321.420
+dist        -138.8850     12.245    -11.342      0.000    -162.943    -114.827
+==============================================================================
+Omnibus:                       54.239   Durbin-Watson:                   1.584
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               78.163
+Skew:                           0.759   Prob(JB):                     1.06e-17
+Kurtosis:                       4.204   Cond. No.                         10.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangxi-Xinyu: 15.88 km
+xinyu jiangxi
+Average internal radius gap: 6.80 km
+Welfare loss: 3206.35, Loss ratio: 18.31%

@@ -1,0 +1,33 @@
+Fitted model for Jiangxi-Jian:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.128
+Model:                            OLS   Adj. R-squared:                  0.127
+Method:                 Least Squares   F-statistic:                     86.97
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.18e-19
+Time:                        13:25:36   Log-Likelihood:                -4611.9
+No. Observations:                 593   AIC:                             9228.
+Df Residuals:                     591   BIC:                             9237.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2816.7063     48.281     58.340      0.000    2721.883    2911.530
+dist        -190.7501     20.454     -9.326      0.000    -230.921    -150.579
+==============================================================================
+Omnibus:                      108.116   Durbin-Watson:                   1.525
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              259.667
+Skew:                           0.948   Prob(JB):                     4.11e-57
+Kurtosis:                       5.630   Cond. No.                         5.48
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangxi-Jian: 14.69 km
+jian jiangxi
+Checking file: jiujiang2020_new_Urb.shp, extracted prefix: jiujiang
+Checking file: jian2020_new_Urb.shp, extracted prefix: jian
+Prefix match among candidates: jian2020_new_Urb.shp
+Average internal radius gap: 10.65 km
+Welfare loss: 10820.91, Loss ratio: 52.55%

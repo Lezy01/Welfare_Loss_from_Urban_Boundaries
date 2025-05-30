@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Chaozhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.046
+Method:                 Least Squares   F-statistic:                     19.08
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.63e-05
+Time:                        13:25:27   Log-Likelihood:                -2980.1
+No. Observations:                 375   AIC:                             5964.
+Df Residuals:                     373   BIC:                             5972.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1769.4647     46.942     37.695      0.000    1677.160    1861.769
+dist         -26.5491      6.079     -4.368      0.000     -38.502     -14.596
+==============================================================================
+Omnibus:                       81.532   Durbin-Watson:                   1.464
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              141.531
+Skew:                           1.244   Prob(JB):                     1.85e-31
+Kurtosis:                       4.693   Cond. No.                         10.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Chaozhou: 66.08 km
+chaozhou guangdong
+Average internal radius gap: 58.49 km
+Welfare loss: 45420.59, Loss ratio: 78.36%
