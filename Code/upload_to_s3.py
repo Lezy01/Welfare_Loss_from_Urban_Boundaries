@@ -1,6 +1,5 @@
 import boto3
 import os
-import uuid
 from botocore.exceptions import ClientError
 
 base_bucket_name = "final-project-bucket"
@@ -26,26 +25,14 @@ try:
     print(f"Created bucket: {unique_bucket_name}")
 except ClientError as e:
     print(f"Failed to create bucket: {e}")
-
-"""for root, dirs, files in os.walk(local_dir):
-    for file in files:
-        local_path = os.path.join(root, file)
-        relative_path = os.path.relpath(local_path, local_dir)
-        s3_path = os.path.join(s3_prefix, relative_path).replace("\\", "/")
-
-        try:
-            s3.upload_file(local_path, unique_bucket_name, s3_path)
-            print(f"Uploaded: {relative_path} -> s3://{unique_bucket_name}/{s3_path}")
-        except ClientError as e:
-            print(f"Upload failed for {file}: {e}")
             
 zip_path = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/aws_run.zip"
 try:
-    s3.upload_file(zip_path, unique_bucket_name, s3_path)
-    print(f"Uploaded aws_run.zip to s3://{unique_bucket_name}/{s3_path}")
+    s3.upload_file(zip_path, unique_bucket_name, "aws_run.zip")
+    print(f"Uploaded aws_run.zip to s3://{unique_bucket_name}/aws_run.zip")
 except ClientError as e:
     print(f" Upload failed: {e}")
-"""
+
 
 code_dir = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/aws_run/Code"
 
