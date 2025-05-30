@@ -1,0 +1,31 @@
+Fitted model for Shanghai-Huangpu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.016
+Method:                 Least Squares   F-statistic:                     32.32
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.50e-08
+Time:                        12:11:20   Log-Likelihood:                -20843.
+No. Observations:                1988   AIC:                         4.169e+04
+Df Residuals:                    1986   BIC:                         4.170e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.508e+04    508.655     68.976      0.000    3.41e+04    3.61e+04
+dist       -1759.6041    309.529     -5.685      0.000   -2366.640   -1152.568
+==============================================================================
+Omnibus:                      195.383   Durbin-Watson:                   1.737
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              485.072
+Skew:                           0.563   Prob(JB):                    4.65e-106
+Kurtosis:                       5.142   Cond. No.                         5.72
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Huangpu: 19.94 km
+huangpu shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 2.71 km
+Welfare loss: 6468.47, Loss ratio: 1.85%

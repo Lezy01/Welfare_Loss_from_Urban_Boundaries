@@ -1,0 +1,30 @@
+Fitted model for Hebei-Zhangjiakou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     7.628
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00607
+Time:                        12:11:15   Log-Likelihood:                -2604.4
+No. Observations:                 332   AIC:                             5213.
+Df Residuals:                     330   BIC:                             5220.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2614.5377     66.335     39.414      0.000    2484.045    2745.031
+dist         -41.8681     15.159     -2.762      0.006     -71.688     -12.048
+==============================================================================
+Omnibus:                      253.429   Durbin-Watson:                   1.926
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2790.623
+Skew:                           3.238   Prob(JB):                         0.00
+Kurtosis:                      15.641   Cond. No.                         8.87
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Zhangjiakou: 62.16 km
+zhangjiakou hebei
+Average internal radius gap: 56.90 km
+Welfare loss: 67777.75, Loss ratio: 83.80%

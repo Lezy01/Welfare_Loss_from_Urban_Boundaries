@@ -1,0 +1,30 @@
+Fitted model for Shandong-Zibo:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.147
+Model:                            OLS   Adj. R-squared:                  0.147
+Method:                 Least Squares   F-statistic:                     261.0
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.79e-54
+Time:                        12:11:20   Log-Likelihood:                -12298.
+No. Observations:                1513   AIC:                         2.460e+04
+Df Residuals:                    1511   BIC:                         2.461e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2748.9686     38.617     71.186      0.000    2673.220    2824.717
+dist         -52.8452      3.271    -16.156      0.000     -59.261     -46.429
+==============================================================================
+Omnibus:                     1700.185   Durbin-Watson:                   1.456
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           304115.926
+Skew:                           5.298   Prob(JB):                         0.00
+Kurtosis:                      71.642   Cond. No.                         21.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Zibo: 51.41 km
+zibo shandong
+Average internal radius gap: 32.31 km
+Welfare loss: 27582.25, Loss ratio: 39.50%

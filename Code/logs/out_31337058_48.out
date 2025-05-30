@@ -1,0 +1,30 @@
+Fitted model for Liaoning-Fuxin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     2.988
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0880
+Time:                        12:11:14   Log-Likelihood:                -576.02
+No. Observations:                  78   AIC:                             1156.
+Df Residuals:                      76   BIC:                             1161.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1376.5928     86.437     15.926      0.000    1204.439    1548.747
+dist         -43.6042     25.227     -1.728      0.088     -93.849       6.641
+==============================================================================
+Omnibus:                        5.557   Durbin-Watson:                   1.691
+Prob(Omnibus):                  0.062   Jarque-Bera (JB):                4.878
+Skew:                           0.483   Prob(JB):                       0.0872
+Kurtosis:                       3.753   Cond. No.                         7.04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Fuxin: 31.29 km
+fuxin liaoning
+Average internal radius gap: 21.55 km
+Welfare loss: 10124.08, Loss ratio: 47.43%

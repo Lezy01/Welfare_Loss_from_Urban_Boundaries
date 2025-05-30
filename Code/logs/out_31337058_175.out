@@ -1,0 +1,30 @@
+Fitted model for Henan-Xinxiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                  0.041
+Method:                 Least Squares   F-statistic:                     126.2
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.06e-28
+Time:                        12:11:20   Log-Likelihood:                -22638.
+No. Observations:                2909   AIC:                         4.528e+04
+Df Residuals:                    2907   BIC:                         4.529e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2014.9093     16.666    120.898      0.000    1982.231    2047.588
+dist         -25.3485      2.256    -11.235      0.000     -29.772     -20.925
+==============================================================================
+Omnibus:                     1574.195   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            19879.804
+Skew:                           2.290   Prob(JB):                         0.00
+Kurtosis:                      14.960   Cond. No.                         11.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Xinxiang: 77.81 km
+xinxiang henan
+Average internal radius gap: 68.80 km
+Welfare loss: 60000.74, Loss ratio: 78.19%

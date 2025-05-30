@@ -1,0 +1,30 @@
+Fitted model for Zhejiang-Ningbo:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.451
+Model:                            OLS   Adj. R-squared:                  0.451
+Method:                 Least Squares   F-statistic:                     3677.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        12:11:23   Log-Likelihood:                -41733.
+No. Observations:                4477   AIC:                         8.347e+04
+Df Residuals:                    4475   BIC:                         8.348e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       9986.5079     67.223    148.558      0.000    9854.718    1.01e+04
+dist        -123.5796      2.038    -60.639      0.000    -127.575    -119.584
+==============================================================================
+Omnibus:                     1867.049   Durbin-Watson:                   1.595
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            19918.943
+Skew:                           1.692   Prob(JB):                         0.00
+Kurtosis:                      12.764   Cond. No.                         54.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Zhejiang-Ningbo: 80.62 km
+ningbo zhejiang
+Average internal radius gap: 69.73 km
+Welfare loss: 300457.04, Loss ratio: 74.81%

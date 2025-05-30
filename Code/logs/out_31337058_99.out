@@ -1,0 +1,31 @@
+Fitted model for Anhui-Liuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.203
+Model:                            OLS   Adj. R-squared:                  0.196
+Method:                 Least Squares   F-statistic:                     32.29
+Date:                Fri, 30 May 2025   Prob (F-statistic):           8.61e-08
+Time:                        12:11:15   Log-Likelihood:                -960.47
+No. Observations:                 129   AIC:                             1925.
+Df Residuals:                     127   BIC:                             1931.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2333.4205     79.158     29.478      0.000    2176.782    2490.059
+dist         -57.2669     10.077     -5.683      0.000     -77.208     -37.326
+==============================================================================
+Omnibus:                       30.504   Durbin-Watson:                   1.695
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               54.460
+Skew:                           1.063   Prob(JB):                     1.49e-12
+Kurtosis:                       5.369   Cond. No.                         17.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Liuan: 40.16 km
+liuan anhui
+Fallback: matched by province name: suzhou_anhui2020_new_Urb.shp
+Average internal radius gap: 0.00 km
+Welfare loss: 0.00, Loss ratio: 0.00%

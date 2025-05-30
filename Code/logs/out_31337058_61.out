@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Dongguan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.014
+Method:                 Least Squares   F-statistic:                     69.82
+Date:                Fri, 30 May 2025   Prob (F-statistic):           8.34e-17
+Time:                        12:11:13   Log-Likelihood:                -47354.
+No. Observations:                4953   AIC:                         9.471e+04
+Df Residuals:                    4951   BIC:                         9.473e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5084.9125     91.821     55.378      0.000    4904.902    5264.923
+dist         -38.7292      4.635     -8.356      0.000     -47.816     -29.643
+==============================================================================
+Omnibus:                     1922.646   Durbin-Watson:                   1.269
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8311.192
+Skew:                           1.877   Prob(JB):                         0.00
+Kurtosis:                       8.117   Cond. No.                         37.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Dongguan: 130.83 km
+dongguan guangdong
+Average internal radius gap: 110.39 km
+Welfare loss: 235963.81, Loss ratio: 71.19%

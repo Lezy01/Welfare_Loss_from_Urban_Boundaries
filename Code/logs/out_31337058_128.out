@@ -1,0 +1,30 @@
+Fitted model for Shandong-Liaocheng:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.424
+Model:                            OLS   Adj. R-squared:                  0.423
+Method:                 Least Squares   F-statistic:                     1015.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          2.24e-167
+Time:                        12:11:20   Log-Likelihood:                -11177.
+No. Observations:                1382   AIC:                         2.236e+04
+Df Residuals:                    1380   BIC:                         2.237e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3360.4572     26.282    127.862      0.000    3308.901    3412.014
+dist         -34.0532      1.069    -31.854      0.000     -36.150     -31.956
+==============================================================================
+Omnibus:                      610.765   Durbin-Watson:                   1.555
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6388.972
+Skew:                           1.771   Prob(JB):                         0.00
+Kurtosis:                      12.920   Cond. No.                         30.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Liaocheng: 97.30 km
+liaocheng shandong
+Average internal radius gap: 85.81 km
+Welfare loss: 125359.00, Loss ratio: 77.77%

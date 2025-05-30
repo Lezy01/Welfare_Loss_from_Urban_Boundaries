@@ -1,0 +1,27 @@
+Fitted model for Zhejiang-Zhoushan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.008
+Method:                 Least Squares   F-statistic:                   0.02740
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.869
+Time:                        12:11:20   Log-Likelihood:                -1140.7
+No. Observations:                 130   AIC:                             2285.
+Df Residuals:                     128   BIC:                             2291.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4807.0086    233.969     20.545      0.000    4344.061    5269.956
+dist           3.4385     20.772      0.166      0.869     -37.662      44.539
+==============================================================================
+Omnibus:                      148.196   Durbin-Watson:                   2.104
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3852.072
+Skew:                           4.074   Prob(JB):                         0.00
+Kurtosis:                      28.392   Cond. No.                         19.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

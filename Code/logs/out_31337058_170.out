@@ -1,0 +1,27 @@
+Fitted model for Guangxi-Beihai:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                   0.03895
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.844
+Time:                        12:11:20   Log-Likelihood:                -3372.8
+No. Observations:                 415   AIC:                             6750.
+Df Residuals:                     413   BIC:                             6758.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1767.6073     91.225     19.376      0.000    1588.285    1946.930
+dist           5.4591     27.661      0.197      0.844     -48.915      59.833
+==============================================================================
+Omnibus:                      529.514   Durbin-Watson:                   1.880
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            59863.813
+Skew:                           6.071   Prob(JB):                         0.00
+Kurtosis:                      60.572   Cond. No.                         8.02
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

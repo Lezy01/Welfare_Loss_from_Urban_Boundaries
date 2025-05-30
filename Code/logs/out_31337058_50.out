@@ -1,0 +1,31 @@
+Fitted model for Chongqing-Yubei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.155
+Model:                            OLS   Adj. R-squared:                  0.155
+Method:                 Least Squares   F-statistic:                     326.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.79e-67
+Time:                        12:11:15   Log-Likelihood:                -15494.
+No. Observations:                1776   AIC:                         3.099e+04
+Df Residuals:                    1774   BIC:                         3.100e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5348.2735     92.344     57.917      0.000    5167.160    5529.387
+dist        -216.3717     11.972    -18.073      0.000    -239.853    -192.890
+==============================================================================
+Omnibus:                     1027.287   Durbin-Watson:                   1.170
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            18017.143
+Skew:                           2.348   Prob(JB):                         0.00
+Kurtosis:                      17.880   Cond. No.                         20.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Chongqing-Yubei: 24.58 km
+yubei chongqing
+Fallback: matched by province name: chongqing2020_new_Urb.shp
+Average internal radius gap: 10.35 km
+Welfare loss: 11587.96, Loss ratio: 17.72%

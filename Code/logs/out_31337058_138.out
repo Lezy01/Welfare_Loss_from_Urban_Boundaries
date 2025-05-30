@@ -1,0 +1,30 @@
+Fitted model for Hebei-Baoding:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     90.31
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.27e-21
+Time:                        12:11:20   Log-Likelihood:                -35779.
+No. Observations:                4321   AIC:                         7.156e+04
+Df Residuals:                    4319   BIC:                         7.158e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2953.5690     18.699    157.956      0.000    2916.910    2990.228
+dist          -4.1725      0.439     -9.503      0.000      -5.033      -3.312
+==============================================================================
+Omnibus:                     3336.159   Durbin-Watson:                   1.687
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           105826.838
+Skew:                           3.407   Prob(JB):                         0.00
+Kurtosis:                      26.267   Cond. No.                         54.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Baoding: 700.18 km
+baoding hebei
+Average internal radius gap: 687.34 km
+Welfare loss: 985618.86, Loss ratio: 96.37%
