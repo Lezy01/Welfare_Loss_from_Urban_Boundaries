@@ -1,0 +1,16 @@
+Henan,Jiyuan
+Beijing,Shunyi
+Shaanxi,Xian
+Henan,Luoyang
+Jiangxi,Shangrao
+Jilin,Baicheng
+Shanghai,Yangpu
+Neimenggu,Bayannaoer
+Guangxi,Qinzhou
+Beijing,Daxing
+Sichuan,Dazhou
+Anhui,Suzhou
+Henan,Puyang
+Anhui,Hefei
+Jilin,Jilin
+Hubei,Huangshi

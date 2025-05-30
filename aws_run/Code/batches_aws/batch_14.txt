@@ -1,0 +1,16 @@
+Jilin,Changchun
+Jilin,Tonghua
+Jiangxi,Nanchang
+Shandong,Weifang
+Beijing,Xicheng
+Beijing,Miyun
+Guangdong,Shantou
+Shanxi,Yangquan
+Tianjin,Nankai
+Jiangsu,Wuxi
+Guangdong,Zhaoqing
+Shanghai,Songjiang
+Henan,Xuchang
+Fujian,Zhangzhou
+Hunan,Zhuzhou
+Liaoning,Dandong

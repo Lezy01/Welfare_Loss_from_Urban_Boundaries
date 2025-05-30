@@ -1,0 +1,16 @@
+Anhui,Tongling
+Gansu,Baiyin
+Jiangsu,Xuzhou
+Anhui,Wuhu
+Henan,Xinxiang
+Gansu,Wuwei
+Henan,Pingdingshan
+Shaanxi,Weinan
+Shanghai,Pudongxin
+Guangdong,Zhanjiang
+Hebei,Tangshan
+Liaoning,Anshan
+Zhejiang,Quzhou
+Sichuan,Suining
+Heilongjiang,Jiamusi
+Liaoning,Benxi

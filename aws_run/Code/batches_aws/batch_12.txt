@@ -1,0 +1,16 @@
+Shanxi,Yuncheng
+Shandong,Yantai
+Hainan,Wanning
+Shandong,Liaocheng
+Heilongjiang,Haerbin
+Beijing,Dongcheng
+Guangxi,Wuzhou
+Hebei,Xingtai
+Shaanxi,Xianyang
+Liaoning,Jinzhou
+Heilongjiang,Qitaihe
+Shandong,Dongying
+Zhejiang,Huzhou
+Shanxi,Jincheng
+Sichuan,Zigong
+Anhui,Fuyang

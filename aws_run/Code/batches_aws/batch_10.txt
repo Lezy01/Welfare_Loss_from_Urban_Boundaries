@@ -1,0 +1,16 @@
+Guizhou,Qiandongnanmiaozudongzu
+Guangxi,Nanning
+Jiangsu,Huaian
+Henan,Xinyang
+Shanghai,Putuo
+Guangxi,Guigang
+Liaoning,Liaoyang
+Hunan,Changde
+Jiangxi,Yichun
+Shandong,Zaozhuang
+Shandong,Jining
+Chongqing,Nanan
+Anhui,Bozhou
+Zhejiang,Shaoxing
+Sichuan,Guangyuan
+Hunan,Xiangtan

@@ -1,0 +1,16 @@
+Fujian,Quanzhou
+Neimenggu,Wuhai
+Anhui,Bengbu
+Jiangsu,Changzhou
+Heilongjiang,Qiqihaer
+Hebei,Hengshui
+Liaoning,Tieling
+Xinjiang,Yilihasake
+Yunnan,Dalibaizu
+Shanghai,Baoshan
+Hunan,Yongzhou
+Zhejiang,Zhoushan
+Liaoning,Dalian
+Hubei,Huanggang
+Tianjin,Xiqing
+Hubei,Qianjiang

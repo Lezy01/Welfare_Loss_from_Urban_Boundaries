@@ -1,0 +1,16 @@
+Fujian,Putian
+Gansu,Jiuquan
+Guangdong,Heyuan
+Tianjin,Hebei
+Henan,Jiaozuo
+Hubei,Xiantao
+Tianjin,Beichen
+Shanxi,Changzhi
+Hebei,Cangzhou
+Guizhou,Zunyi
+Beijing,Haidian
+Shandong,Jinan
+Tianjin,Dongli
+Shanghai,Jingan
+Guizhou,Guiyang
+Shanghai,Xuhui

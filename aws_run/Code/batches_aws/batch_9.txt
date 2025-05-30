@@ -1,0 +1,16 @@
+Beijing,Mentougou
+Henan,Sanmenxia
+Gansu,Pingliang
+Guangdong,Shenzhen
+Sichuan,Nanchong
+Ningxia,Yinchuan
+Shanghai,Changning
+Jiangxi,Fuzhou
+Chongqing,Beibei
+Anhui,Huainan
+Henan,Nanyang
+Anhui,Liuan
+Xinjiang,Changjihuizu
+Fujian,Xiamen
+Jiangxi,Jiujiang
+Hubei,Shiyan

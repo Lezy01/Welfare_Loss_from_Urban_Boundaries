@@ -1,0 +1,16 @@
+Heilongjiang,Hegang
+Shaanxi,Yanan
+Shandong,Binzhou
+Anhui,Chuzhou
+Zhejiang,Jinhua
+Sichuan,Yibin
+Beijing,Tongzhou
+Jiangsu,Yancheng
+Shanxi,Taiyuan
+Shandong,Rizhao
+Guangxi,Fangchenggang
+Hainan,Danzhou
+Neimenggu,Eerduosi
+Neimenggu,Tongliao
+Hunan,Huaihua
+Beijing,Fangshan

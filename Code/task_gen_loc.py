@@ -29,5 +29,5 @@ def split_tasks(task_file, num_batches):
     for i, batch in enumerate(batches, 1):
         batch.to_csv(f"/Users/yxy/UChi/Spring2025/MACS30123/Final_project/aws_run/Code/batches_aws/batch_{i}.txt", index=False, header=False)
 
-split_tasks("/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Code/tasks.txt", num_batches=8)
+split_tasks("/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Code/tasks.txt", num_batches=20)
 

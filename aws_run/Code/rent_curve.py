@@ -1,14 +1,12 @@
 import os
 import pandas as pd
 import geopandas as gpd
-import matplotlib.pyplot as plt
 from shapely.geometry import Point
 from geopy.distance import geodesic
 import statsmodels.api as sm
 import re
 import numpy as np
 import argparse
-import math
 import csv
 
 def extract_prefix_city(filename):
@@ -20,7 +18,7 @@ def extract_prefix_city(filename):
     match = re.match(r"([a-z]+)", base)
     return match.group(1) if match else base
 
-def find_shp_file(prov, city, root_path="/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/Raw/China_BuiltUp_300kCities_2020"):
+def find_shp_file(prov, city, root_path="/home/ec2-user/aws_run/Data/Raw/China_BuiltUp_300kCities_2020"):
     prov_folder = os.path.join(root_path, prov)
     if not os.path.isdir(prov_folder):
         print(f"Warning: Province folder does not exist: {prov_folder}")
@@ -55,7 +53,7 @@ def find_shp_file(prov, city, root_path="/Users/yxy/UChi/Spring2025/MACS30123/Fi
     return None
 
 def fit_urban_land_rent_curve(prov, city, alpha=0.3,
-                               base_dir="/home/xinyu01/Final_project/Data/Cleaned/City_hp"):
+                               base_dir="/home/ec2-user/aws_run/Data/Cleaned/City_hp"):
     """
     Given a city and alpha, estimate urban land rent curve:
     1. Load city CSV
@@ -102,7 +100,7 @@ def fit_urban_land_rent_curve(prov, city, alpha=0.3,
 
 
 def get_urban_rural_boundary_edge(prov, city, model,
-                                   avg_lp_path="/home/xinyu01/Final_project/Data/Cleaned/avg_lp.csv"):
+                                   avg_lp_path="/home/ec2-user/aws_run/Data/Cleaned/avg_lp.csv"):
     """
     Given province and city, and a land rent regression model (land_price ~ dist),
     return the implied urban edge (distance where land_price equals rural land_price).
@@ -139,7 +137,7 @@ def get_urban_rural_boundary_edge(prov, city, model,
 
 
 def mean_internal_radius_gap_op(prov, city, center, R,
-    root_path="/home/xinyu01/Final_project/Data/Raw/China_BuiltUp_300kCities_2020",
+    root_path="/home/ec2-user/aws_run/Data/Raw/China_BuiltUp_300kCities_2020",
     crs_metric="EPSG:3857", sample_count=300, simplify_tolerance=5.0):
     """
     Compute the average internal radius gap: the average of (R - d),
@@ -227,10 +225,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--prov", type=str, required=True)
     parser.add_argument("--city", type=str, required=True)
+    parser.add_argument("--batch", type=str, required=True)
     args = parser.parse_args()
 
     prov = args.prov
     city = args.city
+    batch = args.batch
     alpha = 0.3
 
 
@@ -254,16 +254,18 @@ if __name__ == "__main__":
         print("Model fitting failed.")
         
 
-    output_file = "/home/xinyu01/Final_project/Data/welfare_results_aws.csv"
+    output_file = f"/home/ec2-user/aws_run/results/welfare_result_batch_{batch}.csv"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
+    write_header = not os.path.exists(output_file)
 
     loss_val = loss if 'loss' in locals() else None
     loss_ratio_val = loss_ratio if 'loss_ratio' in locals() else None
 
-
     if loss_val not in [None, 0] and loss_ratio_val not in [None, 0]:
         with open(output_file, "a", newline="") as f:
             writer = csv.writer(f)
+            if write_header:
+                writer.writerow(["prov", "city", "loss", "loss_ratio"])
             writer.writerow([prov, city, loss_val, loss_ratio_val * 100])
 

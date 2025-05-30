@@ -1,0 +1,16 @@
+Shanghai,Jiading
+Hubei,Jingzhou
+Yunnan,Yuxi
+Jiangxi,Jingdezhen
+Hunan,Shaoyang
+Shanghai,Huangpu
+Zhejiang,Hangzhou
+Jiangxi,Jian
+Beijing,Changping
+Liaoning,Chaoyang
+Shandong,Zibo
+Guangxi,Beihai
+Guizhou,Bijie
+Guangxi,Hechi
+Chongqing,Dadukou
+Hubei,Tianmen

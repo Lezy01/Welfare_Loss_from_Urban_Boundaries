@@ -1,0 +1,16 @@
+Hunan,Yiyang
+Gansu,Tianshui
+Liaoning,Yingkou
+Shandong,Qingdao
+Xinjiang,Kelamayi
+Jilin,Siping
+Chongqing,Yuzhong
+Heilongjiang,Jixi
+Hunan,Hengyang
+Shanxi,Lüliang
+Henan,Zhoukou
+Anhui,Chizhou
+Hebei,Baoding
+Gansu,Lanzhou
+Shaanxi,Hanzhong
+Beijing,Huairou
