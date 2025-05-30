@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 
-tasks_path = "/home/xinyu01/Final_project/Code/tasks.txt"
-results_path = "/home/xinyu01/Final_project/Data/welfare_results_mw.csv"
-log_dir = "/home/xinyu01/Final_project/Code/logs"
+tasks_path = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Code/tasks.txt"
+results_path = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Data/welfare_results_mw.csv"
+log_dir = "/Users/yxy/UChi/Spring2025/MACS30123/Final_project/Code/logs"
 
 tasks = pd.read_csv(tasks_path, header=None, names=["prov", "city", "val1", "val2"])
 results = pd.read_csv(results_path, header=None, names=["prov", "city", "val1", "val2"])
@@ -37,4 +37,4 @@ for _, row in missing.iterrows():
     else:
         print(f"{prov},{city}: No log file found for arrayid {arrayid}")
 
-missing.to_csv("/home/xinyu01/Final_project/Code/missing_results.txt", index=False, header=False)
+missing.to_csv("missing_results_loc.txt", index=False, header=False)

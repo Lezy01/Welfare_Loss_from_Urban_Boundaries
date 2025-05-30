@@ -257,9 +257,13 @@ if __name__ == "__main__":
     output_file = "/home/xinyu01/Final_project/Data/welfare_results_mw.csv"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    loss_val = loss if 'loss' in locals() else float("nan")
-    loss_ratio_val = loss_ratio if 'loss_ratio' in locals() else float("nan")
 
-    with open(output_file, "a", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow([prov, city,loss_val, loss_ratio_val*100])
+    loss_val = loss if 'loss' in locals() else None
+    loss_ratio_val = loss_ratio if 'loss_ratio' in locals() else None
+
+
+    if loss_val not in [None, 0] and loss_ratio_val not in [None, 0]:
+        with open(output_file, "a", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow([prov, city, loss_val, loss_ratio_val * 100])
+
