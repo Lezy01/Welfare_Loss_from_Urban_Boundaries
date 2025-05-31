@@ -20,6 +20,8 @@
     - [Midway: Slurm Array](#midway-slurm-array)
     - [AWS Batch with EC2 Instances](#aws-batch-with-ec2-instances)
     - [Analysis](#analysis)
+      - [Computation Methodology](#computation-methodology)
+      - [Computation Result](#computation-result)
 
 
 ## Introduction
@@ -233,6 +235,7 @@ Total runtime: 00:02:00
 
 ### Analysis
 
+#### Computation Methodology
 Despite using multiple EC2 instances, the AWS batch runtime was longer than the Slurm array approach—even **excluding** EC2 provisioning, initialization, and environment setup time. The reasons include:
 
 1. **Granularity of Task Allocation**
@@ -243,3 +246,37 @@ Despite using multiple EC2 instances, the AWS batch runtime was longer than the 
 2. **Underutilization of EC2 Resources**
    The `t3.large` instance type has multiple CPU cores, but in the current implementation, each instance uses only one core. Future versions of the script can be optimized with multiprocessing to utilize all available cores and further reduce runtime.
 
+#### Computation Result 
+
+
+1. **Figure 1: Top 20 Cities by Welfare Loss (Absolute Value)**
+   ![Welfare Loss Bar Chart(Absolute Value)](f1.png)
+
+   The top-ranked cities include Zhejiang-Jiaxing, Jiangxi-Yichun, Guangdong-Meizhou, and Sichuan-Yibin. Most are cities with large populations, high levels of urbanization, or high land values. Cities in coastal provinces (such as Zhejiang, Guangdong, and Jiangsu) and some in central regions (such as Jiangxi, Sichuan, and Hubei) dominate the list.
+
+   These cities experience large absolute welfare losses primarily due to the following reasons:
+   1. High housing prices imply high potential urban land rents;
+   2. Strict constraints from the farmland protection policy prevent expansion into high-value adjacent areas;
+   3. Strong potential for built-up area expansion leads to a significant compression of the theoretical urban boundary.
+
+2. **Figure 2: Top 20 Cities by Welfare Loss Ratio**
+   ![Welfare Loss Bar Chart(Absolute Value)](f2.png)
+
+   Cities with high welfare loss ratios include Heilongjiang-Suihua, Guangdong-Meizhou, Jiangxi-Yichun, Sichuan-Yibin, and Guangxi-Wuzhou. Unlike the first figure, many of these cities are located in central, western, and northeastern China rather than in the eastern coastal region.
+
+   The welfare loss ratio represents the share of theoretical total urban land rent that is lost. A high ratio may arise due to:
+
+   1. Low total theoretical urban land rent combined with strict expansion constraints, which amplifies the ratio;
+   2. A stronger mismatch between the actual boundary restrictions and the economic logic of urban expansion;
+   3. In less developed regions, even if land rents are low, boundary constraints still generate high relative losses.
+
+3. **Figure 3: Map of Welfare Loss Ratio by City**
+![Welfare Loss Map(Loss ratio)](f3.png)
+
+Hotspot regions are concentrated in northeastern, central, southern China, the Sichuan Basin, and parts of Zhejiang and Jiangsu. Some non-typical hotspot cities (e.g., in Jiangxi, Hunan, and Guizhou) also show relatively high loss ratios.
+
+The map highlights the spatial heterogeneity in urban-rural boundary constraints:
+
+* Coastal cities have high land rents and limited developable land, resulting in large absolute losses;
+* Central and western cities face moderate land values but severe restrictions, leading to high proportional losses;
+* Northeastern cities exhibit low land prices, but a combination of urban contraction and policy constraints creates distorted outcomes.
