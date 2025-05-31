@@ -1,0 +1,30 @@
+Fitted model for Henan-Jiyuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.088
+Model:                            OLS   Adj. R-squared:                  0.085
+Method:                 Least Squares   F-statistic:                     28.84
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.58e-07
+Time:                        19:16:03   Log-Likelihood:                -2321.0
+No. Observations:                 302   AIC:                             4646.
+Df Residuals:                     300   BIC:                             4653.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2300.8034     68.233     33.720      0.000    2166.528    2435.079
+dist        -113.0718     21.055     -5.370      0.000    -154.505     -71.639
+==============================================================================
+Omnibus:                        1.220   Durbin-Watson:                   1.485
+Prob(Omnibus):                  0.543   Jarque-Bera (JB):                0.984
+Skew:                          -0.125   Prob(JB):                        0.612
+Kurtosis:                       3.127   Cond. No.                         7.84
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Jiyuan: 20.12 km
+jiyuan henan
+Average internal radius gap: 15.01 km
+Welfare loss: 12742.55, Loss ratio: 55.70%

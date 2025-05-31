@@ -1,0 +1,30 @@
+Fitted model for Gansu-Pingliang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.086
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     29.10
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.36e-07
+Time:                        19:15:45   Log-Likelihood:                -2289.7
+No. Observations:                 313   AIC:                             4583.
+Df Residuals:                     311   BIC:                             4591.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2049.5549     27.254     75.201      0.000    1995.929    2103.181
+dist         -46.8588      8.686     -5.395      0.000     -63.949     -29.768
+==============================================================================
+Omnibus:                       87.266   Durbin-Watson:                   1.600
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              237.811
+Skew:                           1.284   Prob(JB):                     2.29e-52
+Kurtosis:                       6.412   Cond. No.                         4.34
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Pingliang: 43.43 km
+pingliang gansu
+Average internal radius gap: 33.23 km
+Welfare loss: 25873.97, Loss ratio: 58.54%

@@ -1,0 +1,30 @@
+Fitted model for Hebei-Hengshui:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     24.91
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.27e-07
+Time:                        19:16:02   Log-Likelihood:                -6435.3
+No. Observations:                 871   AIC:                         1.287e+04
+Df Residuals:                     869   BIC:                         1.288e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2147.3875     14.625    146.832      0.000    2118.684    2176.091
+dist          -8.9923      1.802     -4.991      0.000     -12.529      -5.456
+==============================================================================
+Omnibus:                      136.237   Durbin-Watson:                   1.651
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              256.025
+Skew:                           0.936   Prob(JB):                     2.54e-56
+Kurtosis:                       4.884   Cond. No.                         8.97
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hebei-Hengshui: 233.86 km
+hengshui hebei
+Average internal radius gap: 225.62 km
+Welfare loss: 228863.89, Loss ratio: 93.07%

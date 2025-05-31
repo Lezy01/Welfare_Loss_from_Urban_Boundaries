@@ -1,0 +1,27 @@
+Fitted model for Henan-Shangqiu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     2.285
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.131
+Time:                        19:16:04   Log-Likelihood:                -12509.
+No. Observations:                1650   AIC:                         2.502e+04
+Df Residuals:                    1648   BIC:                         2.503e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1460.5999     14.477    100.893      0.000    1432.205    1488.994
+dist           0.4801      0.318      1.512      0.131      -0.143       1.103
+==============================================================================
+Omnibus:                      750.973   Durbin-Watson:                   1.422
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7392.534
+Skew:                           1.874   Prob(JB):                         0.00
+Kurtosis:                      12.668   Cond. No.                         56.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

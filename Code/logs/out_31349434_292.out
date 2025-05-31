@@ -1,0 +1,30 @@
+Fitted model for Neimenggu-Eerduosi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.102
+Model:                            OLS   Adj. R-squared:                  0.100
+Method:                 Least Squares   F-statistic:                     81.33
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.72e-18
+Time:                        19:16:03   Log-Likelihood:                -5864.1
+No. Observations:                 720   AIC:                         1.173e+04
+Df Residuals:                     718   BIC:                         1.174e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3084.7766     76.935     40.096      0.000    2933.731    3235.822
+dist         -26.0734      2.891     -9.018      0.000     -31.750     -20.397
+==============================================================================
+Omnibus:                      112.505   Durbin-Watson:                   1.159
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              176.926
+Skew:                           1.018   Prob(JB):                     3.81e-39
+Kurtosis:                       4.323   Cond. No.                         65.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Neimenggu-Eerduosi: 118.13 km
+eerduosi neimenggu
+Average internal radius gap: 97.98 km
+Welfare loss: 125157.50, Loss ratio: 68.79%

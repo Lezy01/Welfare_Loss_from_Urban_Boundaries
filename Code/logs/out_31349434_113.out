@@ -1,0 +1,27 @@
+Fitted model for Beijing-Shijingshan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     3.405
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0661
+Time:                        19:15:51   Log-Likelihood:                -2793.1
+No. Observations:                 283   AIC:                             5590.
+Df Residuals:                     281   BIC:                             5598.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.417e+04    630.159     22.480      0.000    1.29e+04    1.54e+04
+dist         267.2068    144.813      1.845      0.066     -17.849     552.263
+==============================================================================
+Omnibus:                       88.044   Durbin-Watson:                   1.657
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              346.672
+Skew:                           1.262   Prob(JB):                     5.26e-76
+Kurtosis:                       7.798   Cond. No.                         10.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

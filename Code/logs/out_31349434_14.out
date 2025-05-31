@@ -1,0 +1,30 @@
+Fitted model for Jiangsu-Suzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.157
+Model:                            OLS   Adj. R-squared:                  0.157
+Method:                 Least Squares   F-statistic:                     1887.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        19:16:46   Log-Likelihood:                -95720.
+No. Observations:               10129   AIC:                         1.914e+05
+Df Residuals:                   10127   BIC:                         1.915e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       8299.6087     54.155    153.257      0.000    8193.455    8405.763
+dist         -82.9152      1.909    -43.443      0.000     -86.656     -79.174
+==============================================================================
+Omnibus:                     5001.722   Durbin-Watson:                   1.393
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            60191.081
+Skew:                           2.075   Prob(JB):                         0.00
+Kurtosis:                      14.198   Cond. No.                         50.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Suzhou: 99.45 km
+suzhou jiangsu
+Average internal radius gap: 78.79 km
+Welfare loss: 257378.84, Loss ratio: 62.77%

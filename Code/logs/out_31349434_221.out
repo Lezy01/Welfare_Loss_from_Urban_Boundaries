@@ -1,0 +1,31 @@
+Fitted model for Beijing-Miyun:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.072
+Model:                            OLS   Adj. R-squared:                  0.068
+Method:                 Least Squares   F-statistic:                     15.92
+Date:                Fri, 30 May 2025   Prob (F-statistic):           9.19e-05
+Time:                        19:16:02   Log-Likelihood:                -1866.3
+No. Observations:                 206   AIC:                             3737.
+Df Residuals:                     204   BIC:                             3743.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       8241.9821    390.995     21.080      0.000    7471.073    9012.891
+dist        -346.9764     86.950     -3.991      0.000    -518.412    -175.541
+==============================================================================
+Omnibus:                       37.284   Durbin-Watson:                   1.268
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              123.474
+Skew:                           0.685   Prob(JB):                     1.54e-27
+Kurtosis:                       6.537   Cond. No.                         12.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Miyun: 23.73 km
+miyun beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 12.00 km
+Welfare loss: 25002.71, Loss ratio: 25.60%

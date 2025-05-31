@@ -1,0 +1,27 @@
+Fitted model for Zhejiang-Wenzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.014
+Method:                 Least Squares   F-statistic:                     31.59
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.14e-08
+Time:                        19:15:45   Log-Likelihood:                -19860.
+No. Observations:                2213   AIC:                         3.972e+04
+Df Residuals:                    2211   BIC:                         3.974e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4057.8402     84.358     48.103      0.000    3892.411    4223.269
+dist          11.7337      2.088      5.621      0.000       7.640      15.827
+==============================================================================
+Omnibus:                     1080.751   Durbin-Watson:                   1.462
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9750.699
+Skew:                           2.105   Prob(JB):                         0.00
+Kurtosis:                      12.382   Cond. No.                         83.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

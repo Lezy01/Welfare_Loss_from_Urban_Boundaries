@@ -1,0 +1,31 @@
+Fitted model for Shanghai-Songjiang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.016
+Method:                 Least Squares   F-statistic:                     20.70
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.90e-06
+Time:                        19:16:02   Log-Likelihood:                -11967.
+No. Observations:                1243   AIC:                         2.394e+04
+Df Residuals:                    1241   BIC:                         2.395e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.153e+04    316.160     36.461      0.000    1.09e+04    1.21e+04
+dist        -164.5644     36.170     -4.550      0.000    -235.526     -93.603
+==============================================================================
+Omnibus:                      204.573   Durbin-Watson:                   1.204
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              334.219
+Skew:                           1.074   Prob(JB):                     2.66e-73
+Kurtosis:                       4.357   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Songjiang: 69.45 km
+songjiang shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 37.38 km
+Welfare loss: 114940.06, Loss ratio: 28.96%

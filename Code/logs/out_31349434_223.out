@@ -1,0 +1,30 @@
+Fitted model for Shanxi-Yangquan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.232
+Model:                            OLS   Adj. R-squared:                  0.230
+Method:                 Least Squares   F-statistic:                     151.8
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.11e-30
+Time:                        19:16:02   Log-Likelihood:                -3608.7
+No. Observations:                 506   AIC:                             7221.
+Df Residuals:                     504   BIC:                             7230.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1636.1183     27.113     60.344      0.000    1582.849    1689.387
+dist         -96.4783      7.829    -12.323      0.000    -111.861     -81.096
+==============================================================================
+Omnibus:                       46.538   Durbin-Watson:                   1.807
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               68.467
+Skew:                           0.654   Prob(JB):                     1.36e-15
+Kurtosis:                       4.239   Cond. No.                         7.41
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanxi-Yangquan: 16.91 km
+yangquan shanxi
+Average internal radius gap: 10.65 km
+Welfare loss: 5474.34, Loss ratio: 39.70%

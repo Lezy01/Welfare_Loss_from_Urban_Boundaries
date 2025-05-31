@@ -1,0 +1,31 @@
+Fitted model for Shanghai-Pudongxin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.441
+Model:                            OLS   Adj. R-squared:                  0.440
+Method:                 Least Squares   F-statistic:                     2947.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        19:16:03   Log-Likelihood:                -38161.
+No. Observations:                3744   AIC:                         7.633e+04
+Df Residuals:                    3742   BIC:                         7.634e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.575e+04    193.262    133.238      0.000    2.54e+04    2.61e+04
+dist        -703.8365     12.964    -54.290      0.000    -729.254    -678.419
+==============================================================================
+Omnibus:                     1691.200   Durbin-Watson:                   1.231
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13344.411
+Skew:                           1.976   Prob(JB):                         0.00
+Kurtosis:                      11.362   Cond. No.                         27.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Pudongxin: 36.49 km
+pudongxin shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 8.43 km
+Welfare loss: 25021.13, Loss ratio: 5.34%

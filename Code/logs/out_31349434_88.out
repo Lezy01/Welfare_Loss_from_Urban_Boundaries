@@ -1,0 +1,27 @@
+Fitted model for Guangdong-Huizhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     4.085
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0433
+Time:                        19:15:47   Log-Likelihood:                -44847.
+No. Observations:                5209   AIC:                         8.970e+04
+Df Residuals:                    5207   BIC:                         8.971e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2554.3999     26.727     95.574      0.000    2502.004    2606.796
+dist           2.5404      1.257      2.021      0.043       0.076       5.004
+==============================================================================
+Omnibus:                     3347.729   Durbin-Watson:                   1.497
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            69213.568
+Skew:                           2.735   Prob(JB):                         0.00
+Kurtosis:                      20.000   Cond. No.                         30.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

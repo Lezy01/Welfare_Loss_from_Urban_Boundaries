@@ -1,0 +1,30 @@
+Fitted model for Henan-Sanmenxia:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.131
+Model:                            OLS   Adj. R-squared:                  0.128
+Method:                 Least Squares   F-statistic:                     55.39
+Date:                Fri, 30 May 2025   Prob (F-statistic):           7.04e-13
+Time:                        19:15:45   Log-Likelihood:                -2646.2
+No. Observations:                 371   AIC:                             5296.
+Df Residuals:                     369   BIC:                             5304.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1771.4876     41.544     42.641      0.000    1689.795    1853.180
+dist         -77.5810     10.425     -7.442      0.000     -98.080     -57.082
+==============================================================================
+Omnibus:                       52.948   Durbin-Watson:                   2.023
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              100.124
+Skew:                           0.799   Prob(JB):                     1.81e-22
+Kurtosis:                       4.980   Cond. No.                         11.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Sanmenxia: 22.61 km
+sanmenxia henan
+Average internal radius gap: 16.02 km
+Welfare loss: 9958.53, Loss ratio: 50.21%

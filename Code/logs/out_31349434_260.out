@@ -1,0 +1,30 @@
+Fitted model for Guizhou-Bijie:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.034
+Model:                            OLS   Adj. R-squared:                  0.030
+Method:                 Least Squares   F-statistic:                     8.413
+Date:                Fri, 30 May 2025   Prob (F-statistic):            0.00408
+Time:                        19:16:03   Log-Likelihood:                -1709.9
+No. Observations:                 238   AIC:                             3424.
+Df Residuals:                     236   BIC:                             3431.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1543.3099     59.157     26.088      0.000    1426.767    1659.853
+dist         -49.9674     17.227     -2.901      0.004     -83.906     -16.029
+==============================================================================
+Omnibus:                       56.280   Durbin-Watson:                   1.396
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              127.912
+Skew:                           1.109   Prob(JB):                     1.68e-28
+Kurtosis:                       5.825   Cond. No.                         10.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guizhou-Bijie: 30.66 km
+bijie guizhou
+Average internal radius gap: 26.30 km
+Welfare loss: 17275.41, Loss ratio: 73.56%

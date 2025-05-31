@@ -1,0 +1,27 @@
+Fitted model for Henan-Nanyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.284
+Model:                            OLS   Adj. R-squared:                  0.284
+Method:                 Least Squares   F-statistic:                     767.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):          1.71e-142
+Time:                        19:15:48   Log-Likelihood:                -15042.
+No. Observations:                1932   AIC:                         3.009e+04
+Df Residuals:                    1930   BIC:                         3.010e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1280.8097     33.612     38.106      0.000    1214.890    1346.729
+dist          18.4231      0.665     27.702      0.000      17.119      19.727
+==============================================================================
+Omnibus:                      810.422   Durbin-Watson:                   1.715
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9895.937
+Skew:                           1.628   Prob(JB):                         0.00
+Kurtosis:                      13.599   Cond. No.                         128.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

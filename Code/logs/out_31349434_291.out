@@ -1,0 +1,30 @@
+Fitted model for Hainan-Danzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.014
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     2.478
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.117
+Time:                        19:16:03   Log-Likelihood:                -1409.5
+No. Observations:                 178   AIC:                             2823.
+Df Residuals:                     176   BIC:                             2829.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2649.5401    115.484     22.943      0.000    2421.628    2877.452
+dist         -57.6055     36.597     -1.574      0.117    -129.830      14.619
+==============================================================================
+Omnibus:                       49.444   Durbin-Watson:                   1.928
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              112.481
+Skew:                           1.228   Prob(JB):                     3.76e-25
+Kurtosis:                       6.023   Cond. No.                         7.87
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hainan-Danzhou: 45.69 km
+danzhou hainan
+Average internal radius gap: 41.03 km
+Welfare loss: 48492.18, Loss ratio: 80.66%

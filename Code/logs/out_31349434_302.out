@@ -1,0 +1,31 @@
+Fitted model for Shanghai-Yangpu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     4.635
+Date:                Fri, 30 May 2025   Prob (F-statistic):             0.0315
+Time:                        19:16:03   Log-Likelihood:                -13045.
+No. Observations:                1317   AIC:                         2.609e+04
+Df Residuals:                    1315   BIC:                         2.610e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.002e+04    274.630     72.881      0.000    1.95e+04    2.06e+04
+dist        -141.8307     65.876     -2.153      0.031    -271.063     -12.598
+==============================================================================
+Omnibus:                      240.930   Durbin-Watson:                   1.303
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              555.349
+Skew:                           1.010   Prob(JB):                    2.56e-121
+Kurtosis:                       5.457   Cond. No.                         8.95
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanghai-Yangpu: 141.09 km
+yangpu shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 104.52 km
+Welfare loss: 774781.47, Loss ratio: 54.88%

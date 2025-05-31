@@ -1,0 +1,29 @@
+Fitted model for Xinjiang-Yilihasake:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.313
+Model:                            OLS   Adj. R-squared:                  0.311
+Method:                 Least Squares   F-statistic:                     176.0
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.25e-33
+Time:                        19:16:07   Log-Likelihood:                -2826.9
+No. Observations:                 389   AIC:                             5658.
+Df Residuals:                     387   BIC:                             5666.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2289.6698     36.289     63.096      0.000    2218.322    2361.018
+dist        -116.6986      8.796    -13.268      0.000    -133.992     -99.405
+==============================================================================
+Omnibus:                        5.299   Durbin-Watson:                   1.654
+Prob(Omnibus):                  0.071   Jarque-Bera (JB):                5.390
+Skew:                          -0.205   Prob(JB):                       0.0676
+Kurtosis:                       3.405   Cond. No.                         8.88
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Yilihasake: 19.47 km
+yilihasake xinjiang
+No matching file found for Xinjiang-Yilihasake.

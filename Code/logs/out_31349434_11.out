@@ -1,0 +1,30 @@
+Fitted model for Jiangsu-Yangzhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.242
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     641.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):          5.16e-123
+Time:                        19:15:47   Log-Likelihood:                -17903.
+No. Observations:                2008   AIC:                         3.581e+04
+Df Residuals:                    2006   BIC:                         3.582e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5296.2606     54.494     97.190      0.000    5189.390    5403.131
+dist         -88.3199      3.487    -25.325      0.000     -95.159     -81.481
+==============================================================================
+Omnibus:                      574.730   Durbin-Watson:                   1.375
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1667.444
+Skew:                           1.471   Prob(JB):                         0.00
+Kurtosis:                       6.358   Cond. No.                         21.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jiangsu-Yangzhou: 59.35 km
+yangzhou jiangsu
+Average internal radius gap: 45.69 km
+Welfare loss: 92200.18, Loss ratio: 59.27%

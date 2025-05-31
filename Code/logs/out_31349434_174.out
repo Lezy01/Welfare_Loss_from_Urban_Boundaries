@@ -1,0 +1,31 @@
+Fitted model for Tianjin-Beichen:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.1311
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.717
+Time:                        19:15:53   Log-Likelihood:                -3989.2
+No. Observations:                 459   AIC:                             7982.
+Df Residuals:                     457   BIC:                             7991.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4417.6215    187.257     23.591      0.000    4049.630    4785.613
+dist          -6.9482     19.187     -0.362      0.717     -44.654      30.758
+==============================================================================
+Omnibus:                       13.616   Durbin-Watson:                   1.457
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               20.802
+Skew:                           0.224   Prob(JB):                     3.04e-05
+Kurtosis:                       3.942   Cond. No.                         27.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Tianjin-Beichen: 630.16 km
+beichen tianjin
+Fallback: matched by province name: tianjin2020_new_Urb.shp
+Average internal radius gap: 583.73 km
+Welfare loss: 1183751.74, Loss ratio: 85.81%

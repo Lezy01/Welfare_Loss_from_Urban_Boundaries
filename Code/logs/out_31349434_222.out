@@ -1,0 +1,30 @@
+Fitted model for Guangdong-Shantou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.084
+Method:                 Least Squares   F-statistic:                     125.6
+Date:                Fri, 30 May 2025   Prob (F-statistic):           6.23e-28
+Time:                        19:16:02   Log-Likelihood:                -11374.
+No. Observations:                1355   AIC:                         2.275e+04
+Df Residuals:                    1353   BIC:                         2.276e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3131.5345     64.773     48.347      0.000    3004.469    3258.600
+dist         -90.4628      8.073    -11.205      0.000    -106.300     -74.626
+==============================================================================
+Omnibus:                      728.458   Durbin-Watson:                   1.583
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8953.703
+Skew:                           2.223   Prob(JB):                         0.00
+Kurtosis:                      14.782   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Guangdong-Shantou: 34.26 km
+shantou guangdong
+Average internal radius gap: 18.26 km
+Welfare loss: 15078.72, Loss ratio: 28.41%

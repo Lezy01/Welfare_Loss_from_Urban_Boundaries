@@ -1,0 +1,30 @@
+Fitted model for Hubei-Suizhou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.039
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     19.34
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.35e-05
+Time:                        19:16:03   Log-Likelihood:                -3458.9
+No. Observations:                 481   AIC:                             6922.
+Df Residuals:                     479   BIC:                             6930.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1647.8235     39.144     42.096      0.000    1570.908    1724.739
+dist         -39.8984      9.073     -4.398      0.000     -57.725     -22.071
+==============================================================================
+Omnibus:                      269.589   Durbin-Watson:                   1.687
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4042.001
+Skew:                           2.088   Prob(JB):                         0.00
+Kurtosis:                      16.573   Cond. No.                         12.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Hubei-Suizhou: 40.62 km
+suizhou hubei
+Average internal radius gap: 34.57 km
+Welfare loss: 23838.47, Loss ratio: 72.42%

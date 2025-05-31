@@ -1,0 +1,30 @@
+Fitted model for Liaoning-Fushun:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     26.59
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.90e-07
+Time:                        19:15:45   Log-Likelihood:                -9984.9
+No. Observations:                1303   AIC:                         1.997e+04
+Df Residuals:                    1301   BIC:                         1.998e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1394.6369     26.373     52.881      0.000    1342.899    1446.375
+dist         -16.4126      3.183     -5.157      0.000     -22.656     -10.169
+==============================================================================
+Omnibus:                      281.916   Durbin-Watson:                   1.628
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              616.592
+Skew:                           1.208   Prob(JB):                    1.28e-134
+Kurtosis:                       5.350   Cond. No.                         15.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Liaoning-Fushun: 84.68 km
+fushun liaoning
+Average internal radius gap: 70.00 km
+Welfare loss: 40212.85, Loss ratio: 68.33%

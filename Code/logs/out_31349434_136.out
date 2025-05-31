@@ -1,0 +1,31 @@
+Fitted model for Beijing-Mentougou:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.056
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     14.88
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000145
+Time:                        19:15:45   Log-Likelihood:                -2420.4
+No. Observations:                 254   AIC:                             4845.
+Df Residuals:                     252   BIC:                             4852.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.154e+04    385.504     29.944      0.000    1.08e+04    1.23e+04
+dist        -511.9142    132.699     -3.858      0.000    -773.254    -250.574
+==============================================================================
+Omnibus:                       91.238   Durbin-Watson:                   1.701
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              271.792
+Skew:                           1.584   Prob(JB):                     9.57e-60
+Kurtosis:                       6.956   Cond. No.                         5.80
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Mentougou: 22.55 km
+mentougou beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 7.26 km
+Welfare loss: 13486.45, Loss ratio: 10.36%

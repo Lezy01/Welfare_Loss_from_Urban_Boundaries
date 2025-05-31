@@ -1,0 +1,30 @@
+Fitted model for Gansu-Zhangye:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.058
+Model:                            OLS   Adj. R-squared:                  0.055
+Method:                 Least Squares   F-statistic:                     17.32
+Date:                Fri, 30 May 2025   Prob (F-statistic):           4.20e-05
+Time:                        19:16:04   Log-Likelihood:                -1941.2
+No. Observations:                 284   AIC:                             3886.
+Df Residuals:                     282   BIC:                             3894.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1261.7687     46.523     27.121      0.000    1170.192    1353.345
+dist         -45.0349     10.821     -4.162      0.000     -66.335     -23.735
+==============================================================================
+Omnibus:                       83.863   Durbin-Watson:                   1.764
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              340.550
+Skew:                           1.181   Prob(JB):                     1.12e-74
+Kurtosis:                       7.817   Cond. No.                         15.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Zhangye: 27.79 km
+zhangye gansu
+Average internal radius gap: 18.44 km
+Welfare loss: 7660.31, Loss ratio: 44.05%

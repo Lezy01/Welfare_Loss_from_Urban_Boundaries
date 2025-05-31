@@ -1,0 +1,27 @@
+Fitted model for Hainan-Wanning:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.006
+Method:                 Least Squares   F-statistic:                    0.2107
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.647
+Time:                        19:15:51   Log-Likelihood:                -1241.8
+No. Observations:                 137   AIC:                             2488.
+Df Residuals:                     135   BIC:                             2493.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2470.4975    355.255      6.954      0.000    1767.913    3173.082
+dist          75.9589    165.464      0.459      0.647    -251.278     403.196
+==============================================================================
+Omnibus:                      139.126   Durbin-Watson:                   1.178
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2077.534
+Skew:                           3.743   Prob(JB):                         0.00
+Kurtosis:                      20.547   Cond. No.                         4.96
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

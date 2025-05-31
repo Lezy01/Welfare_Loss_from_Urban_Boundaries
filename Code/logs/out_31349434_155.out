@@ -1,0 +1,30 @@
+Fitted model for Henan-Xinyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                     59.89
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.84e-14
+Time:                        19:15:52   Log-Likelihood:                -11614.
+No. Observations:                1500   AIC:                         2.323e+04
+Df Residuals:                    1498   BIC:                         2.324e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2042.8071     36.922     55.327      0.000    1970.382    2115.232
+dist         -72.4439      9.361     -7.739      0.000     -90.807     -54.081
+==============================================================================
+Omnibus:                      191.467   Durbin-Watson:                   1.489
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              404.787
+Skew:                           0.761   Prob(JB):                     1.26e-88
+Kurtosis:                       5.039   Cond. No.                         10.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Xinyang: 27.28 km
+xinyang henan
+Average internal radius gap: 19.31 km
+Welfare loss: 13500.04, Loss ratio: 50.08%

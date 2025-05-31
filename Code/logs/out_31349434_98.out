@@ -1,0 +1,31 @@
+Fitted model for Beijing-Fengtai:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.229
+Model:                            OLS   Adj. R-squared:                  0.228
+Method:                 Least Squares   F-statistic:                     377.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):           8.17e-74
+Time:                        19:15:47   Log-Likelihood:                -12596.
+No. Observations:                1272   AIC:                         2.520e+04
+Df Residuals:                    1270   BIC:                         2.521e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.106e+04    255.836     82.308      0.000    2.06e+04    2.16e+04
+dist        -662.3952     34.096    -19.427      0.000    -729.286    -595.505
+==============================================================================
+Omnibus:                      231.440   Durbin-Watson:                   1.511
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              762.809
+Skew:                           0.883   Prob(JB):                    2.28e-166
+Kurtosis:                       6.358   Cond. No.                         14.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Beijing-Fengtai: 31.76 km
+fengtai beijing
+Fallback: matched by province name: beijing2020_new_Urb.shp
+Average internal radius gap: 6.07 km
+Welfare loss: 12206.02, Loss ratio: 3.65%

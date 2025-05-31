@@ -1,0 +1,30 @@
+Fitted model for Xinjiang-Akesu:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.245
+Model:                            OLS   Adj. R-squared:                  0.243
+Method:                 Least Squares   F-statistic:                     137.5
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.07e-27
+Time:                        19:15:44   Log-Likelihood:                -2931.3
+No. Observations:                 426   AIC:                             5867.
+Df Residuals:                     424   BIC:                             5875.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1419.8357     17.631     80.532      0.000    1385.181    1454.490
+dist         -39.5779      3.375    -11.727      0.000     -46.212     -32.944
+==============================================================================
+Omnibus:                        4.852   Durbin-Watson:                   1.519
+Prob(Omnibus):                  0.088   Jarque-Bera (JB):                3.680
+Skew:                          -0.102   Prob(JB):                        0.159
+Kurtosis:                       2.593   Cond. No.                         8.22
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Xinjiang-Akesu: 35.14 km
+akesu xinjiang
+Average internal radius gap: 25.11 km
+Welfare loss: 12479.60, Loss ratio: 51.07%

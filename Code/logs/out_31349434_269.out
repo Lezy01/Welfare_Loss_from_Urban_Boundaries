@@ -1,0 +1,30 @@
+Fitted model for Gansu-Wuwei:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.070
+Model:                            OLS   Adj. R-squared:                  0.067
+Method:                 Least Squares   F-statistic:                     23.72
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.76e-06
+Time:                        19:16:03   Log-Likelihood:                -2295.0
+No. Observations:                 318   AIC:                             4594.
+Df Residuals:                     316   BIC:                             4602.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2042.2980     34.878     58.555      0.000    1973.675    2110.921
+dist         -79.7008     16.363     -4.871      0.000    -111.896     -47.506
+==============================================================================
+Omnibus:                       15.336   Durbin-Watson:                   1.605
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               16.844
+Skew:                          -0.477   Prob(JB):                     0.000220
+Kurtosis:                       3.602   Cond. No.                         4.68
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Wuwei: 25.47 km
+wuwei gansu
+Average internal radius gap: 16.85 km
+Welfare loss: 11318.56, Loss ratio: 43.77%

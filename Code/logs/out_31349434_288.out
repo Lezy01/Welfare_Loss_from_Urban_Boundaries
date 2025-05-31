@@ -1,0 +1,30 @@
+Fitted model for Shanxi-Taiyuan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.235
+Model:                            OLS   Adj. R-squared:                  0.235
+Method:                 Least Squares   F-statistic:                     1807.
+Date:                Fri, 30 May 2025   Prob (F-statistic):               0.00
+Time:                        19:16:04   Log-Likelihood:                -47555.
+No. Observations:                5869   AIC:                         9.511e+04
+Df Residuals:                    5867   BIC:                         9.513e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3729.3772     22.308    167.173      0.000    3685.644    3773.110
+dist        -120.6793      2.839    -42.509      0.000    -126.245    -115.114
+==============================================================================
+Omnibus:                     1681.851   Durbin-Watson:                   1.563
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8948.029
+Skew:                           1.272   Prob(JB):                         0.00
+Kurtosis:                       8.488   Cond. No.                         17.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shanxi-Taiyuan: 30.80 km
+taiyuan shanxi
+Average internal radius gap: 12.49 km
+Welfare loss: 9418.78, Loss ratio: 16.45%

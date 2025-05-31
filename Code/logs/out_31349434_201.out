@@ -1,0 +1,30 @@
+Fitted model for Gansu-Tianshui:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.344
+Model:                            OLS   Adj. R-squared:                  0.343
+Method:                 Least Squares   F-statistic:                     268.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):           8.64e-49
+Time:                        19:16:02   Log-Likelihood:                -3954.7
+No. Observations:                 513   AIC:                             7913.
+Df Residuals:                     511   BIC:                             7922.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2998.9339     34.534     86.840      0.000    2931.088    3066.780
+dist         -51.4349      3.140    -16.382      0.000     -57.603     -45.267
+==============================================================================
+Omnibus:                       29.968   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              100.414
+Skew:                           0.059   Prob(JB):                     1.57e-22
+Kurtosis:                       5.164   Cond. No.                         16.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Tianshui: 58.01 km
+tianshui gansu
+Average internal radius gap: 39.48 km
+Welfare loss: 40086.38, Loss ratio: 46.32%

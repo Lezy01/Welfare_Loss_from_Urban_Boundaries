@@ -1,0 +1,30 @@
+Fitted model for Jilin-Changchun:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.093
+Model:                            OLS   Adj. R-squared:                  0.093
+Method:                 Least Squares   F-statistic:                     442.4
+Date:                Fri, 30 May 2025   Prob (F-statistic):           1.37e-93
+Time:                        19:16:02   Log-Likelihood:                -35530.
+No. Observations:                4331   AIC:                         7.106e+04
+Df Residuals:                    4329   BIC:                         7.108e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2868.2172     14.415    198.979      0.000    2839.957    2896.477
+dist         -10.3158      0.490    -21.033      0.000     -11.277      -9.354
+==============================================================================
+Omnibus:                     3377.093   Durbin-Watson:                   1.366
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           116491.497
+Skew:                           3.426   Prob(JB):                         0.00
+Kurtosis:                      27.466   Cond. No.                         31.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Jilin-Changchun: 276.54 km
+changchun jilin
+Average internal radius gap: 259.29 km
+Welfare loss: 346776.00, Loss ratio: 87.92%

@@ -1,0 +1,30 @@
+Fitted model for Henan-Puyang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.015
+Method:                 Least Squares   F-statistic:                     11.15
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000887
+Time:                        19:16:04   Log-Likelihood:                -5250.2
+No. Observations:                 674   AIC:                         1.050e+04
+Df Residuals:                     672   BIC:                         1.051e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2467.7063     53.551     46.081      0.000    2362.559    2572.854
+dist         -55.3424     16.574     -3.339      0.001     -87.885     -22.800
+==============================================================================
+Omnibus:                      152.019   Durbin-Watson:                   1.727
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              525.385
+Skew:                           1.038   Prob(JB):                    8.21e-115
+Kurtosis:                       6.795   Cond. No.                         8.29
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Henan-Puyang: 43.68 km
+puyang henan
+Average internal radius gap: 35.20 km
+Welfare loss: 34287.39, Loss ratio: 64.93%

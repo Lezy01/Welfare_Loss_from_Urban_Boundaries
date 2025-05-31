@@ -1,0 +1,30 @@
+Fitted model for Shandong-Zaozhuang:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.449
+Model:                            OLS   Adj. R-squared:                  0.449
+Method:                 Least Squares   F-statistic:                     1344.
+Date:                Fri, 30 May 2025   Prob (F-statistic):          9.44e-216
+Time:                        19:15:46   Log-Likelihood:                -12894.
+No. Observations:                1651   AIC:                         2.579e+04
+Df Residuals:                    1649   BIC:                         2.580e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3000.4957     22.837    131.390      0.000    2955.704    3045.287
+dist         -26.8673      0.733    -36.665      0.000     -28.305     -25.430
+==============================================================================
+Omnibus:                       96.968   Durbin-Watson:                   1.678
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              388.034
+Skew:                           0.060   Prob(JB):                     5.49e-85
+Kurtosis:                       5.372   Cond. No.                         48.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Shandong-Zaozhuang: 110.32 km
+zaozhuang shandong
+Average internal radius gap: 51.36 km
+Welfare loss: 35429.92, Loss ratio: 21.67%

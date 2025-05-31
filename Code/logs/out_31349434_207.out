@@ -1,0 +1,30 @@
+Fitted model for Heilongjiang-Jixi:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.156
+Model:                            OLS   Adj. R-squared:                  0.153
+Method:                 Least Squares   F-statistic:                     48.17
+Date:                Fri, 30 May 2025   Prob (F-statistic):           3.09e-11
+Time:                        19:16:02   Log-Likelihood:                -1961.1
+No. Observations:                 263   AIC:                             3926.
+Df Residuals:                     261   BIC:                             3933.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1394.9208     36.714     37.994      0.000    1322.627    1467.214
+dist         -73.8215     10.637     -6.940      0.000     -94.767     -52.876
+==============================================================================
+Omnibus:                       69.219   Durbin-Watson:                   1.446
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              281.203
+Skew:                           1.023   Prob(JB):                     8.66e-62
+Kurtosis:                       7.634   Cond. No.                         5.10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Heilongjiang-Jixi: 18.74 km
+jixi heilongjiang
+Average internal radius gap: 6.29 km
+Welfare loss: 1459.04, Loss ratio: 11.26%

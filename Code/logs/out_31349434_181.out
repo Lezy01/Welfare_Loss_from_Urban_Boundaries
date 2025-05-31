@@ -1,0 +1,32 @@
+Fitted model for Shanghai-Jingan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.298
+Model:                            OLS   Adj. R-squared:                  0.297
+Method:                 Least Squares   F-statistic:                     844.7
+Date:                Fri, 30 May 2025   Prob (F-statistic):          3.94e-155
+Time:                        19:15:53   Log-Likelihood:                -20906.
+No. Observations:                1995   AIC:                         4.182e+04
+Df Residuals:                    1993   BIC:                         4.183e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.351e+04    309.673    108.208      0.000    3.29e+04    3.41e+04
+dist       -2080.2239     71.575    -29.063      0.000   -2220.594   -1939.854
+==============================================================================
+Omnibus:                     1078.397   Durbin-Watson:                   1.596
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            31611.454
+Skew:                           1.973   Prob(JB):                         0.00
+Kurtosis:                      22.098   Cond. No.                         7.18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Using provincial average land price for Shanghai: 52.4727
+Urban-rural boundary edge for Shanghai-Jingan: 16.08 km
+jingan shanghai
+Fallback: matched by province name: shanghai2020_new_Urb.shp
+Average internal radius gap: 0.23 km
+Welfare loss: 54.56, Loss ratio: 0.02%

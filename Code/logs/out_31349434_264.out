@@ -1,0 +1,30 @@
+Fitted model for Anhui-Tongling:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.201
+Model:                            OLS   Adj. R-squared:                  0.199
+Method:                 Least Squares   F-statistic:                     95.62
+Date:                Fri, 30 May 2025   Prob (F-statistic):           2.76e-20
+Time:                        19:16:03   Log-Likelihood:                -3044.9
+No. Observations:                 381   AIC:                             6094.
+Df Residuals:                     379   BIC:                             6102.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2722.6076     56.725     47.996      0.000    2611.072    2834.143
+dist         -94.1658      9.630     -9.778      0.000    -113.101     -75.231
+==============================================================================
+Omnibus:                       40.167   Durbin-Watson:                   1.746
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.886
+Skew:                           0.757   Prob(JB):                     1.99e-12
+Kurtosis:                       4.050   Cond. No.                         9.25
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Anhui-Tongling: 28.49 km
+tongling anhui
+Average internal radius gap: 18.97 km
+Welfare loss: 16943.35, Loss ratio: 44.32%

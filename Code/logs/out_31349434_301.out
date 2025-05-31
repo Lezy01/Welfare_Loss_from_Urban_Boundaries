@@ -1,0 +1,27 @@
+Fitted model for Jilin-Baicheng:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.3813
+Date:                Fri, 30 May 2025   Prob (F-statistic):              0.538
+Time:                        19:16:03   Log-Likelihood:                -1406.4
+No. Observations:                 195   AIC:                             2817.
+Df Residuals:                     193   BIC:                             2823.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1286.8826     46.791     27.503      0.000    1194.595    1379.171
+dist          14.3139     23.179      0.618      0.538     -31.403      60.031
+==============================================================================
+Omnibus:                       12.065   Durbin-Watson:                   1.119
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.764
+Skew:                          -0.623   Prob(JB):                      0.00169
+Kurtosis:                       3.142   Cond. No.                         4.77
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Could not determine urban-rural boundary edge.

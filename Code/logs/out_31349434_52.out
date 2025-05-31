@@ -1,0 +1,31 @@
+Fitted model for Chongqing-Jiulongpo:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     11.90
+Date:                Fri, 30 May 2025   Prob (F-statistic):           0.000585
+Time:                        19:15:53   Log-Likelihood:                -7921.8
+No. Observations:                 962   AIC:                         1.585e+04
+Df Residuals:                     960   BIC:                         1.586e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3422.4599     52.044     65.761      0.000    3320.327    3524.592
+dist         -35.1138     10.178     -3.450      0.001     -55.087     -15.141
+==============================================================================
+Omnibus:                      229.224   Durbin-Watson:                   1.734
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              543.267
+Skew:                           1.271   Prob(JB):                    1.07e-118
+Kurtosis:                       5.662   Cond. No.                         9.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Chongqing-Jiulongpo: 96.48 km
+jiulongpo chongqing
+Fallback: matched by province name: chongqing2020_new_Urb.shp
+Average internal radius gap: 75.29 km
+Welfare loss: 99534.29, Loss ratio: 60.91%

@@ -1,0 +1,30 @@
+Fitted model for Gansu-Baiyin:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             land_price   R-squared:                       0.069
+Model:                            OLS   Adj. R-squared:                  0.065
+Method:                 Least Squares   F-statistic:                     17.02
+Date:                Fri, 30 May 2025   Prob (F-statistic):           5.18e-05
+Time:                        19:16:03   Log-Likelihood:                -1632.0
+No. Observations:                 232   AIC:                             3268.
+Df Residuals:                     230   BIC:                             3275.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1892.3077     59.056     32.043      0.000    1775.948    2008.668
+dist         -83.3915     20.215     -4.125      0.000    -123.221     -43.562
+==============================================================================
+Omnibus:                       19.752   Durbin-Watson:                   1.798
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.777
+Skew:                           0.506   Prob(JB):                     1.26e-07
+Kurtosis:                       4.504   Cond. No.                         10.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Urban-rural boundary edge for Gansu-Baiyin: 22.62 km
+baiyin gansu
+Average internal radius gap: 14.46 km
+Welfare loss: 8720.40, Loss ratio: 40.89%
